@@ -1,0 +1,125 @@
+/* 1. IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+/* 2. CINEMATIC FINANCIAL RAIL DNA — Strong Visible Purple-Obsidian */
+:root {
+  --background: #12082a;
+  --bg-deep: #0e0620;
+  --bg-mid: #1a0d35;
+  --surface: #1e1040;
+  --surface-elevated: #261550;
+  --border: #2e1d55;
+  --border-accent: #3d2870;
+
+  --primary: #38BDF8;
+  --secondary: #a78bfa;
+  --danger: #F87171;
+  --warning: #FBBF24;
+  --success: #34D399;
+
+  --font-space: "Space Grotesk", sans-serif;
+  --font-ibm: "IBM Plex Mono", monospace;
+  --foreground: #E2E8F0;
+  --muted: #94A3B8;
+  --subtle: #475569;
+}
+
+/* 3. GLOBAL BASE STYLES */
+@layer base {
+  html { font-size: 16px; }
+
+  body {
+    background-color: #12082a;
+    color: var(--foreground);
+    font-family: var(--font-space);
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image:
+      radial-gradient(ellipse 120% 70% at 50% 0%, rgba(160, 80, 255, 0.30) 0%, rgba(120, 50, 220, 0.15) 40%, transparent 70%),
+      radial-gradient(ellipse 80% 60% at 100% 100%, rgba(100, 50, 200, 0.20) 0%, transparent 55%),
+      radial-gradient(ellipse 70% 50% at 0% 60%, rgba(140, 60, 230, 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse 50% 40% at 50% 100%, rgba(80, 40, 180, 0.12) 0%, transparent 50%);
+  }
+
+  .recharts-wrapper { overflow: visible !important; }
+}
+
+/* Slide-over panel */
+.slide-panel {
+  position: fixed;
+  top: 0;
+  right: -420px;
+  width: 380px;
+  height: 100vh;
+  background: #1e1040;
+  border-left: 1px solid #3d2870;
+  z-index: 100;
+  transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  box-shadow: -8px 0 40px rgba(0,0,0,0.7), -2px 0 0 rgba(160,80,255,0.25);
+}
+
+.slide-panel.open { right: 0; }
+
+/* INFOCREON HEADER */
+.infocreon-header {
+  background: linear-gradient(90deg, rgba(14,6,32,0.99) 0%, rgba(22,10,45,0.97) 50%, rgba(14,6,32,0.99) 100%);
+  border-bottom: 1px solid #3d2870;
+  backdrop-filter: blur(20px);
+  position: relative;
+}
+
+.infocreon-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(160,80,255,0.7), rgba(56,189,248,0.6), rgba(160,80,255,0.7), transparent);
+}
+
+/* INFO MODAL */
+.info-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(10, 4, 20, 0.85);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-top: 48px;
+  padding-right: 16px;
+}
+
+.info-modal {
+  background: #1e1040;
+  border: 1px solid #3d2870;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 290px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.8), 0 0 0 1px rgba(160,80,255,0.3);
+  animation: modalIn 0.2s ease-out;
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(-8px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.glass-card {
+  background: rgba(30, 16, 64, 0.8);
+  border: 1px solid #2e1d55;
+  border-radius: 8px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 12px rgba(56,189,248,0.06);
+  transition: all 0.25s ease-in-out;
+}
+
+.glass-card:hover {
+  box-shadow: 0 0 18px rgba(56,189,248,0.12);
+  border-color: #3d2870;
+}

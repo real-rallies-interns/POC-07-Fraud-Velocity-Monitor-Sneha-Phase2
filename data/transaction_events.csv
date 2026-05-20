@@ -1,0 +1,1001 @@
+event_id,timestamp,label,amount,merchant_category,risk_score,velocity_1h,device_type,device_fingerprint,ip_hash,region,card_type,issuing_bank,account_age_days,is_new_device,failed_auth_attempts,session_duration_sec,is_international,distance_from_home_km,chargeback_risk_band,flagged_for_review
+EVT-10251,2026-05-18T15:09:19Z,normal,248.07,ATM,0.003,6,unknown,FP-18292,ip-696967,Northeast,Mastercard,Capital One,1555,False,1,567,False,118.0,LOW,False
+EVT-10315,2026-05-18T15:12:19Z,normal,313.96,ATM,0.3478,4,tablet,FP-74534,ip-398411,Midwest,Mastercard,Bank of America,104,False,1,260,False,57.4,LOW,False
+EVT-10910,2026-05-18T15:14:19Z,normal,4999.0,E-Commerce,0.0738,5,tablet,FP-10662,ip-932607,Northwest,Discover,Citibank,1437,False,1,524,False,78.0,LOW,False
+EVT-10698,2026-05-18T15:17:19Z,normal,795.32,POS Retail,0.3174,2,unknown,FP-59912,ip-185225,West,Mastercard,PNC Bank,2418,False,0,522,False,198.3,LOW,False
+EVT-10256,2026-05-18T15:19:19Z,normal,339.5,Wire Transfer,0.2295,3,mobile,FP-27517,ip-671347,Southeast,Visa,PNC Bank,1890,False,0,606,False,186.1,LOW,False
+EVT-10833,2026-05-18T15:20:19Z,normal,404.87,Subscription,0.1572,4,desktop,FP-21530,ip-693479,Northwest,Mastercard,TD Bank,1395,False,1,77,False,157.3,LOW,False
+EVT-10104,2026-05-18T15:22:19Z,normal,1167.08,Wire Transfer,0.2607,7,unknown,FP-74534,ip-772064,Northeast,Mastercard,Bank of America,1993,False,0,420,False,7.2,LOW,False
+EVT-10370,2026-05-18T15:24:19Z,normal,46.6,Crypto Exchange,0.0078,5,desktop,FP-70282,ip-861077,Northwest,Discover,Wells Fargo,3634,False,1,446,False,141.4,LOW,False
+EVT-10349,2026-05-18T15:24:19Z,normal,84.87,Crypto Exchange,0.3788,2,tablet,FP-43371,ip-186751,Southeast,Visa,Capital One,3615,False,0,344,False,25.9,MEDIUM,False
+EVT-10106,2026-05-18T15:24:19Z,fraudulent,26847.83,E-Commerce,0.8446,33,mobile,FP-80745,ip-339282,Southeast,Visa,US Bank,25,True,2,58,False,141.6,VERY_HIGH,True
+EVT-10554,2026-05-18T15:26:19Z,normal,342.23,E-Commerce,0.1367,3,mobile,FP-80053,ip-568604,Northwest,Visa,Chase,505,False,1,265,False,107.0,LOW,False
+EVT-10199,2026-05-18T15:27:19Z,normal,736.27,E-Commerce,0.018,2,desktop,FP-15247,ip-870951,Southwest,Discover,Wells Fargo,2087,False,0,773,False,151.2,LOW,False
+EVT-10578,2026-05-18T15:30:19Z,normal,571.64,E-Commerce,0.2504,2,desktop,FP-66849,ip-226201,Northeast,Discover,Citibank,643,False,0,564,False,158.6,LOW,False
+EVT-10853,2026-05-18T15:30:19Z,normal,1853.51,Subscription,0.0452,3,tablet,FP-29312,ip-622954,Northeast,Visa,Citibank,2703,False,1,389,False,142.9,LOW,False
+EVT-10488,2026-05-18T15:33:19Z,normal,998.97,Subscription,0.1414,7,desktop,FP-96569,ip-992243,Northeast,Visa,Bank of America,2389,False,1,719,False,186.5,LOW,False
+EVT-10408,2026-05-18T15:34:19Z,fraudulent,13821.82,Subscription,0.905,39,unknown,FP-73046,ip-745200,Northeast,Discover,Citibank,25,True,4,21,True,2138.9,VERY_HIGH,True
+EVT-10166,2026-05-18T15:37:19Z,normal,1279.71,Subscription,0.0089,6,tablet,FP-80053,ip-743865,West,Discover,Wells Fargo,3397,False,1,299,False,126.5,LOW,False
+EVT-10508,2026-05-18T15:38:19Z,normal,1728.56,Subscription,0.2422,4,mobile,FP-17127,ip-378959,Southwest,Amex,PNC Bank,127,False,0,321,False,122.9,LOW,False
+EVT-10124,2026-05-18T15:39:19Z,suspicious,3817.95,Subscription,0.688,10,desktop,FP-54605,ip-520642,Southeast,Amex,Citibank,927,False,1,177,False,162.9,HIGH,True
+EVT-10747,2026-05-18T15:43:19Z,suspicious,12635.76,E-Commerce,0.4868,14,mobile,FP-60804,ip-964255,West,Visa,US Bank,779,False,1,650,False,118.5,MEDIUM,True
+EVT-10375,2026-05-18T15:43:19Z,normal,1602.26,Subscription,0.2738,2,desktop,FP-87245,ip-958394,Midwest,Discover,Bank of America,2105,False,0,687,False,30.6,LOW,False
+EVT-10297,2026-05-18T15:46:19Z,normal,2452.7,ATM,0.0113,2,mobile,FP-83949,ip-856713,Northeast,Visa,Capital One,1792,False,1,774,False,22.0,LOW,False
+EVT-10660,2026-05-18T15:48:19Z,normal,1088.62,ATM,0.3147,7,tablet,FP-52398,ip-861077,Southeast,Discover,Capital One,2004,False,1,491,False,122.2,LOW,False
+EVT-10726,2026-05-18T15:53:19Z,normal,1249.36,Wire Transfer,0.3617,3,tablet,FP-41274,ip-128719,Northeast,Visa,TD Bank,2503,False,0,804,False,167.5,MEDIUM,False
+EVT-10016,2026-05-18T15:54:19Z,normal,294.74,E-Commerce,0.3204,6,unknown,FP-80340,ip-765084,West,Discover,Citibank,808,False,1,646,False,8.0,LOW,False
+EVT-10774,2026-05-18T15:55:19Z,normal,170.0,ATM,0.0364,6,mobile,FP-52004,ip-778017,Southwest,Visa,Wells Fargo,3267,False,1,226,False,190.4,LOW,False
+EVT-10450,2026-05-18T15:55:19Z,normal,1301.46,Subscription,0.0817,2,tablet,FP-87009,ip-628879,Northwest,Amex,Citibank,2229,False,0,304,False,97.3,LOW,False
+EVT-10404,2026-05-18T15:56:19Z,normal,1666.38,Subscription,0.2897,6,tablet,FP-25027,ip-365277,West,Discover,US Bank,2418,False,1,522,False,63.4,LOW,False
+EVT-10317,2026-05-18T16:00:19Z,normal,1170.87,Subscription,0.2487,2,mobile,FP-13942,ip-366881,Northwest,Mastercard,US Bank,2851,False,0,184,False,133.7,LOW,False
+EVT-10930,2026-05-18T16:03:19Z,fraudulent,33753.52,E-Commerce,0.8702,34,mobile,FP-78227,ip-248146,West,Mastercard,PNC Bank,28,False,2,23,False,85.7,VERY_HIGH,False
+EVT-10641,2026-05-18T16:03:19Z,normal,117.81,Wire Transfer,0.1528,7,desktop,FP-39323,ip-977638,Southeast,Mastercard,Bank of America,1986,False,1,467,False,195.9,LOW,False
+EVT-10821,2026-05-18T16:04:19Z,normal,450.94,E-Commerce,0.3238,4,desktop,FP-66724,ip-325461,Northeast,Mastercard,PNC Bank,2447,False,0,784,False,87.5,LOW,False
+EVT-10658,2026-05-18T16:06:19Z,normal,1240.02,Subscription,0.3955,3,desktop,FP-50534,ip-502333,Southwest,Mastercard,US Bank,2873,False,1,225,False,121.2,MEDIUM,False
+EVT-10901,2026-05-18T16:11:19Z,fraudulent,12328.53,Subscription,0.9697,24,desktop,FP-46976,ip-370853,West,Amex,Bank of America,15,True,2,58,False,15.3,VERY_HIGH,False
+EVT-10674,2026-05-18T16:11:19Z,normal,112.74,Wire Transfer,0.3422,2,unknown,FP-82427,ip-757265,Southwest,Discover,PNC Bank,2002,False,1,328,False,153.9,LOW,False
+EVT-10379,2026-05-18T16:12:19Z,normal,134.56,ATM,0.1116,4,tablet,FP-66724,ip-366881,Southeast,Discover,Capital One,2605,False,1,425,False,163.4,LOW,False
+EVT-10241,2026-05-18T16:12:19Z,suspicious,1729.73,Crypto Exchange,0.7436,18,unknown,FP-31054,ip-186751,Southeast,Amex,Capital One,550,False,0,265,False,162.5,HIGH,True
+EVT-10770,2026-05-18T16:18:19Z,normal,728.48,ATM,0.2724,5,tablet,FP-59088,ip-579840,Southwest,Mastercard,Wells Fargo,3036,False,0,595,False,17.8,LOW,False
+EVT-10808,2026-05-18T16:19:19Z,normal,521.45,E-Commerce,0.0711,1,desktop,FP-31054,ip-377800,Midwest,Discover,TD Bank,174,False,1,238,False,110.0,LOW,False
+EVT-10811,2026-05-18T16:20:19Z,fraudulent,14824.57,POS Retail,0.738,37,tablet,FP-80264,ip-204382,Northeast,Discover,Bank of America,17,True,2,24,False,146.2,HIGH,False
+EVT-10136,2026-05-18T16:23:19Z,normal,1030.12,Wire Transfer,0.3318,5,mobile,FP-82427,ip-502333,Southeast,Amex,Citibank,286,False,1,658,False,99.1,LOW,False
+EVT-10627,2026-05-18T16:24:19Z,fraudulent,38102.18,POS Retail,0.8208,32,unknown,FP-78501,ip-545558,West,Amex,Wells Fargo,13,False,3,19,False,197.5,VERY_HIGH,True
+EVT-10683,2026-05-18T16:25:19Z,normal,981.15,ATM,0.4,2,desktop,FP-92587,ip-827793,Northwest,Discover,Wells Fargo,2662,False,0,73,False,148.8,MEDIUM,False
+EVT-10235,2026-05-18T16:28:19Z,normal,1812.48,Subscription,0.1781,5,mobile,FP-37355,ip-171328,Northwest,Mastercard,TD Bank,869,False,1,745,False,32.4,LOW,False
+EVT-10887,2026-05-18T16:31:19Z,normal,104.91,E-Commerce,0.278,5,unknown,FP-17127,ip-227135,Northeast,Visa,Chase,2555,False,0,301,False,87.6,LOW,False
+EVT-10102,2026-05-18T16:35:19Z,suspicious,15838.55,POS Retail,0.4279,11,tablet,FP-27991,ip-957608,Southwest,Visa,Chase,1431,False,0,639,False,133.7,MEDIUM,False
+EVT-10739,2026-05-18T16:36:19Z,normal,374.05,Subscription,0.0692,7,tablet,FP-85751,ip-365277,Midwest,Visa,Wells Fargo,3200,False,0,180,False,13.0,LOW,False
+EVT-10644,2026-05-18T16:37:19Z,normal,1654.81,Wire Transfer,0.0833,6,tablet,FP-13122,ip-823711,Southeast,Mastercard,PNC Bank,1258,False,0,686,False,36.2,LOW,False
+EVT-10928,2026-05-18T16:38:19Z,normal,2216.07,Crypto Exchange,0.068,2,desktop,FP-46574,ip-398411,Southwest,Visa,Bank of America,3385,False,0,897,False,25.8,LOW,False
+EVT-10978,2026-05-18T16:40:19Z,normal,1804.19,ATM,0.3326,4,desktop,FP-52004,ip-359138,Southwest,Amex,Citibank,1516,False,0,537,False,84.7,LOW,False
+EVT-10011,2026-05-18T16:40:19Z,normal,1053.71,Wire Transfer,0.1752,1,tablet,FP-39717,ip-377800,Southwest,Mastercard,TD Bank,2271,False,1,207,False,187.2,LOW,False
+EVT-10856,2026-05-18T16:40:19Z,normal,396.93,POS Retail,0.0318,4,desktop,FP-43371,ip-195307,Northeast,Visa,US Bank,1486,False,1,650,False,32.0,LOW,False
+EVT-10075,2026-05-18T16:41:19Z,fraudulent,29416.86,Subscription,0.9591,22,desktop,FP-46976,ip-233387,Midwest,Discover,PNC Bank,10,False,4,49,True,4607.0,VERY_HIGH,True
+EVT-10521,2026-05-18T16:47:19Z,fraudulent,45955.53,ATM,0.8516,27,tablet,FP-24461,ip-817134,West,Discover,Bank of America,29,True,3,50,False,175.2,VERY_HIGH,False
+EVT-10836,2026-05-18T16:47:19Z,normal,1943.72,E-Commerce,0.0122,6,desktop,FP-55450,ip-671347,Northwest,Visa,PNC Bank,177,False,1,362,False,41.5,LOW,False
+EVT-10249,2026-05-18T16:48:19Z,normal,584.62,Subscription,0.0597,4,desktop,FP-96569,ip-914978,Southwest,Amex,Chase,1540,False,0,620,False,193.6,LOW,False
+EVT-10254,2026-05-18T16:49:19Z,normal,2614.88,POS Retail,0.3501,6,mobile,FP-85576,ip-217951,Midwest,Discover,Bank of America,1287,False,0,184,False,103.6,MEDIUM,False
+EVT-10146,2026-05-18T16:50:19Z,normal,2548.86,POS Retail,0.3712,4,desktop,FP-66724,ip-181835,Northwest,Amex,Citibank,1925,False,1,565,False,14.4,MEDIUM,False
+EVT-10997,2026-05-18T16:50:19Z,fraudulent,31674.93,POS Retail,0.9721,36,tablet,FP-78501,ip-621297,Southeast,Amex,TD Bank,5,False,5,11,True,2433.1,VERY_HIGH,False
+EVT-10175,2026-05-18T16:51:19Z,suspicious,17841.93,Subscription,0.5864,12,unknown,FP-80232,ip-198229,West,Amex,TD Bank,1794,False,0,87,False,153.0,HIGH,True
+EVT-10489,2026-05-18T16:52:19Z,fraudulent,49956.42,Subscription,0.8883,35,mobile,FP-27052,ip-729735,West,Mastercard,Bank of America,2,True,3,25,True,4234.9,VERY_HIGH,False
+EVT-10977,2026-05-18T16:52:19Z,fraudulent,16789.97,Crypto Exchange,0.7288,23,mobile,FP-85576,ip-171328,Northwest,Visa,TD Bank,21,False,2,12,True,2833.7,HIGH,True
+EVT-10963,2026-05-18T16:53:19Z,normal,1945.91,POS Retail,0.0611,5,tablet,FP-27991,ip-880964,Southeast,Visa,TD Bank,1849,False,1,73,False,40.2,LOW,False
+EVT-10582,2026-05-18T16:54:19Z,normal,2585.47,E-Commerce,0.0546,3,desktop,FP-32093,ip-378959,Southwest,Discover,Capital One,1473,False,0,151,False,119.8,LOW,False
+EVT-10225,2026-05-18T16:54:19Z,suspicious,8589.37,Wire Transfer,0.5502,18,desktop,FP-51301,ip-901712,Southeast,Amex,Citibank,3338,False,0,700,False,168.1,HIGH,False
+EVT-10855,2026-05-18T16:55:19Z,normal,2001.59,Subscription,0.3799,7,mobile,FP-40504,ip-514030,Southeast,Visa,Chase,2244,False,0,102,False,97.6,MEDIUM,False
+EVT-10594,2026-05-18T16:55:19Z,normal,3954.56,ATM,0.3359,7,mobile,FP-99648,ip-474226,Midwest,Discover,US Bank,3206,False,0,380,False,28.9,LOW,False
+EVT-10753,2026-05-18T16:56:19Z,suspicious,2695.87,Wire Transfer,0.5916,19,tablet,FP-60328,ip-279797,Northeast,Visa,PNC Bank,1108,False,0,807,False,191.6,HIGH,True
+EVT-10144,2026-05-18T16:57:19Z,normal,4999.0,E-Commerce,0.2494,5,mobile,FP-39323,ip-940934,Southwest,Amex,TD Bank,1680,False,1,626,False,14.8,LOW,False
+EVT-10263,2026-05-18T16:58:19Z,normal,641.05,Subscription,0.3059,2,desktop,FP-84902,ip-757265,Northwest,Mastercard,Capital One,2513,False,1,236,False,92.2,LOW,False
+EVT-10893,2026-05-18T16:58:19Z,fraudulent,59767.28,Wire Transfer,0.9638,28,tablet,FP-13942,ip-651206,Midwest,Visa,Capital One,14,True,5,9,True,3157.9,VERY_HIGH,True
+EVT-10954,2026-05-18T16:59:19Z,fraudulent,36513.77,ATM,0.8911,24,tablet,FP-27052,ip-750989,Southeast,Amex,Citibank,15,True,3,11,True,619.6,VERY_HIGH,True
+EVT-10858,2026-05-18T17:00:19Z,normal,344.16,Crypto Exchange,0.137,6,tablet,FP-92587,ip-651206,Northeast,Mastercard,TD Bank,701,False,1,530,False,114.3,LOW,False
+EVT-10183,2026-05-18T17:00:19Z,fraudulent,31530.68,Subscription,0.7446,38,unknown,FP-26429,ip-185019,Midwest,Mastercard,Bank of America,16,True,5,22,False,83.2,HIGH,True
+EVT-10224,2026-05-18T17:00:19Z,normal,734.55,Wire Transfer,0.2918,3,unknown,FP-18032,ip-379290,Northeast,Discover,Bank of America,2987,False,0,770,False,84.0,LOW,False
+EVT-10279,2026-05-18T17:00:19Z,fraudulent,46882.93,POS Retail,0.9767,26,tablet,FP-85576,ip-545558,Northeast,Visa,Capital One,29,True,2,16,True,2082.7,VERY_HIGH,True
+EVT-10479,2026-05-18T17:02:19Z,normal,374.65,Wire Transfer,0.1751,2,mobile,FP-16870,ip-185019,West,Mastercard,Bank of America,1530,False,1,280,False,49.4,LOW,False
+EVT-10067,2026-05-18T17:03:19Z,suspicious,3429.49,POS Retail,0.5327,17,tablet,FP-57382,ip-198229,West,Visa,TD Bank,2358,False,0,107,False,124.5,MEDIUM,False
+EVT-10775,2026-05-18T17:05:19Z,suspicious,10284.61,ATM,0.6363,8,tablet,FP-59821,ip-371961,Southwest,Visa,Citibank,259,False,1,248,False,100.7,HIGH,True
+EVT-10374,2026-05-18T17:10:19Z,fraudulent,38793.51,E-Commerce,0.9289,20,unknown,FP-57382,ip-504424,Southeast,Mastercard,US Bank,17,True,5,43,False,22.7,VERY_HIGH,True
+EVT-10915,2026-05-18T17:11:19Z,suspicious,1474.17,ATM,0.6097,8,unknown,FP-84945,ip-917721,Northwest,Discover,TD Bank,2014,False,0,622,False,108.8,HIGH,True
+EVT-10968,2026-05-18T17:12:19Z,normal,1028.0,POS Retail,0.0698,6,desktop,FP-92587,ip-848000,West,Amex,US Bank,2599,False,1,877,False,3.2,LOW,False
+EVT-10258,2026-05-18T17:13:19Z,suspicious,14936.35,POS Retail,0.5221,17,tablet,FP-75011,ip-119902,West,Amex,TD Bank,3576,False,0,457,False,42.0,MEDIUM,True
+EVT-10469,2026-05-18T17:17:19Z,normal,4999.0,E-Commerce,0.1619,6,tablet,FP-84902,ip-236348,Northeast,Visa,Chase,1854,False,0,571,False,58.6,LOW,False
+EVT-10832,2026-05-18T17:21:19Z,normal,78.36,Wire Transfer,0.0178,4,mobile,FP-41906,ip-625687,West,Amex,Chase,323,False,1,366,False,61.5,LOW,False
+EVT-10369,2026-05-18T17:21:19Z,normal,591.05,Wire Transfer,0.0284,3,tablet,FP-49169,ip-631823,Southwest,Amex,TD Bank,1217,False,0,618,False,56.0,LOW,False
+EVT-10661,2026-05-18T17:21:19Z,normal,222.56,ATM,0.2847,3,desktop,FP-57382,ip-877882,West,Visa,Chase,2784,False,1,471,False,109.3,LOW,False
+EVT-10129,2026-05-18T17:22:19Z,normal,840.77,Wire Transfer,0.3211,2,tablet,FP-52004,ip-104776,Southeast,Visa,PNC Bank,1917,False,0,159,False,27.0,LOW,False
+EVT-10750,2026-05-18T17:23:19Z,normal,749.13,POS Retail,0.2372,7,desktop,FP-40504,ip-705015,West,Mastercard,Wells Fargo,3510,False,1,394,False,127.5,LOW,False
+EVT-10894,2026-05-18T17:27:19Z,normal,437.64,E-Commerce,0.3831,5,desktop,FP-49564,ip-185225,Midwest,Discover,Citibank,429,False,1,64,False,172.6,MEDIUM,False
+EVT-10870,2026-05-18T17:28:19Z,suspicious,14077.12,ATM,0.6033,13,desktop,FP-69835,ip-877882,Southwest,Visa,Bank of America,3466,False,0,494,False,112.6,HIGH,True
+EVT-10729,2026-05-18T17:28:19Z,fraudulent,57709.4,ATM,0.8443,29,tablet,FP-70282,ip-665870,West,Amex,PNC Bank,25,False,5,38,True,4752.3,VERY_HIGH,True
+EVT-10432,2026-05-18T17:28:19Z,normal,671.55,Crypto Exchange,0.2162,2,tablet,FP-27052,ip-116165,Midwest,Amex,PNC Bank,1554,False,0,290,False,140.8,LOW,False
+EVT-10484,2026-05-18T17:29:19Z,normal,1706.55,Wire Transfer,0.2787,6,unknown,FP-71532,ip-709931,Northeast,Discover,Bank of America,769,False,0,259,False,17.2,LOW,False
+EVT-10596,2026-05-18T17:34:19Z,suspicious,12828.17,Wire Transfer,0.5957,18,tablet,FP-52004,ip-943130,Southeast,Amex,PNC Bank,2787,False,0,423,False,88.7,HIGH,True
+EVT-10778,2026-05-18T17:36:19Z,normal,1660.4,E-Commerce,0.3727,5,desktop,FP-18032,ip-249373,Southwest,Amex,Bank of America,3345,False,1,568,False,31.9,MEDIUM,False
+EVT-10731,2026-05-18T17:36:19Z,fraudulent,35762.67,POS Retail,0.7979,19,desktop,FP-87272,ip-975807,West,Mastercard,PNC Bank,17,True,5,17,False,117.6,VERY_HIGH,True
+EVT-10598,2026-05-18T17:37:19Z,fraudulent,24199.54,E-Commerce,0.7884,44,desktop,FP-97805,ip-429636,Midwest,Visa,US Bank,26,True,5,19,False,21.1,VERY_HIGH,False
+EVT-10519,2026-05-18T17:37:19Z,suspicious,14349.35,E-Commerce,0.6444,11,tablet,FP-78501,ip-429636,Northwest,Visa,PNC Bank,912,False,0,845,False,193.7,HIGH,True
+EVT-10398,2026-05-18T17:39:19Z,normal,325.17,E-Commerce,0.3968,2,mobile,FP-85576,ip-823924,Northeast,Amex,PNC Bank,1854,False,1,294,False,8.1,MEDIUM,False
+EVT-10614,2026-05-18T17:42:19Z,normal,1436.63,Crypto Exchange,0.2332,3,desktop,FP-54759,ip-642795,Southwest,Mastercard,Chase,2040,False,0,493,False,79.0,LOW,False
+EVT-10388,2026-05-18T17:44:19Z,suspicious,10119.8,POS Retail,0.6376,10,unknown,FP-40504,ip-623004,Midwest,Mastercard,Citibank,611,False,1,159,False,117.8,HIGH,True
+EVT-10308,2026-05-18T17:44:19Z,normal,3583.75,ATM,0.3676,7,unknown,FP-72668,ip-952957,Northeast,Amex,US Bank,1944,False,1,204,False,153.1,MEDIUM,False
+EVT-10605,2026-05-18T17:44:19Z,suspicious,8293.86,Crypto Exchange,0.4319,19,mobile,FP-82427,ip-762954,Northwest,Visa,TD Bank,2023,False,1,179,False,118.8,MEDIUM,True
+EVT-10042,2026-05-18T17:46:19Z,normal,85.9,Subscription,0.1301,7,unknown,FP-77027,ip-181835,Southeast,Amex,Chase,1155,False,1,683,False,130.7,LOW,False
+EVT-10440,2026-05-18T17:46:19Z,suspicious,9379.86,Crypto Exchange,0.5152,17,mobile,FP-74534,ip-477202,Northwest,Amex,US Bank,523,False,0,656,False,175.9,MEDIUM,False
+EVT-10321,2026-05-18T17:47:19Z,normal,999.81,ATM,0.2718,4,desktop,FP-71012,ip-534072,Southeast,Discover,Citibank,472,False,0,345,False,25.7,LOW,False
+EVT-10516,2026-05-18T17:48:19Z,suspicious,11396.7,Crypto Exchange,0.6748,8,tablet,FP-46976,ip-360869,Southwest,Visa,US Bank,3031,False,1,636,False,39.7,HIGH,False
+EVT-10196,2026-05-18T17:48:19Z,normal,4999.0,E-Commerce,0.2003,6,unknown,FP-94626,ip-175999,Northwest,Visa,Chase,3245,False,1,757,False,95.5,LOW,False
+EVT-10795,2026-05-18T17:48:19Z,suspicious,11067.72,POS Retail,0.4421,10,mobile,FP-52259,ip-943130,Southeast,Mastercard,Capital One,216,False,1,441,False,25.5,MEDIUM,True
+EVT-10723,2026-05-18T17:54:19Z,fraudulent,58921.02,Crypto Exchange,0.7343,37,unknown,FP-50153,ip-398411,West,Visa,Bank of America,9,True,3,51,False,169.1,HIGH,True
+EVT-10126,2026-05-18T17:57:19Z,suspicious,10624.08,Wire Transfer,0.748,8,mobile,FP-78227,ip-369993,West,Discover,Bank of America,1497,False,1,495,False,17.8,HIGH,True
+EVT-10827,2026-05-18T17:58:19Z,normal,783.59,Wire Transfer,0.0722,2,unknown,FP-59088,ip-610553,Midwest,Visa,TD Bank,1133,False,0,93,False,186.7,LOW,False
+EVT-10360,2026-05-18T17:58:19Z,suspicious,12757.69,POS Retail,0.7203,11,mobile,FP-36423,ip-754294,Southwest,Mastercard,Chase,193,False,0,603,False,35.0,HIGH,True
+EVT-10809,2026-05-18T18:01:19Z,suspicious,16442.86,Subscription,0.6916,19,desktop,FP-40504,ip-906543,Northwest,Mastercard,Wells Fargo,1949,False,1,64,False,189.8,HIGH,True
+EVT-10056,2026-05-18T18:01:19Z,fraudulent,16668.11,POS Retail,0.8515,42,tablet,FP-28132,ip-345017,Southwest,Discover,TD Bank,27,False,4,45,False,20.9,VERY_HIGH,True
+EVT-10053,2026-05-18T18:01:19Z,normal,896.54,ATM,0.2145,1,mobile,FP-86956,ip-694538,Northeast,Visa,Wells Fargo,1312,False,0,666,False,118.9,LOW,False
+EVT-10548,2026-05-18T18:02:19Z,normal,713.31,POS Retail,0.254,6,desktop,FP-59190,ip-781738,West,Mastercard,Wells Fargo,1822,False,1,397,False,174.0,LOW,False
+EVT-10523,2026-05-18T18:02:19Z,normal,98.34,E-Commerce,0.3259,6,unknown,FP-46826,ip-483293,West,Mastercard,Bank of America,696,False,0,697,False,138.1,LOW,False
+EVT-10503,2026-05-18T18:02:19Z,normal,327.95,Subscription,0.0592,4,unknown,FP-49498,ip-550666,Northwest,Visa,Bank of America,472,False,1,351,False,65.2,LOW,False
+EVT-10329,2026-05-18T18:06:19Z,suspicious,5102.94,Wire Transfer,0.5222,18,tablet,FP-24870,ip-670576,Southwest,Visa,TD Bank,2336,False,0,685,False,90.1,MEDIUM,True
+EVT-10229,2026-05-18T18:09:19Z,fraudulent,59281.95,Wire Transfer,0.7664,31,unknown,FP-18032,ip-592215,Southwest,Amex,Capital One,1,False,5,42,False,162.5,VERY_HIGH,True
+EVT-10815,2026-05-18T18:09:19Z,suspicious,10250.61,Crypto Exchange,0.4254,9,mobile,FP-49088,ip-757265,Southeast,Visa,Capital One,2237,False,0,741,False,175.9,MEDIUM,True
+EVT-10419,2026-05-18T18:09:19Z,normal,1437.39,Crypto Exchange,0.3776,6,unknown,FP-18475,ip-108924,West,Mastercard,Wells Fargo,176,False,1,345,False,199.4,MEDIUM,False
+EVT-10822,2026-05-18T18:10:19Z,normal,931.89,Crypto Exchange,0.306,1,unknown,FP-22577,ip-940934,Northwest,Amex,Citibank,652,False,1,104,False,89.7,LOW,False
+EVT-10158,2026-05-18T18:11:19Z,normal,165.16,E-Commerce,0.0048,7,unknown,FP-46767,ip-880964,Southeast,Discover,TD Bank,368,False,0,820,False,110.1,LOW,False
+EVT-10577,2026-05-18T18:13:19Z,normal,289.43,Subscription,0.2634,1,desktop,FP-87009,ip-316873,Northwest,Visa,Bank of America,3364,False,0,217,False,55.1,LOW,False
+EVT-10545,2026-05-18T18:14:19Z,fraudulent,51125.04,Subscription,0.7625,20,tablet,FP-85576,ip-810105,Northeast,Mastercard,PNC Bank,14,True,3,19,True,4973.4,VERY_HIGH,True
+EVT-10634,2026-05-18T18:14:19Z,normal,573.74,Wire Transfer,0.3283,4,mobile,FP-35324,ip-211378,Southwest,Discover,US Bank,1066,False,0,652,False,193.1,LOW,False
+EVT-10513,2026-05-18T18:17:19Z,suspicious,11381.26,POS Retail,0.5394,14,tablet,FP-73464,ip-651206,Northwest,Discover,US Bank,1112,False,1,583,False,33.0,MEDIUM,True
+EVT-10290,2026-05-18T18:19:19Z,normal,1980.28,E-Commerce,0.295,3,mobile,FP-50534,ip-375360,Southeast,Visa,TD Bank,2609,False,1,321,False,86.8,LOW,False
+EVT-10348,2026-05-18T18:20:19Z,normal,70.35,E-Commerce,0.0365,7,unknown,FP-18104,ip-588019,Midwest,Discover,TD Bank,2635,False,0,417,False,188.9,LOW,False
+EVT-10785,2026-05-18T18:20:19Z,normal,48.37,POS Retail,0.0988,7,tablet,FP-84940,ip-385424,Northwest,Discover,Capital One,790,False,0,626,False,91.0,LOW,False
+EVT-10037,2026-05-18T18:22:19Z,suspicious,14108.0,E-Commerce,0.664,8,desktop,FP-99648,ip-319485,Southeast,Visa,TD Bank,1669,False,0,822,False,124.4,HIGH,True
+EVT-10365,2026-05-18T18:23:19Z,suspicious,10939.51,Subscription,0.5249,12,tablet,FP-31559,ip-256850,West,Mastercard,Citibank,1593,False,1,520,False,177.4,MEDIUM,False
+EVT-10791,2026-05-18T18:23:19Z,normal,879.11,Crypto Exchange,0.2035,6,desktop,FP-10662,ip-353110,Southwest,Visa,Citibank,2400,False,0,836,False,21.6,LOW,False
+EVT-10195,2026-05-18T18:26:19Z,suspicious,1942.05,ATM,0.6957,19,mobile,FP-21530,ip-826836,Northeast,Amex,Bank of America,1764,False,0,806,False,170.7,HIGH,True
+EVT-10221,2026-05-18T18:29:19Z,normal,1821.62,ATM,0.3292,3,unknown,FP-94423,ip-226224,Northwest,Amex,PNC Bank,3296,False,1,823,False,45.7,LOW,False
+EVT-10917,2026-05-18T18:32:19Z,suspicious,6284.52,ATM,0.4555,18,tablet,FP-17127,ip-359138,Southeast,Mastercard,Wells Fargo,1490,False,1,252,False,65.4,MEDIUM,True
+EVT-10381,2026-05-18T18:35:19Z,normal,996.2,Subscription,0.1156,7,tablet,FP-98445,ip-939900,Midwest,Discover,Bank of America,235,False,0,880,False,123.1,LOW,False
+EVT-10962,2026-05-18T18:35:19Z,suspicious,4124.06,Wire Transfer,0.6455,9,unknown,FP-20307,ip-469197,West,Amex,Bank of America,282,False,0,536,False,88.1,HIGH,True
+EVT-10025,2026-05-18T18:35:19Z,normal,61.01,Subscription,0.1489,5,tablet,FP-50540,ip-120523,Northeast,Amex,PNC Bank,362,False,1,621,False,73.0,LOW,False
+EVT-10367,2026-05-18T18:36:19Z,normal,640.58,Wire Transfer,0.2837,1,mobile,FP-80550,ip-772064,Southwest,Visa,Citibank,1911,False,0,60,False,6.7,LOW,False
+EVT-10583,2026-05-18T18:38:19Z,normal,1623.48,E-Commerce,0.23,7,tablet,FP-67307,ip-112542,Northwest,Discover,Bank of America,155,False,1,586,False,162.6,LOW,False
+EVT-10564,2026-05-18T18:39:19Z,normal,731.72,Subscription,0.0454,2,desktop,FP-30451,ip-398411,Midwest,Mastercard,PNC Bank,1834,False,0,439,False,181.6,LOW,False
+EVT-10878,2026-05-18T18:42:19Z,normal,1056.13,E-Commerce,0.055,3,unknown,FP-40085,ip-902719,West,Amex,PNC Bank,2132,False,1,86,False,17.2,LOW,False
+EVT-10646,2026-05-18T18:42:19Z,fraudulent,19086.39,E-Commerce,0.8801,27,mobile,FP-50534,ip-912341,Midwest,Visa,Capital One,20,True,2,23,False,116.9,VERY_HIGH,True
+EVT-10031,2026-05-18T18:44:19Z,normal,269.28,ATM,0.1362,1,tablet,FP-22577,ip-637241,Northeast,Discover,PNC Bank,2329,False,1,494,False,79.7,LOW,False
+EVT-10955,2026-05-18T18:47:19Z,normal,4999.0,Crypto Exchange,0.1386,1,mobile,FP-27991,ip-791781,Midwest,Discover,US Bank,3198,False,1,209,False,161.5,LOW,False
+EVT-10532,2026-05-18T18:47:19Z,suspicious,2259.49,E-Commerce,0.7389,18,tablet,FP-46976,ip-993137,Southwest,Visa,Wells Fargo,505,False,1,771,False,155.4,HIGH,True
+EVT-10291,2026-05-18T18:49:19Z,fraudulent,38236.9,ATM,0.8338,23,mobile,FP-57382,ip-545558,Northeast,Visa,Wells Fargo,10,True,5,43,True,2150.1,VERY_HIGH,True
+EVT-10012,2026-05-18T18:50:19Z,normal,3277.23,E-Commerce,0.2871,3,unknown,FP-66678,ip-747515,Northwest,Amex,Citibank,2184,False,0,774,False,24.4,LOW,False
+EVT-10451,2026-05-18T18:59:19Z,normal,389.62,ATM,0.3516,3,desktop,FP-60870,ip-864799,Southwest,Mastercard,Wells Fargo,2690,False,1,334,False,87.0,MEDIUM,False
+EVT-10645,2026-05-18T19:03:19Z,normal,94.11,E-Commerce,0.3076,4,unknown,FP-37355,ip-335025,Midwest,Visa,Bank of America,2876,False,0,578,False,67.1,LOW,False
+EVT-10708,2026-05-18T19:03:19Z,suspicious,11719.03,POS Retail,0.4213,11,tablet,FP-80340,ip-353110,Northwest,Amex,Bank of America,419,False,0,881,False,10.4,MEDIUM,True
+EVT-10465,2026-05-18T19:03:19Z,suspicious,11561.74,ATM,0.4355,16,tablet,FP-89909,ip-636437,Southeast,Visa,US Bank,3549,False,0,267,False,0.9,MEDIUM,True
+EVT-10027,2026-05-18T19:04:19Z,normal,291.18,Wire Transfer,0.3957,3,unknown,FP-80264,ip-814134,Northwest,Amex,Citibank,3090,False,1,733,False,28.3,MEDIUM,False
+EVT-10740,2026-05-18T19:08:19Z,normal,1835.7,E-Commerce,0.031,1,tablet,FP-52259,ip-827425,West,Visa,Citibank,2755,False,0,842,False,35.9,LOW,False
+EVT-10985,2026-05-18T19:08:19Z,normal,1267.06,Crypto Exchange,0.3144,5,tablet,FP-17888,ip-522590,Southeast,Amex,TD Bank,1250,False,1,218,False,99.6,LOW,False
+EVT-10151,2026-05-18T19:09:19Z,fraudulent,34069.8,ATM,0.8049,36,unknown,FP-38112,ip-236348,West,Amex,US Bank,3,False,5,37,True,1943.8,VERY_HIGH,True
+EVT-10533,2026-05-18T19:09:19Z,fraudulent,8362.12,Subscription,0.7276,23,tablet,FP-84047,ip-490451,Southwest,Discover,Bank of America,21,False,5,35,False,58.4,HIGH,False
+EVT-10002,2026-05-18T19:12:19Z,normal,483.15,POS Retail,0.0699,1,mobile,FP-73023,ip-772109,West,Mastercard,PNC Bank,1886,False,1,631,False,63.6,LOW,False
+EVT-10214,2026-05-18T19:13:19Z,normal,1840.05,Subscription,0.1359,4,mobile,FP-84047,ip-181835,Northeast,Discover,US Bank,1228,False,1,375,False,34.6,LOW,False
+EVT-10890,2026-05-18T19:16:19Z,suspicious,11299.63,ATM,0.5175,17,tablet,FP-87245,ip-684861,Northwest,Visa,TD Bank,1862,False,1,811,False,172.7,MEDIUM,True
+EVT-10541,2026-05-18T19:17:19Z,normal,1182.85,Wire Transfer,0.1346,2,tablet,FP-60328,ip-974642,Northeast,Amex,PNC Bank,3484,False,0,539,False,75.6,LOW,False
+EVT-10140,2026-05-18T19:19:19Z,normal,774.27,E-Commerce,0.3688,7,desktop,FP-83261,ip-261510,Northeast,Visa,Citibank,343,False,0,237,False,24.0,MEDIUM,False
+EVT-10745,2026-05-18T19:19:19Z,normal,973.62,Subscription,0.0371,1,tablet,FP-82440,ip-502333,Southwest,Visa,US Bank,1216,False,1,636,False,177.1,LOW,False
+EVT-10001,2026-05-18T19:21:19Z,normal,1002.11,E-Commerce,0.1241,2,unknown,FP-59088,ip-670870,Northeast,Amex,Bank of America,1712,False,1,562,False,56.9,LOW,False
+EVT-10264,2026-05-18T19:21:19Z,suspicious,16048.8,Subscription,0.4522,10,tablet,FP-87272,ip-490451,Northwest,Mastercard,Bank of America,629,False,1,576,False,123.5,MEDIUM,True
+EVT-10385,2026-05-18T19:22:19Z,fraudulent,26832.51,Subscription,0.8742,33,mobile,FP-79655,ip-827793,West,Discover,Chase,19,True,4,5,False,184.1,VERY_HIGH,False
+EVT-10959,2026-05-18T19:23:19Z,suspicious,13002.39,Wire Transfer,0.5984,13,unknown,FP-34908,ip-217951,Northeast,Discover,TD Bank,1384,False,1,504,False,43.8,HIGH,True
+EVT-10112,2026-05-18T19:25:19Z,fraudulent,56516.83,Subscription,0.7726,22,mobile,FP-22581,ip-248146,Southeast,Discover,PNC Bank,13,True,5,29,False,95.6,VERY_HIGH,True
+EVT-10024,2026-05-18T19:25:19Z,normal,1478.38,Subscription,0.3368,6,mobile,FP-80745,ip-497050,Midwest,Visa,Chase,2733,False,1,340,False,62.8,LOW,False
+EVT-10357,2026-05-18T19:25:19Z,normal,625.97,Crypto Exchange,0.177,1,tablet,FP-87009,ip-940934,Northwest,Amex,Wells Fargo,2442,False,0,624,False,96.1,LOW,False
+EVT-10327,2026-05-18T19:28:19Z,fraudulent,28724.78,Crypto Exchange,0.9438,37,unknown,FP-64647,ip-952957,Northwest,Amex,US Bank,27,False,2,34,False,114.7,VERY_HIGH,True
+EVT-10837,2026-05-18T19:28:19Z,normal,910.59,Crypto Exchange,0.2107,5,tablet,FP-66678,ip-116053,Southwest,Discover,Bank of America,386,False,1,89,False,26.3,LOW,False
+EVT-10568,2026-05-18T19:29:19Z,fraudulent,17171.02,POS Retail,0.8862,30,mobile,FP-78501,ip-335025,Southeast,Amex,Capital One,8,True,4,41,True,3963.9,VERY_HIGH,False
+EVT-10807,2026-05-18T19:29:19Z,suspicious,6448.96,Wire Transfer,0.7122,18,mobile,FP-18104,ip-269402,West,Mastercard,US Bank,1781,False,0,526,False,111.9,HIGH,True
+EVT-10458,2026-05-18T19:29:19Z,suspicious,15623.39,POS Retail,0.6059,17,desktop,FP-37355,ip-787805,West,Discover,TD Bank,676,False,1,576,False,90.1,HIGH,True
+EVT-10487,2026-05-18T19:30:19Z,normal,201.59,E-Commerce,0.1071,4,mobile,FP-49088,ip-490328,Southeast,Mastercard,Citibank,1279,False,0,558,False,145.5,LOW,False
+EVT-10434,2026-05-18T19:30:19Z,suspicious,2067.57,Crypto Exchange,0.4235,17,mobile,FP-47615,ip-781738,Midwest,Mastercard,Capital One,1617,False,0,798,False,55.0,MEDIUM,True
+EVT-10537,2026-05-18T19:33:19Z,suspicious,3340.93,Wire Transfer,0.4323,12,desktop,FP-42751,ip-261510,West,Discover,Capital One,3324,False,0,511,False,73.7,MEDIUM,True
+EVT-10982,2026-05-18T19:34:19Z,suspicious,14007.38,Crypto Exchange,0.4875,19,mobile,FP-84485,ip-477202,Southwest,Amex,Bank of America,1165,False,0,179,False,75.7,MEDIUM,True
+EVT-10879,2026-05-18T19:34:19Z,normal,253.85,Wire Transfer,0.1049,4,desktop,FP-52440,ip-429636,Northwest,Visa,PNC Bank,3058,False,1,478,False,98.8,LOW,False
+EVT-10804,2026-05-18T19:36:19Z,normal,3392.54,E-Commerce,0.0406,2,desktop,FP-50540,ip-379290,West,Mastercard,PNC Bank,3594,False,1,394,False,159.6,LOW,False
+EVT-10897,2026-05-18T19:37:19Z,suspicious,11336.99,E-Commerce,0.5534,14,mobile,FP-18104,ip-592122,Northeast,Visa,Wells Fargo,2361,False,1,629,False,97.6,HIGH,True
+EVT-10628,2026-05-18T19:39:19Z,normal,3929.53,E-Commerce,0.2999,5,unknown,FP-54605,ip-588543,Northeast,Mastercard,US Bank,2764,False,0,608,False,118.9,LOW,False
+EVT-10115,2026-05-18T19:39:19Z,fraudulent,28379.5,Crypto Exchange,0.8616,34,mobile,FP-18475,ip-186751,Southeast,Visa,PNC Bank,22,True,4,26,False,149.5,VERY_HIGH,False
+EVT-10637,2026-05-18T19:40:19Z,normal,2007.2,POS Retail,0.0215,6,desktop,FP-18032,ip-695494,Northeast,Amex,Chase,1499,False,1,511,False,195.3,LOW,False
+EVT-10101,2026-05-18T19:41:19Z,fraudulent,10560.84,Subscription,0.8549,28,mobile,FP-60007,ip-261341,Midwest,Discover,TD Bank,7,True,5,56,False,23.7,VERY_HIGH,True
+EVT-10776,2026-05-18T19:42:19Z,suspicious,8507.64,E-Commerce,0.6846,12,desktop,FP-55450,ip-972257,Midwest,Visa,Citibank,1689,False,0,297,False,158.7,HIGH,True
+EVT-10284,2026-05-18T19:42:19Z,suspicious,14628.82,E-Commerce,0.4535,8,desktop,FP-54800,ip-794810,Northeast,Visa,Wells Fargo,345,False,0,96,False,139.2,MEDIUM,True
+EVT-10651,2026-05-18T19:44:19Z,fraudulent,36820.37,Wire Transfer,0.9284,42,desktop,FP-50534,ip-729735,Midwest,Visa,PNC Bank,2,True,2,24,False,159.6,VERY_HIGH,True
+EVT-10152,2026-05-18T19:45:19Z,normal,487.63,E-Commerce,0.2997,5,desktop,FP-66678,ip-119450,Midwest,Visa,PNC Bank,1678,False,1,166,False,170.1,LOW,False
+EVT-10640,2026-05-18T19:47:19Z,normal,656.53,Wire Transfer,0.0411,2,tablet,FP-42751,ip-249373,Northeast,Amex,Citibank,393,False,0,838,False,39.5,LOW,False
+EVT-10339,2026-05-18T19:50:19Z,normal,2017.55,Wire Transfer,0.175,3,tablet,FP-29312,ip-592122,Midwest,Discover,Capital One,118,False,0,73,False,5.6,LOW,False
+EVT-10319,2026-05-18T19:50:19Z,fraudulent,16915.5,Crypto Exchange,0.8696,25,tablet,FP-13942,ip-116165,Northeast,Visa,Citibank,8,True,2,29,False,70.0,VERY_HIGH,True
+EVT-10868,2026-05-18T19:50:19Z,suspicious,15595.46,Wire Transfer,0.6051,19,desktop,FP-79105,ip-724835,Midwest,Discover,Citibank,212,False,1,503,False,11.0,HIGH,False
+EVT-10648,2026-05-18T19:54:19Z,normal,3494.78,Subscription,0.1269,3,desktop,FP-40085,ip-599677,Northwest,Mastercard,PNC Bank,554,False,0,315,False,133.1,LOW,False
+EVT-10094,2026-05-18T19:55:19Z,normal,1312.15,POS Retail,0.0681,5,unknown,FP-39323,ip-248146,Southeast,Discover,TD Bank,1505,False,1,474,False,76.1,LOW,False
+EVT-10004,2026-05-18T19:55:19Z,normal,81.98,POS Retail,0.3374,7,unknown,FP-90380,ip-642795,Southwest,Discover,US Bank,2863,False,0,733,False,128.5,LOW,False
+EVT-10092,2026-05-18T19:55:19Z,normal,1927.75,Wire Transfer,0.0822,2,unknown,FP-17735,ip-697204,West,Visa,Citibank,2295,False,1,143,False,23.1,LOW,False
+EVT-10230,2026-05-18T19:55:19Z,normal,359.11,Crypto Exchange,0.2571,2,unknown,FP-74572,ip-476339,West,Visa,PNC Bank,895,False,0,269,False,172.1,LOW,False
+EVT-10177,2026-05-18T19:58:19Z,normal,475.51,Wire Transfer,0.241,6,tablet,FP-18104,ip-588543,Southeast,Discover,Chase,2436,False,0,691,False,82.8,LOW,False
+EVT-10850,2026-05-18T19:59:19Z,normal,313.2,E-Commerce,0.3171,3,tablet,FP-36423,ip-488871,Southeast,Mastercard,Bank of America,2522,False,1,157,False,72.1,LOW,False
+EVT-10742,2026-05-18T20:00:19Z,fraudulent,56573.88,Wire Transfer,0.8831,21,desktop,FP-90380,ip-791781,Northwest,Amex,Chase,11,True,5,36,True,4749.1,VERY_HIGH,True
+EVT-10546,2026-05-18T20:00:19Z,suspicious,8124.9,ATM,0.5696,10,mobile,FP-87009,ip-217951,West,Amex,TD Bank,1488,False,1,897,False,77.7,HIGH,True
+EVT-10769,2026-05-18T20:03:19Z,normal,140.94,Crypto Exchange,0.2015,7,tablet,FP-59912,ip-974642,Northwest,Discover,TD Bank,1150,False,1,496,False,186.5,LOW,False
+EVT-10328,2026-05-18T20:05:19Z,normal,3697.6,E-Commerce,0.3183,2,desktop,FP-67124,ip-932607,Northeast,Discover,Chase,410,False,0,218,False,102.2,LOW,False
+EVT-10601,2026-05-18T20:07:19Z,normal,150.97,POS Retail,0.1052,2,desktop,FP-80340,ip-116053,West,Amex,Chase,2613,False,1,334,False,77.2,LOW,False
+EVT-10303,2026-05-18T20:08:19Z,fraudulent,6124.36,Wire Transfer,0.8463,20,desktop,FP-18032,ip-510198,Southwest,Discover,PNC Bank,24,False,5,8,True,1896.6,VERY_HIGH,True
+EVT-10712,2026-05-18T20:10:19Z,suspicious,17055.37,E-Commerce,0.4301,12,mobile,FP-79438,ip-762954,Southwest,Mastercard,US Bank,1223,False,1,649,False,110.8,MEDIUM,True
+EVT-10949,2026-05-18T20:11:19Z,normal,1626.6,Wire Transfer,0.3929,1,tablet,FP-54759,ip-939719,West,Visa,PNC Bank,972,False,0,409,False,61.3,MEDIUM,False
+EVT-10561,2026-05-18T20:13:19Z,normal,550.07,Crypto Exchange,0.0595,4,unknown,FP-82427,ip-645413,Southwest,Mastercard,US Bank,1842,False,1,103,False,99.7,LOW,False
+EVT-10616,2026-05-18T20:14:19Z,suspicious,15355.69,Subscription,0.5437,17,desktop,FP-74572,ip-116165,Northeast,Amex,US Bank,2840,False,1,548,False,111.1,MEDIUM,True
+EVT-10133,2026-05-18T20:15:19Z,normal,536.79,POS Retail,0.3653,6,unknown,FP-80053,ip-843357,West,Discover,Bank of America,1289,False,1,303,False,104.6,MEDIUM,False
+EVT-10799,2026-05-18T20:15:19Z,suspicious,3057.59,E-Commerce,0.6562,12,desktop,FP-18032,ip-940934,Southeast,Visa,US Bank,3628,False,0,370,False,11.2,HIGH,True
+EVT-10984,2026-05-18T20:16:19Z,suspicious,3635.89,Subscription,0.5184,15,unknown,FP-71012,ip-772064,Midwest,Visa,Chase,3268,False,0,594,False,193.8,MEDIUM,True
+EVT-10696,2026-05-18T20:16:19Z,normal,671.35,ATM,0.1988,1,unknown,FP-34940,ip-695494,Northeast,Visa,Chase,1254,False,0,373,False,183.0,LOW,False
+EVT-10368,2026-05-18T20:17:19Z,normal,1073.76,POS Retail,0.2762,2,desktop,FP-80745,ip-977638,Midwest,Amex,Citibank,1777,False,1,269,False,87.6,LOW,False
+EVT-10586,2026-05-18T20:21:19Z,normal,95.42,E-Commerce,0.3816,2,unknown,FP-80550,ip-388611,West,Discover,US Bank,499,False,0,570,False,113.7,MEDIUM,False
+EVT-10973,2026-05-18T20:22:19Z,normal,481.63,E-Commerce,0.2198,4,desktop,FP-21365,ip-502333,Midwest,Mastercard,Bank of America,2578,False,0,139,False,183.8,LOW,False
+EVT-10869,2026-05-18T20:23:19Z,normal,13.25,ATM,0.0552,7,mobile,FP-79105,ip-476339,Northwest,Amex,Bank of America,2800,False,1,367,False,99.3,LOW,False
+EVT-10014,2026-05-18T20:28:19Z,normal,709.97,POS Retail,0.1136,7,unknown,FP-28132,ip-870951,Northeast,Amex,US Bank,411,False,1,899,False,130.0,LOW,False
+EVT-10719,2026-05-18T20:29:19Z,normal,891.47,E-Commerce,0.3882,1,tablet,FP-37135,ip-488883,Northeast,Amex,Capital One,399,False,0,442,False,65.9,MEDIUM,False
+EVT-10979,2026-05-18T20:34:19Z,fraudulent,42262.55,ATM,0.8379,29,mobile,FP-42751,ip-724835,Southwest,Mastercard,Capital One,5,True,2,27,False,86.2,VERY_HIGH,True
+EVT-10666,2026-05-18T20:37:19Z,fraudulent,8992.53,E-Commerce,0.9404,30,mobile,FP-97805,ip-337172,Southeast,Mastercard,Chase,29,True,4,38,True,4412.2,VERY_HIGH,True
+EVT-10212,2026-05-18T20:37:19Z,normal,3251.93,Crypto Exchange,0.1472,2,tablet,FP-76903,ip-520642,Northwest,Discover,PNC Bank,3041,False,0,186,False,180.5,LOW,False
+EVT-10122,2026-05-18T20:39:19Z,suspicious,14439.69,POS Retail,0.6998,10,unknown,FP-60328,ip-226305,Northeast,Mastercard,Capital One,1044,False,0,807,False,80.3,HIGH,True
+EVT-10509,2026-05-18T20:42:19Z,suspicious,13439.41,E-Commerce,0.4395,15,tablet,FP-93026,ip-120523,Southeast,Visa,Chase,3141,False,0,669,False,84.1,MEDIUM,True
+EVT-10592,2026-05-18T20:42:19Z,normal,4999.0,Subscription,0.2819,2,mobile,FP-84945,ip-514030,Midwest,Visa,Chase,1890,False,1,204,False,117.4,LOW,False
+EVT-10449,2026-05-18T20:44:19Z,normal,347.38,Wire Transfer,0.0667,2,unknown,FP-28132,ip-140306,West,Discover,Capital One,2986,False,0,609,False,130.2,LOW,False
+EVT-10755,2026-05-18T20:44:19Z,suspicious,4248.5,Subscription,0.5023,14,tablet,FP-35324,ip-545558,Midwest,Discover,TD Bank,1582,False,1,483,False,16.7,MEDIUM,True
+EVT-10400,2026-05-18T20:46:19Z,normal,289.91,E-Commerce,0.1154,6,tablet,FP-96569,ip-902508,Southeast,Discover,Chase,1056,False,1,774,False,21.4,LOW,False
+EVT-10991,2026-05-18T20:48:19Z,suspicious,15370.36,ATM,0.5545,8,desktop,FP-59088,ip-843661,Southeast,Amex,PNC Bank,2800,False,1,668,False,112.3,HIGH,True
+EVT-10517,2026-05-18T20:49:19Z,fraudulent,10518.11,Crypto Exchange,0.738,37,desktop,FP-78501,ip-799663,Southwest,Mastercard,Wells Fargo,5,False,5,47,True,4578.4,HIGH,True
+EVT-10202,2026-05-18T20:50:19Z,fraudulent,8705.59,Crypto Exchange,0.9808,32,mobile,FP-50534,ip-628879,Northwest,Amex,TD Bank,19,True,2,54,True,3613.3,VERY_HIGH,True
+EVT-10790,2026-05-18T20:54:19Z,fraudulent,11327.35,Subscription,0.8975,19,tablet,FP-21530,ip-510198,Northeast,Visa,TD Bank,2,False,2,38,False,68.6,VERY_HIGH,True
+EVT-10149,2026-05-18T20:55:19Z,normal,406.84,Crypto Exchange,0.0923,3,mobile,FP-23707,ip-817134,West,Mastercard,PNC Bank,2962,False,1,191,False,169.9,LOW,False
+EVT-10966,2026-05-18T20:57:19Z,fraudulent,20556.74,Subscription,0.8584,34,desktop,FP-48970,ip-621297,Northeast,Mastercard,Wells Fargo,18,False,5,28,False,197.9,VERY_HIGH,False
+EVT-10762,2026-05-18T20:59:19Z,fraudulent,56623.34,Crypto Exchange,0.9627,19,mobile,FP-19552,ip-112542,Southeast,Visa,Capital One,17,False,5,31,False,16.1,VERY_HIGH,True
+EVT-10964,2026-05-18T20:59:19Z,fraudulent,19684.31,Subscription,0.8619,35,mobile,FP-18292,ip-377800,Northwest,Mastercard,Wells Fargo,22,True,4,58,True,580.3,VERY_HIGH,False
+EVT-10191,2026-05-18T20:59:19Z,suspicious,17120.63,ATM,0.5756,11,mobile,FP-71423,ip-226305,Southeast,Amex,Citibank,1132,False,0,137,False,104.3,HIGH,True
+EVT-10093,2026-05-18T21:02:19Z,normal,3261.51,Subscription,0.3279,7,tablet,FP-80822,ip-185225,Northeast,Visa,Wells Fargo,1757,False,1,431,False,80.3,LOW,False
+EVT-10068,2026-05-18T21:03:19Z,normal,199.77,Wire Transfer,0.2556,7,mobile,FP-34940,ip-933824,Northwest,Visa,TD Bank,549,False,0,295,False,91.7,LOW,False
+EVT-10704,2026-05-18T21:05:19Z,suspicious,10086.6,POS Retail,0.6942,8,unknown,FP-82427,ip-433829,Southwest,Discover,US Bank,1511,False,0,224,False,11.4,HIGH,True
+EVT-10119,2026-05-18T21:06:19Z,normal,53.06,Crypto Exchange,0.1255,7,mobile,FP-54800,ip-197718,Midwest,Discover,Wells Fargo,3296,False,0,72,False,60.6,LOW,False
+EVT-10886,2026-05-18T21:06:19Z,suspicious,10104.23,E-Commerce,0.5947,16,mobile,FP-50111,ip-229507,West,Visa,Citibank,1894,False,1,389,False,188.8,HIGH,True
+EVT-10514,2026-05-18T21:13:19Z,fraudulent,25515.81,ATM,0.7685,41,tablet,FP-80745,ip-545558,Northeast,Discover,Bank of America,16,True,5,47,False,21.1,VERY_HIGH,True
+EVT-10573,2026-05-18T21:14:19Z,fraudulent,30821.92,ATM,0.8261,40,desktop,FP-17735,ip-186751,Northwest,Mastercard,Wells Fargo,26,False,4,59,False,90.4,VERY_HIGH,True
+EVT-10407,2026-05-18T21:14:19Z,normal,670.54,Crypto Exchange,0.3079,2,tablet,FP-99338,ip-791781,West,Discover,Bank of America,124,False,0,368,False,198.0,LOW,False
+EVT-10017,2026-05-18T21:15:19Z,normal,591.29,POS Retail,0.252,4,mobile,FP-19552,ip-514030,West,Visa,Wells Fargo,445,False,0,743,False,38.6,LOW,False
+EVT-10030,2026-05-18T21:18:19Z,suspicious,1799.47,Wire Transfer,0.541,17,tablet,FP-74534,ip-843661,Southeast,Mastercard,Capital One,3123,False,1,769,False,153.7,MEDIUM,True
+EVT-10292,2026-05-18T21:20:19Z,fraudulent,33642.38,ATM,0.8152,25,unknown,FP-78501,ip-345017,Northeast,Amex,PNC Bank,1,False,5,48,False,78.5,VERY_HIGH,False
+EVT-10695,2026-05-18T21:20:19Z,fraudulent,22593.71,Subscription,0.7498,26,tablet,FP-28132,ip-339282,Northeast,Amex,Capital One,28,False,5,57,False,101.8,HIGH,True
+EVT-10261,2026-05-18T21:20:19Z,normal,448.66,ATM,0.1897,3,mobile,FP-55504,ip-269402,Northeast,Discover,TD Bank,106,False,0,408,False,53.4,LOW,False
+EVT-10715,2026-05-18T21:21:19Z,normal,69.36,Crypto Exchange,0.1309,3,unknown,FP-51568,ip-388611,Northeast,Amex,Chase,100,False,0,661,False,120.0,LOW,False
+EVT-10888,2026-05-18T21:22:19Z,normal,1921.51,E-Commerce,0.0672,5,tablet,FP-60804,ip-516706,West,Discover,PNC Bank,890,False,1,684,False,140.1,LOW,False
+EVT-10475,2026-05-18T21:35:19Z,suspicious,3857.92,POS Retail,0.736,14,desktop,FP-93026,ip-939900,Midwest,Discover,Chase,724,False,1,211,False,39.9,HIGH,True
+EVT-10802,2026-05-18T21:36:19Z,normal,333.22,POS Retail,0.0681,1,tablet,FP-18104,ip-402024,West,Amex,Chase,2862,False,1,397,False,171.3,LOW,False
+EVT-10981,2026-05-18T21:36:19Z,normal,508.33,Subscription,0.3041,2,desktop,FP-72708,ip-705015,Midwest,Mastercard,Wells Fargo,3487,False,1,758,False,23.7,LOW,False
+EVT-10096,2026-05-18T21:37:19Z,fraudulent,55972.32,E-Commerce,0.9812,35,desktop,FP-49088,ip-356102,Southeast,Amex,PNC Bank,11,True,3,30,False,64.1,VERY_HIGH,False
+EVT-10551,2026-05-18T21:38:19Z,normal,74.59,E-Commerce,0.0265,1,mobile,FP-93407,ip-345017,Southwest,Amex,Wells Fargo,1616,False,1,171,False,194.5,LOW,False
+EVT-10998,2026-05-18T21:40:19Z,normal,1152.79,Subscription,0.2342,3,mobile,FP-80745,ip-427310,Northeast,Mastercard,Bank of America,1815,False,1,803,False,148.8,LOW,False
+EVT-10927,2026-05-18T21:44:19Z,normal,92.81,POS Retail,0.2037,4,mobile,FP-28132,ip-621297,Northwest,Discover,Capital One,2061,False,0,353,False,20.6,LOW,False
+EVT-10854,2026-05-18T21:44:19Z,normal,4999.0,Crypto Exchange,0.0258,7,unknown,FP-50153,ip-862280,West,Amex,Capital One,3137,False,0,581,False,9.0,LOW,False
+EVT-10555,2026-05-18T21:44:19Z,normal,548.06,Wire Transfer,0.1054,3,desktop,FP-39323,ip-932326,Northwest,Discover,Bank of America,667,False,0,289,False,38.1,LOW,False
+EVT-10108,2026-05-18T21:45:19Z,normal,180.57,Crypto Exchange,0.3119,1,desktop,FP-34908,ip-198229,Northeast,Visa,TD Bank,822,False,1,574,False,31.5,LOW,False
+EVT-10585,2026-05-18T21:46:19Z,suspicious,8919.07,ATM,0.5884,9,mobile,FP-34889,ip-862280,West,Amex,Wells Fargo,240,False,0,193,False,143.0,HIGH,True
+EVT-10097,2026-05-18T21:47:19Z,normal,372.9,Subscription,0.1556,4,unknown,FP-73046,ip-490451,West,Amex,TD Bank,3545,False,1,696,False,51.5,LOW,False
+EVT-10207,2026-05-18T21:47:19Z,normal,40.75,Subscription,0.2079,1,desktop,FP-21692,ip-119450,Northeast,Visa,Wells Fargo,3360,False,0,717,False,38.6,LOW,False
+EVT-10481,2026-05-18T21:47:19Z,normal,2019.84,ATM,0.2995,5,mobile,FP-60328,ip-122591,Northwest,Amex,Capital One,2320,False,0,460,False,150.6,LOW,False
+EVT-10844,2026-05-18T21:49:19Z,fraudulent,11853.39,ATM,0.7655,34,desktop,FP-13942,ip-544591,Midwest,Discover,Chase,15,True,3,13,False,97.5,VERY_HIGH,False
+EVT-10355,2026-05-18T21:50:19Z,normal,1716.58,ATM,0.0887,3,unknown,FP-34908,ip-977638,Northwest,Mastercard,PNC Bank,1640,False,0,416,False,159.3,LOW,False
+EVT-10874,2026-05-18T21:51:19Z,suspicious,7075.73,Subscription,0.7418,8,tablet,FP-24514,ip-877882,Northwest,Amex,US Bank,1363,False,1,330,False,193.2,HIGH,True
+EVT-10307,2026-05-18T21:54:19Z,normal,579.17,POS Retail,0.2268,7,tablet,FP-22577,ip-227135,West,Amex,PNC Bank,2235,False,1,573,False,55.6,LOW,False
+EVT-10957,2026-05-18T21:57:19Z,suspicious,6134.06,ATM,0.6748,11,desktop,FP-17888,ip-175949,Northwest,Discover,TD Bank,1757,False,0,890,False,78.3,HIGH,True
+EVT-10599,2026-05-18T21:59:19Z,normal,813.37,Subscription,0.1026,4,desktop,FP-27991,ip-137452,Northwest,Mastercard,Citibank,735,False,0,212,False,25.1,LOW,False
+EVT-10956,2026-05-18T21:59:19Z,fraudulent,16993.41,ATM,0.7208,33,mobile,FP-49498,ip-827793,West,Amex,Capital One,28,True,2,51,True,1349.3,HIGH,True
+EVT-10445,2026-05-18T21:59:19Z,fraudulent,24849.65,ATM,0.7644,36,tablet,FP-18475,ip-787805,Midwest,Amex,US Bank,17,True,2,5,True,640.2,VERY_HIGH,False
+EVT-10170,2026-05-18T22:00:19Z,normal,762.42,Crypto Exchange,0.0801,1,tablet,FP-85751,ip-694538,Midwest,Mastercard,Citibank,1331,False,1,626,False,71.0,LOW,False
+EVT-10631,2026-05-18T22:00:19Z,normal,163.81,POS Retail,0.2861,7,unknown,FP-91055,ip-471313,Northwest,Discover,Capital One,1615,False,1,656,False,23.8,LOW,False
+EVT-10383,2026-05-18T22:01:19Z,normal,61.13,Subscription,0.3989,2,desktop,FP-81610,ip-366881,Northeast,Visa,Wells Fargo,2839,False,0,230,False,110.7,MEDIUM,False
+EVT-10257,2026-05-18T22:06:19Z,fraudulent,40964.8,E-Commerce,0.9205,36,tablet,FP-76216,ip-733628,Northeast,Discover,US Bank,28,False,2,15,True,773.2,VERY_HIGH,True
+EVT-10909,2026-05-18T22:06:19Z,normal,1599.55,Subscription,0.2843,5,mobile,FP-12044,ip-977638,Southeast,Visa,TD Bank,1906,False,0,546,False,94.2,LOW,False
+EVT-10571,2026-05-18T22:07:19Z,suspicious,6809.62,ATM,0.4717,8,desktop,FP-12044,ip-810105,Northeast,Visa,US Bank,324,False,1,805,False,138.4,MEDIUM,True
+EVT-10867,2026-05-18T22:07:19Z,suspicious,8779.45,Wire Transfer,0.6215,17,unknown,FP-71423,ip-116165,West,Amex,Wells Fargo,2585,False,0,384,False,129.2,HIGH,False
+EVT-10148,2026-05-18T22:07:19Z,suspicious,14030.97,Crypto Exchange,0.662,13,mobile,FP-41906,ip-402024,Northeast,Discover,Citibank,2320,False,1,189,False,33.5,HIGH,True
+EVT-10817,2026-05-18T22:11:19Z,normal,1533.07,Crypto Exchange,0.3008,1,mobile,FP-71012,ip-628879,Northeast,Amex,Wells Fargo,3488,False,0,500,False,47.8,LOW,False
+EVT-10406,2026-05-18T22:13:19Z,suspicious,6914.93,Crypto Exchange,0.5107,13,unknown,FP-78227,ip-534072,Midwest,Mastercard,Citibank,2522,False,0,669,False,14.1,MEDIUM,True
+EVT-10621,2026-05-18T22:17:19Z,suspicious,16207.67,Wire Transfer,0.7469,16,mobile,FP-99338,ip-185225,Southwest,Amex,Bank of America,364,False,0,274,False,16.0,HIGH,False
+EVT-10305,2026-05-18T22:21:19Z,suspicious,10483.29,E-Commerce,0.6674,14,mobile,FP-37355,ip-340277,Southeast,Mastercard,US Bank,3623,False,1,724,False,99.7,HIGH,True
+EVT-10038,2026-05-18T22:21:19Z,normal,1170.71,Subscription,0.1605,5,unknown,FP-68897,ip-799663,Midwest,Discover,TD Bank,3127,False,0,259,False,69.6,LOW,False
+EVT-10086,2026-05-18T22:22:19Z,normal,2289.83,Subscription,0.1594,2,unknown,FP-19552,ip-625687,Southeast,Mastercard,Bank of America,3205,False,1,608,False,78.6,LOW,False
+EVT-10911,2026-05-18T22:23:19Z,normal,591.82,ATM,0.1442,3,unknown,FP-30451,ip-361825,Northeast,Visa,US Bank,1335,False,0,506,False,131.8,LOW,False
+EVT-10881,2026-05-18T22:23:19Z,normal,344.1,E-Commerce,0.21,7,tablet,FP-49906,ip-577692,Northeast,Visa,Chase,2397,False,1,261,False,125.8,LOW,False
+EVT-10908,2026-05-18T22:25:19Z,suspicious,16487.19,POS Retail,0.5961,17,desktop,FP-87245,ip-693479,Northwest,Discover,TD Bank,1710,False,0,98,False,99.2,HIGH,True
+EVT-10840,2026-05-18T22:28:19Z,fraudulent,52294.85,E-Commerce,0.9884,27,desktop,FP-48970,ip-912341,Northeast,Mastercard,Citibank,21,True,2,45,False,5.2,VERY_HIGH,True
+EVT-10478,2026-05-18T22:30:19Z,fraudulent,24082.8,Wire Transfer,0.8987,24,desktop,FP-79655,ip-621297,Midwest,Visa,Wells Fargo,2,True,5,23,False,172.8,VERY_HIGH,False
+EVT-10914,2026-05-18T22:30:19Z,normal,4629.9,ATM,0.095,2,mobile,FP-66724,ip-639443,Midwest,Visa,Bank of America,2754,False,0,350,False,173.2,LOW,False
+EVT-10655,2026-05-18T22:31:19Z,normal,2857.4,ATM,0.1497,6,desktop,FP-16870,ip-477202,Northwest,Discover,Citibank,2266,False,0,512,False,121.3,LOW,False
+EVT-10862,2026-05-18T22:32:19Z,suspicious,14159.14,ATM,0.5873,8,desktop,FP-64254,ip-366881,Southeast,Mastercard,Chase,2399,False,0,636,False,196.6,HIGH,False
+EVT-10581,2026-05-18T22:34:19Z,normal,675.07,E-Commerce,0.1365,5,tablet,FP-80822,ip-940934,West,Discover,Chase,1099,False,1,407,False,16.0,LOW,False
+EVT-10931,2026-05-18T22:34:19Z,suspicious,1200.41,Subscription,0.5562,11,unknown,FP-25027,ip-514030,Northeast,Discover,Capital One,1773,False,0,613,False,77.6,HIGH,True
+EVT-10294,2026-05-18T22:36:19Z,normal,130.24,ATM,0.1259,5,desktop,FP-22581,ip-940934,Midwest,Visa,Chase,3268,False,0,603,False,88.2,LOW,False
+EVT-10304,2026-05-18T22:36:19Z,suspicious,7843.44,Wire Transfer,0.6024,14,desktop,FP-69787,ip-568919,Southeast,Discover,Wells Fargo,1664,False,0,823,False,112.9,HIGH,True
+EVT-10665,2026-05-18T22:39:19Z,suspicious,17722.99,Wire Transfer,0.4461,15,tablet,FP-23707,ip-791781,Midwest,Visa,PNC Bank,3390,False,1,236,False,131.9,MEDIUM,True
+EVT-10417,2026-05-18T22:40:19Z,normal,294.99,Wire Transfer,0.3666,3,desktop,FP-49169,ip-808197,Southwest,Amex,TD Bank,3431,False,0,427,False,81.7,MEDIUM,False
+EVT-10718,2026-05-18T22:42:19Z,normal,313.74,Subscription,0.2355,1,tablet,FP-18104,ip-335025,Northwest,Mastercard,Citibank,2019,False,1,96,False,16.7,LOW,False
+EVT-10429,2026-05-18T22:43:19Z,normal,30.79,Crypto Exchange,0.1964,1,unknown,FP-49498,ip-877882,Northwest,Visa,Bank of America,3647,False,0,842,False,63.2,LOW,False
+EVT-10961,2026-05-18T22:47:19Z,normal,895.82,ATM,0.2457,4,unknown,FP-48970,ip-823924,West,Visa,Capital One,3138,False,1,412,False,61.6,LOW,False
+EVT-10300,2026-05-18T22:53:19Z,normal,823.13,Subscription,0.2115,3,mobile,FP-72708,ip-477202,Midwest,Discover,Bank of America,2075,False,1,836,False,112.5,LOW,False
+EVT-10281,2026-05-18T22:53:19Z,suspicious,14694.74,E-Commerce,0.4843,19,desktop,FP-67124,ip-906543,Midwest,Visa,US Bank,1394,False,0,201,False,22.4,MEDIUM,False
+EVT-10089,2026-05-18T22:54:19Z,normal,1854.97,Subscription,0.0264,5,desktop,FP-18032,ip-545558,Northwest,Discover,Bank of America,3079,False,0,562,False,129.3,LOW,False
+EVT-10649,2026-05-18T22:54:19Z,normal,1401.79,POS Retail,0.0544,4,desktop,FP-50111,ip-348262,Northeast,Mastercard,Capital One,975,False,1,734,False,84.4,LOW,False
+EVT-10988,2026-05-18T22:54:19Z,normal,2284.14,E-Commerce,0.0784,2,unknown,FP-51568,ip-614554,Midwest,Discover,Chase,1818,False,0,695,False,114.9,LOW,False
+EVT-10976,2026-05-18T22:54:19Z,normal,252.77,POS Retail,0.3092,4,mobile,FP-46574,ip-549247,Northeast,Mastercard,US Bank,1986,False,0,553,False,111.3,LOW,False
+EVT-10800,2026-05-18T22:55:19Z,normal,61.38,E-Commerce,0.3003,4,tablet,FP-79105,ip-116053,West,Mastercard,PNC Bank,1383,False,1,891,False,25.2,LOW,False
+EVT-10765,2026-05-18T22:57:19Z,normal,195.91,Wire Transfer,0.0462,1,desktop,FP-55093,ip-972257,Southeast,Mastercard,Citibank,1616,False,0,735,False,180.2,LOW,False
+EVT-10362,2026-05-18T23:01:19Z,normal,290.5,Crypto Exchange,0.0293,4,mobile,FP-35949,ip-516884,Southwest,Discover,Bank of America,870,False,1,702,False,37.3,LOW,False
+EVT-10044,2026-05-18T23:01:19Z,fraudulent,42102.86,Subscription,0.9481,44,unknown,FP-49498,ip-171328,Southeast,Discover,Bank of America,2,True,3,40,False,86.6,VERY_HIGH,False
+EVT-10100,2026-05-18T23:01:19Z,fraudulent,36079.29,Subscription,0.7957,28,mobile,FP-18750,ip-843357,Northeast,Discover,PNC Bank,18,True,2,58,False,37.5,VERY_HIGH,True
+EVT-10689,2026-05-18T23:02:19Z,normal,731.37,Subscription,0.1193,4,tablet,FP-16112,ip-772064,Northwest,Amex,Wells Fargo,2292,False,1,795,False,59.8,LOW,False
+EVT-10751,2026-05-18T23:07:19Z,normal,2658.93,POS Retail,0.2429,6,mobile,FP-90380,ip-282126,Northwest,Visa,Citibank,2905,False,0,672,False,114.8,LOW,False
+EVT-10350,2026-05-18T23:13:19Z,fraudulent,9969.74,ATM,0.8594,27,mobile,FP-76216,ip-592215,West,Visa,PNC Bank,2,True,5,33,True,1410.4,VERY_HIGH,True
+EVT-10500,2026-05-18T23:13:19Z,normal,690.15,POS Retail,0.3847,3,tablet,FP-68910,ip-336214,Northeast,Amex,Chase,3548,False,0,563,False,58.0,MEDIUM,False
+EVT-10947,2026-05-18T23:14:19Z,fraudulent,44473.59,Wire Transfer,0.9181,34,tablet,FP-31054,ip-514030,Northeast,Discover,TD Bank,13,True,4,29,False,105.5,VERY_HIGH,True
+EVT-10448,2026-05-18T23:16:19Z,normal,825.84,Wire Transfer,0.1421,6,tablet,FP-97074,ip-412182,Northwest,Mastercard,US Bank,2280,False,1,201,False,70.6,LOW,False
+EVT-10889,2026-05-18T23:16:19Z,normal,191.48,ATM,0.3156,4,tablet,FP-42562,ip-490328,Southeast,Mastercard,Chase,3648,False,0,670,False,129.0,LOW,False
+EVT-10756,2026-05-18T23:17:19Z,normal,1423.5,Subscription,0.0778,7,tablet,FP-47615,ip-588543,Midwest,Visa,Capital One,2675,False,1,469,False,195.0,LOW,False
+EVT-10345,2026-05-18T23:17:19Z,normal,1853.98,ATM,0.1722,3,desktop,FP-41906,ip-195307,Midwest,Visa,Bank of America,1211,False,1,206,False,184.6,LOW,False
+EVT-10155,2026-05-18T23:18:19Z,normal,1893.76,Wire Transfer,0.2899,6,mobile,FP-20307,ip-577692,Midwest,Discover,Citibank,2836,False,1,791,False,60.1,LOW,False
+EVT-10619,2026-05-18T23:21:19Z,normal,1778.08,Subscription,0.3746,3,desktop,FP-71423,ip-282464,Southwest,Amex,Chase,2389,False,0,705,False,111.7,MEDIUM,False
+EVT-10706,2026-05-18T23:22:19Z,normal,1486.63,ATM,0.3265,4,unknown,FP-16112,ip-610553,Northeast,Amex,Chase,1114,False,1,549,False,128.9,LOW,False
+EVT-10474,2026-05-18T23:22:19Z,normal,4457.37,Subscription,0.3825,7,unknown,FP-20307,ip-960059,Midwest,Mastercard,PNC Bank,2145,False,1,782,False,151.3,MEDIUM,False
+EVT-10098,2026-05-18T23:23:19Z,normal,1355.96,Subscription,0.021,5,unknown,FP-12044,ip-754294,Northwest,Amex,US Bank,227,False,0,836,False,0.9,LOW,False
+EVT-10236,2026-05-18T23:24:19Z,normal,608.06,E-Commerce,0.1419,1,tablet,FP-34940,ip-972435,Southwest,Visa,TD Bank,457,False,0,278,False,23.4,LOW,False
+EVT-10435,2026-05-18T23:24:19Z,normal,982.23,E-Commerce,0.0546,1,tablet,FP-69571,ip-335025,West,Mastercard,Bank of America,3163,False,0,371,False,161.1,LOW,False
+EVT-10377,2026-05-18T23:25:19Z,normal,4999.0,Subscription,0.3132,5,unknown,FP-83261,ip-226201,Southwest,Mastercard,Wells Fargo,1719,False,0,447,False,143.6,LOW,False
+EVT-10527,2026-05-18T23:28:19Z,normal,4999.0,Wire Transfer,0.2198,3,mobile,FP-50534,ip-488871,Southwest,Visa,Bank of America,1060,False,1,804,False,94.7,LOW,False
+EVT-10857,2026-05-18T23:29:19Z,normal,414.46,Wire Transfer,0.0379,1,desktop,FP-60132,ip-750989,Southeast,Mastercard,Chase,2876,False,0,149,False,114.0,LOW,False
+EVT-10372,2026-05-18T23:29:19Z,normal,391.67,Subscription,0.3227,4,mobile,FP-54759,ip-226201,Northwest,Mastercard,Citibank,2666,False,0,118,False,16.2,LOW,False
+EVT-10473,2026-05-18T23:31:19Z,normal,1092.45,Subscription,0.234,7,desktop,FP-50540,ip-773942,Midwest,Amex,Wells Fargo,3266,False,1,761,False,9.9,LOW,False
+EVT-10163,2026-05-18T23:31:19Z,fraudulent,57413.63,Wire Transfer,0.7525,24,desktop,FP-18475,ip-337172,Northeast,Visa,Citibank,21,False,2,12,True,1129.0,VERY_HIGH,True
+EVT-10929,2026-05-18T23:32:19Z,normal,681.31,Subscription,0.2307,2,desktop,FP-87009,ip-105859,Northeast,Amex,PNC Bank,1330,False,1,818,False,199.9,LOW,False
+EVT-10691,2026-05-18T23:32:19Z,fraudulent,58716.87,Subscription,0.986,21,tablet,FP-72762,ip-621297,Northeast,Visa,Wells Fargo,20,False,5,41,True,2151.4,VERY_HIGH,False
+EVT-10347,2026-05-18T23:34:19Z,normal,40.41,Crypto Exchange,0.1991,3,unknown,FP-85576,ip-598631,Southeast,Mastercard,US Bank,3049,False,0,838,False,38.2,LOW,False
+EVT-10248,2026-05-18T23:39:19Z,normal,4999.0,ATM,0.2471,2,tablet,FP-52440,ip-207004,Midwest,Discover,TD Bank,2308,False,1,134,False,40.8,LOW,False
+EVT-10793,2026-05-18T23:40:19Z,suspicious,8716.63,Crypto Exchange,0.5264,8,tablet,FP-37135,ip-195307,Northeast,Mastercard,Bank of America,627,False,1,407,False,68.8,MEDIUM,True
+EVT-10918,2026-05-18T23:42:19Z,normal,463.44,POS Retail,0.0819,1,tablet,FP-34940,ip-441991,Northeast,Visa,Capital One,2455,False,1,94,False,194.3,LOW,False
+EVT-10679,2026-05-18T23:44:19Z,normal,1102.59,ATM,0.1478,6,tablet,FP-90826,ip-108924,Southeast,Mastercard,Citibank,457,False,0,510,False,62.8,LOW,False
+EVT-10205,2026-05-18T23:45:19Z,suspicious,13187.72,ATM,0.6808,10,unknown,FP-86956,ip-516706,Southwest,Visa,Wells Fargo,3095,False,1,81,False,20.2,HIGH,True
+EVT-10213,2026-05-18T23:48:19Z,suspicious,11466.52,E-Commerce,0.6479,15,tablet,FP-49498,ip-335025,Southwest,Visa,Citibank,1264,False,1,823,False,156.3,HIGH,True
+EVT-10287,2026-05-18T23:49:19Z,normal,344.46,ATM,0.2514,6,mobile,FP-66678,ip-745200,Midwest,Amex,Capital One,2684,False,0,171,False,70.5,LOW,False
+EVT-10952,2026-05-18T23:49:19Z,normal,1218.25,Crypto Exchange,0.3935,4,tablet,FP-50111,ip-122373,West,Discover,Wells Fargo,749,False,1,428,False,39.9,MEDIUM,False
+EVT-10150,2026-05-18T23:49:19Z,suspicious,5107.45,Wire Transfer,0.5067,11,tablet,FP-87009,ip-933824,Northeast,Amex,Capital One,3151,False,0,891,False,127.8,MEDIUM,False
+EVT-10678,2026-05-18T23:49:19Z,fraudulent,40633.91,POS Retail,0.9203,40,mobile,FP-50534,ip-545558,Midwest,Discover,TD Bank,21,True,2,17,False,163.8,VERY_HIGH,False
+EVT-10424,2026-05-18T23:50:19Z,normal,343.44,Crypto Exchange,0.1373,3,mobile,FP-74534,ip-488871,West,Amex,Wells Fargo,557,False,0,686,False,9.9,LOW,False
+EVT-10113,2026-05-18T23:50:19Z,normal,3738.53,POS Retail,0.0203,6,tablet,FP-40832,ip-339282,Northwest,Amex,Chase,2941,False,0,475,False,95.1,LOW,False
+EVT-10846,2026-05-18T23:53:19Z,suspicious,5831.8,POS Retail,0.5917,13,desktop,FP-29312,ip-992243,Midwest,Amex,Wells Fargo,1135,False,0,182,False,49.1,HIGH,False
+EVT-10892,2026-05-18T23:53:19Z,normal,227.56,Crypto Exchange,0.1584,1,desktop,FP-27052,ip-823711,Midwest,Discover,TD Bank,2726,False,1,281,False,15.2,LOW,False
+EVT-10496,2026-05-18T23:54:19Z,normal,614.77,Wire Transfer,0.0685,1,tablet,FP-68897,ip-782666,Midwest,Discover,Chase,689,False,0,585,False,72.5,LOW,False
+EVT-10971,2026-05-18T23:54:19Z,suspicious,5296.7,Subscription,0.4625,18,desktop,FP-78501,ip-497050,Southwest,Amex,Citibank,1105,False,1,261,False,50.6,MEDIUM,True
+EVT-10476,2026-05-18T23:56:19Z,fraudulent,38464.77,POS Retail,0.813,26,desktop,FP-52440,ip-856713,Southeast,Discover,TD Bank,3,False,5,37,True,1680.3,VERY_HIGH,True
+EVT-10033,2026-05-18T23:56:19Z,normal,225.96,Subscription,0.3927,4,unknown,FP-86956,ip-477202,West,Amex,Capital One,1103,False,0,887,False,180.7,MEDIUM,False
+EVT-10498,2026-05-18T23:56:19Z,normal,482.5,Subscription,0.2281,2,desktop,FP-23885,ip-476339,Midwest,Amex,TD Bank,3348,False,0,420,False,56.3,LOW,False
+EVT-10618,2026-05-18T23:57:19Z,suspicious,14354.85,ATM,0.4754,13,desktop,FP-80745,ip-843661,West,Amex,TD Bank,2347,False,0,148,False,38.5,MEDIUM,False
+EVT-10493,2026-05-18T23:58:19Z,normal,59.03,Wire Transfer,0.0252,3,tablet,FP-31488,ip-211378,West,Discover,Bank of America,434,False,0,826,False,25.7,LOW,False
+EVT-10921,2026-05-18T23:59:19Z,fraudulent,18258.93,Wire Transfer,0.8737,18,unknown,FP-18032,ip-436291,West,Visa,Bank of America,2,True,5,21,False,148.9,VERY_HIGH,True
+EVT-10907,2026-05-19T00:02:19Z,normal,619.35,Subscription,0.0222,5,desktop,FP-42562,ip-108924,Northeast,Amex,Citibank,427,False,0,227,False,1.1,LOW,False
+EVT-10635,2026-05-19T00:02:19Z,suspicious,6249.91,Subscription,0.6173,19,unknown,FP-57382,ip-282126,Northeast,Visa,Wells Fargo,2806,False,0,539,False,25.6,HIGH,True
+EVT-10945,2026-05-19T00:03:19Z,fraudulent,42535.88,Wire Transfer,0.9465,44,unknown,FP-80745,ip-345017,Southwest,Discover,Wells Fargo,2,False,3,10,False,41.1,VERY_HIGH,False
+EVT-10120,2026-05-19T00:04:19Z,normal,282.07,ATM,0.1992,6,tablet,FP-48970,ip-750989,Midwest,Amex,TD Bank,3324,False,1,899,False,178.0,LOW,False
+EVT-10680,2026-05-19T00:09:19Z,suspicious,10061.94,ATM,0.6613,19,unknown,FP-19552,ip-543485,Southwest,Mastercard,Capital One,226,False,0,608,False,114.5,HIGH,True
+EVT-10110,2026-05-19T00:09:19Z,normal,4999.0,Subscription,0.3457,6,unknown,FP-67947,ip-588543,Midwest,Visa,US Bank,3456,False,0,136,False,87.6,LOW,False
+EVT-10749,2026-05-19T00:10:19Z,fraudulent,27727.82,Crypto Exchange,0.9445,31,mobile,FP-21530,ip-502320,Southwest,Mastercard,Citibank,28,False,5,13,False,42.6,VERY_HIGH,False
+EVT-10676,2026-05-19T00:11:19Z,normal,172.92,E-Commerce,0.238,6,tablet,FP-71782,ip-964255,Northeast,Discover,Bank of America,433,False,0,233,False,92.3,LOW,False
+EVT-10725,2026-05-19T00:12:19Z,normal,140.04,Subscription,0.0671,1,tablet,FP-51664,ip-510198,Southwest,Visa,Wells Fargo,2714,False,1,236,False,119.5,LOW,False
+EVT-10363,2026-05-19T00:13:19Z,normal,923.33,Subscription,0.2747,2,tablet,FP-23707,ip-433829,Southwest,Mastercard,Wells Fargo,1206,False,0,554,False,111.9,LOW,False
+EVT-10008,2026-05-19T00:13:19Z,fraudulent,38790.89,Subscription,0.7466,21,tablet,FP-13353,ip-375360,Southeast,Discover,PNC Bank,24,True,5,57,False,156.5,HIGH,True
+EVT-10131,2026-05-19T00:17:19Z,normal,153.88,Subscription,0.304,1,tablet,FP-67947,ip-696967,Northwest,Discover,Citibank,291,False,1,193,False,145.7,LOW,False
+EVT-10820,2026-05-19T00:18:19Z,normal,273.74,Subscription,0.1761,1,desktop,FP-78390,ip-475331,West,Mastercard,TD Bank,2263,False,1,868,False,70.1,LOW,False
+EVT-10920,2026-05-19T00:18:19Z,normal,518.92,POS Retail,0.2824,2,unknown,FP-99648,ip-651206,Southeast,Amex,Bank of America,216,False,1,720,False,61.7,LOW,False
+EVT-10159,2026-05-19T00:23:19Z,fraudulent,38760.55,Crypto Exchange,0.8368,43,tablet,FP-55504,ip-579840,West,Amex,US Bank,16,True,2,43,False,94.5,VERY_HIGH,True
+EVT-10436,2026-05-19T00:25:19Z,normal,1765.01,Subscription,0.2521,7,mobile,FP-34940,ip-541635,Northeast,Discover,PNC Bank,2849,False,1,484,False,54.3,LOW,False
+EVT-10464,2026-05-19T00:27:19Z,normal,669.57,ATM,0.166,7,tablet,FP-77027,ip-934751,Southeast,Amex,PNC Bank,1271,False,1,367,False,24.8,LOW,False
+EVT-10280,2026-05-19T00:29:19Z,suspicious,13663.91,Crypto Exchange,0.5371,9,mobile,FP-46574,ip-497050,Northwest,Mastercard,Chase,2795,False,0,337,False,162.4,MEDIUM,False
+EVT-10226,2026-05-19T00:34:19Z,normal,202.06,Wire Transfer,0.3581,4,mobile,FP-31054,ip-469197,Southeast,Amex,Wells Fargo,1509,False,0,452,False,89.5,MEDIUM,False
+EVT-10524,2026-05-19T00:36:19Z,fraudulent,39400.52,POS Retail,0.8654,38,unknown,FP-21530,ip-810105,West,Amex,PNC Bank,21,False,4,46,False,145.4,VERY_HIGH,False
+EVT-10048,2026-05-19T00:39:19Z,normal,1138.4,E-Commerce,0.0602,4,mobile,FP-97074,ip-625687,Northeast,Visa,TD Bank,201,False,0,831,False,37.7,LOW,False
+EVT-10597,2026-05-19T00:42:19Z,fraudulent,50140.47,Wire Transfer,0.9298,43,mobile,FP-18475,ip-171328,Northwest,Amex,Capital One,12,False,2,51,False,50.8,VERY_HIGH,True
+EVT-10218,2026-05-19T00:42:19Z,normal,1508.5,ATM,0.0016,1,desktop,FP-75011,ip-427310,Southeast,Mastercard,TD Bank,2822,False,0,199,False,80.5,LOW,False
+EVT-10612,2026-05-19T00:45:19Z,normal,1095.32,Subscription,0.311,1,unknown,FP-31559,ip-433829,Midwest,Discover,Wells Fargo,1562,False,1,128,False,177.0,LOW,False
+EVT-10639,2026-05-19T00:45:19Z,normal,462.9,E-Commerce,0.1004,2,tablet,FP-68897,ip-471313,Northeast,Mastercard,Bank of America,1713,False,1,740,False,45.8,LOW,False
+EVT-10835,2026-05-19T00:50:19Z,suspicious,6968.7,POS Retail,0.6429,11,mobile,FP-52259,ip-747933,Southeast,Visa,Capital One,782,False,0,118,False,132.8,HIGH,False
+EVT-10613,2026-05-19T00:57:19Z,normal,1708.87,POS Retail,0.3639,2,unknown,FP-37355,ip-276791,Southwest,Mastercard,Citibank,1820,False,0,736,False,166.4,MEDIUM,False
+EVT-10497,2026-05-19T00:57:19Z,normal,2188.5,Crypto Exchange,0.0405,2,tablet,FP-69835,ip-827793,Southeast,Visa,PNC Bank,2300,False,0,674,False,22.0,LOW,False
+EVT-10188,2026-05-19T00:58:19Z,normal,264.53,POS Retail,0.3018,5,unknown,FP-81715,ip-750989,Northeast,Amex,Bank of America,3152,False,0,90,False,43.3,LOW,False
+EVT-10364,2026-05-19T00:59:19Z,suspicious,13046.42,Wire Transfer,0.6602,9,unknown,FP-71423,ip-993137,Southwest,Discover,US Bank,1871,False,0,330,False,154.2,HIGH,True
+EVT-10029,2026-05-19T01:04:19Z,normal,348.44,POS Retail,0.1973,7,mobile,FP-56189,ip-348262,Northwest,Amex,Capital One,1538,False,0,766,False,127.5,LOW,False
+EVT-10203,2026-05-19T01:04:19Z,suspicious,13155.63,POS Retail,0.5264,18,unknown,FP-49304,ip-193062,Southwest,Mastercard,Citibank,2480,False,1,109,False,132.9,MEDIUM,True
+EVT-10990,2026-05-19T01:06:19Z,suspicious,17753.38,E-Commerce,0.7087,13,tablet,FP-17735,ip-214819,Northeast,Discover,Citibank,1762,False,1,248,False,22.2,HIGH,True
+EVT-10608,2026-05-19T01:08:19Z,fraudulent,14173.85,ATM,0.8688,31,tablet,FP-76216,ip-375360,Northeast,Amex,Citibank,25,True,2,39,False,148.0,VERY_HIGH,True
+EVT-10685,2026-05-19T01:08:19Z,fraudulent,39183.51,E-Commerce,0.8889,18,tablet,FP-73464,ip-958394,Southwest,Discover,Wells Fargo,19,False,2,47,False,134.5,VERY_HIGH,False
+EVT-10620,2026-05-19T01:09:19Z,suspicious,13608.69,Crypto Exchange,0.583,15,tablet,FP-80340,ip-804460,Southeast,Mastercard,Wells Fargo,289,False,1,877,False,32.5,HIGH,True
+EVT-10852,2026-05-19T01:09:19Z,normal,3443.83,Crypto Exchange,0.1372,6,tablet,FP-55093,ip-217951,Southeast,Visa,Bank of America,3294,False,0,753,False,107.9,LOW,False
+EVT-10074,2026-05-19T01:10:19Z,fraudulent,43576.51,POS Retail,0.9868,32,tablet,FP-15247,ip-520396,Southwest,Mastercard,US Bank,12,True,4,58,False,4.6,VERY_HIGH,True
+EVT-10529,2026-05-19T01:11:19Z,normal,2306.88,POS Retail,0.2055,6,desktop,FP-34940,ip-359138,Southwest,Mastercard,Capital One,2560,False,0,454,False,6.1,LOW,False
+EVT-10382,2026-05-19T01:15:19Z,fraudulent,55038.64,Subscription,0.7806,22,unknown,FP-87272,ip-917721,Southwest,Discover,Bank of America,18,True,5,37,False,89.0,VERY_HIGH,True
+EVT-10342,2026-05-19T01:16:19Z,fraudulent,58594.31,Subscription,0.731,30,unknown,FP-21530,ip-637241,Northwest,Amex,TD Bank,27,True,4,12,False,104.6,HIGH,True
+EVT-10252,2026-05-19T01:17:19Z,normal,180.68,POS Retail,0.2377,3,mobile,FP-54759,ip-119902,Northwest,Amex,Capital One,1234,False,1,800,False,94.4,LOW,False
+EVT-10622,2026-05-19T01:18:19Z,normal,1333.98,ATM,0.1484,7,tablet,FP-85751,ip-653177,Northeast,Mastercard,Bank of America,1257,False,0,177,False,46.7,LOW,False
+EVT-10767,2026-05-19T01:18:19Z,normal,588.34,E-Commerce,0.2893,4,mobile,FP-25027,ip-133671,Midwest,Visa,US Bank,1040,False,0,386,False,99.3,LOW,False
+EVT-10395,2026-05-19T01:19:19Z,fraudulent,25460.21,Wire Transfer,0.8789,38,unknown,FP-48970,ip-335025,Southeast,Amex,Chase,27,True,3,20,False,182.4,VERY_HIGH,True
+EVT-10656,2026-05-19T01:20:19Z,normal,535.64,Subscription,0.2493,1,tablet,FP-17888,ip-610553,Northwest,Amex,TD Bank,333,False,1,613,False,163.1,LOW,False
+EVT-10198,2026-05-19T01:21:19Z,normal,46.37,E-Commerce,0.2408,2,mobile,FP-49169,ip-940934,Northeast,Visa,US Bank,120,False,1,772,False,30.1,LOW,False
+EVT-10491,2026-05-19T01:21:19Z,normal,682.69,Crypto Exchange,0.299,1,unknown,FP-89909,ip-577692,Southwest,Visa,Capital One,1631,False,1,577,False,35.6,LOW,False
+EVT-10670,2026-05-19T01:22:19Z,normal,440.97,E-Commerce,0.0631,1,unknown,FP-49304,ip-469197,Northwest,Mastercard,Wells Fargo,592,False,0,470,False,141.7,LOW,False
+EVT-10442,2026-05-19T01:25:19Z,fraudulent,13852.11,Crypto Exchange,0.7972,28,unknown,FP-56189,ip-787805,Midwest,Mastercard,Capital One,23,True,3,44,False,126.0,VERY_HIGH,True
+EVT-10994,2026-05-19T01:26:19Z,normal,957.65,Subscription,0.2077,6,mobile,FP-42997,ip-351367,Southwest,Mastercard,Citibank,1376,False,1,887,False,92.7,LOW,False
+EVT-10684,2026-05-19T01:28:19Z,normal,372.46,POS Retail,0.2006,5,tablet,FP-55504,ip-709931,Northwest,Amex,Wells Fargo,3523,False,0,432,False,147.1,LOW,False
+EVT-10543,2026-05-19T01:29:19Z,fraudulent,11537.19,E-Commerce,0.7638,34,tablet,FP-76216,ip-684861,West,Discover,Capital One,27,False,3,25,False,152.0,VERY_HIGH,True
+EVT-10736,2026-05-19T01:31:19Z,normal,431.65,Wire Transfer,0.2839,5,unknown,FP-50534,ip-639443,Southeast,Amex,Citibank,3434,False,0,255,False,151.2,LOW,False
+EVT-10430,2026-05-19T01:32:19Z,normal,4614.4,E-Commerce,0.3032,4,desktop,FP-30451,ip-369993,Southeast,Mastercard,PNC Bank,2687,False,0,98,False,163.0,LOW,False
+EVT-10926,2026-05-19T01:36:19Z,normal,69.41,Crypto Exchange,0.2845,4,mobile,FP-44872,ip-335025,Midwest,Visa,Bank of America,3576,False,1,315,False,79.2,LOW,False
+EVT-10181,2026-05-19T01:37:19Z,fraudulent,11335.23,Subscription,0.9219,27,desktop,FP-97805,ip-843661,Southwest,Mastercard,Chase,12,True,4,32,True,3483.2,VERY_HIGH,True
+EVT-10485,2026-05-19T01:39:19Z,normal,1258.79,Crypto Exchange,0.1551,2,unknown,FP-17888,ip-917721,Midwest,Mastercard,Wells Fargo,1157,False,0,160,False,82.3,LOW,False
+EVT-10569,2026-05-19T01:41:19Z,normal,113.95,Subscription,0.2019,2,mobile,FP-42562,ip-348262,Northwest,Discover,PNC Bank,3138,False,0,372,False,143.9,LOW,False
+EVT-10460,2026-05-19T01:42:19Z,fraudulent,32838.15,Crypto Exchange,0.8943,19,desktop,FP-43371,ip-599366,Southwest,Mastercard,US Bank,29,True,4,7,True,4625.1,VERY_HIGH,False
+EVT-10534,2026-05-19T01:45:19Z,normal,765.18,POS Retail,0.1057,4,tablet,FP-67124,ip-457819,West,Discover,US Bank,1748,False,1,712,False,58.6,LOW,False
+EVT-10939,2026-05-19T01:46:19Z,normal,135.74,POS Retail,0.0841,3,desktop,FP-31054,ip-433829,Midwest,Discover,Chase,1451,False,1,640,False,9.3,LOW,False
+EVT-10123,2026-05-19T01:46:19Z,suspicious,6727.82,Subscription,0.5178,19,mobile,FP-59912,ip-412182,Northeast,Discover,Citibank,301,False,0,687,False,189.9,MEDIUM,True
+EVT-10336,2026-05-19T01:46:19Z,suspicious,11597.34,ATM,0.5977,17,mobile,FP-73464,ip-972377,Southeast,Mastercard,TD Bank,3420,False,0,517,False,65.6,HIGH,True
+EVT-10371,2026-05-19T01:48:19Z,normal,413.74,POS Retail,0.2447,1,tablet,FP-20620,ip-359138,Northwest,Discover,Bank of America,3227,False,1,630,False,145.2,LOW,False
+EVT-10194,2026-05-19T01:48:19Z,normal,1536.08,E-Commerce,0.1478,5,tablet,FP-60883,ip-214819,West,Visa,PNC Bank,1115,False,0,203,False,145.6,LOW,False
+EVT-10153,2026-05-19T01:51:19Z,normal,691.76,E-Commerce,0.0085,7,unknown,FP-97074,ip-782666,Southwest,Amex,Chase,125,False,0,274,False,55.0,LOW,False
+EVT-10428,2026-05-19T01:55:19Z,normal,432.54,E-Commerce,0.2622,1,desktop,FP-60883,ip-483293,Southeast,Amex,PNC Bank,3180,False,1,829,False,193.4,LOW,False
+EVT-10392,2026-05-19T01:56:19Z,normal,2478.41,POS Retail,0.2382,2,unknown,FP-35949,ip-206986,West,Visa,Capital One,276,False,0,795,False,74.3,LOW,False
+EVT-10416,2026-05-19T01:56:19Z,suspicious,8775.72,E-Commerce,0.6987,11,unknown,FP-49169,ip-488883,Southwest,Mastercard,Citibank,3230,False,1,164,False,174.0,HIGH,True
+EVT-10735,2026-05-19T01:57:19Z,normal,87.26,ATM,0.2769,3,unknown,FP-60804,ip-693479,Northwest,Discover,PNC Bank,127,False,1,859,False,140.6,LOW,False
+EVT-10472,2026-05-19T01:57:19Z,fraudulent,33016.44,Wire Transfer,0.7764,35,mobile,FP-49304,ip-382363,Northeast,Discover,PNC Bank,18,True,3,19,False,175.2,VERY_HIGH,True
+EVT-10960,2026-05-19T01:57:19Z,normal,1256.09,Subscription,0.0078,7,mobile,FP-57382,ip-962702,Northwest,Discover,Wells Fargo,997,False,0,669,False,113.1,LOW,False
+EVT-10247,2026-05-19T01:57:19Z,normal,115.01,E-Commerce,0.1316,3,desktop,FP-73464,ip-119450,Northeast,Mastercard,Chase,2607,False,0,403,False,188.3,LOW,False
+EVT-10217,2026-05-19T02:03:19Z,normal,3726.38,Subscription,0.248,3,desktop,FP-49304,ip-975807,Northeast,Mastercard,Chase,1111,False,1,840,False,185.2,LOW,False
+EVT-10903,2026-05-19T02:04:19Z,suspicious,13212.17,Crypto Exchange,0.6766,12,mobile,FP-43371,ip-924409,Southwest,Mastercard,TD Bank,1535,False,0,263,False,138.7,HIGH,True
+EVT-10394,2026-05-19T02:06:19Z,normal,281.74,POS Retail,0.1517,2,mobile,FP-51301,ip-625687,Southeast,Visa,TD Bank,3300,False,0,258,False,61.6,LOW,False
+EVT-10352,2026-05-19T02:07:19Z,normal,4999.0,Subscription,0.3918,7,desktop,FP-46767,ip-749454,Northeast,Visa,Capital One,429,False,1,331,False,2.8,MEDIUM,False
+EVT-10111,2026-05-19T02:10:19Z,normal,512.51,POS Retail,0.0731,1,tablet,FP-46976,ip-230071,West,Discover,Bank of America,2822,False,1,206,False,87.0,LOW,False
+EVT-10320,2026-05-19T02:11:19Z,suspicious,4415.31,ATM,0.5221,11,mobile,FP-92587,ip-568604,Southwest,Visa,Capital One,3220,False,1,129,False,83.4,MEDIUM,False
+EVT-10633,2026-05-19T02:14:19Z,normal,279.22,Subscription,0.0693,2,tablet,FP-20307,ip-539725,West,Amex,Bank of America,3095,False,1,678,False,72.3,LOW,False
+EVT-10944,2026-05-19T02:15:19Z,suspicious,6789.35,Wire Transfer,0.5002,14,mobile,FP-26429,ip-516706,Southwest,Mastercard,TD Bank,91,False,1,159,False,94.3,MEDIUM,False
+EVT-10244,2026-05-19T02:16:19Z,normal,387.85,Subscription,0.1283,4,unknown,FP-54800,ip-846484,Northwest,Mastercard,Chase,1720,False,0,615,False,149.6,LOW,False
+EVT-10552,2026-05-19T02:17:19Z,normal,518.98,Crypto Exchange,0.0558,4,tablet,FP-15247,ip-628879,Southeast,Discover,PNC Bank,3531,False,1,769,False,85.9,LOW,False
+EVT-10040,2026-05-19T02:19:19Z,normal,817.58,Wire Transfer,0.1632,7,mobile,FP-93407,ip-469197,Northwest,Amex,Chase,1486,False,0,897,False,119.0,LOW,False
+EVT-10000,2026-05-19T02:24:19Z,normal,80.7,Wire Transfer,0.1816,5,mobile,FP-52004,ip-365277,Northwest,Discover,PNC Bank,326,False,1,686,False,21.1,LOW,False
+EVT-10238,2026-05-19T02:28:19Z,normal,4999.0,ATM,0.2319,7,tablet,FP-19552,ip-226224,West,Discover,Chase,1843,False,1,630,False,199.6,LOW,False
+EVT-10636,2026-05-19T02:29:19Z,suspicious,15218.96,Crypto Exchange,0.6625,17,desktop,FP-24514,ip-195307,Midwest,Amex,US Bank,2221,False,1,683,False,180.3,HIGH,True
+EVT-10638,2026-05-19T02:31:19Z,suspicious,17441.89,Subscription,0.5459,10,mobile,FP-81715,ip-337172,Southwest,Discover,TD Bank,1290,False,0,524,False,196.0,MEDIUM,False
+EVT-10603,2026-05-19T02:32:19Z,fraudulent,41819.79,Subscription,0.8659,31,unknown,FP-52812,ip-664577,Midwest,Mastercard,Bank of America,24,False,4,18,True,4475.9,VERY_HIGH,True
+EVT-10421,2026-05-19T02:33:19Z,normal,3120.28,Crypto Exchange,0.3103,2,desktop,FP-17888,ip-360869,Midwest,Mastercard,Bank of America,3089,False,0,701,False,74.7,LOW,False
+EVT-10103,2026-05-19T02:36:19Z,suspicious,8741.71,Wire Transfer,0.4907,19,desktop,FP-84047,ip-469197,Midwest,Amex,PNC Bank,797,False,0,473,False,19.4,MEDIUM,True
+EVT-10387,2026-05-19T02:40:19Z,fraudulent,53244.65,Wire Transfer,0.953,37,tablet,FP-87245,ip-483293,Northwest,Amex,Wells Fargo,21,True,2,32,False,190.4,VERY_HIGH,True
+EVT-10738,2026-05-19T02:42:19Z,normal,715.64,POS Retail,0.097,4,unknown,FP-78849,ip-207004,West,Amex,Capital One,2145,False,1,236,False,15.4,LOW,False
+EVT-10830,2026-05-19T02:42:19Z,normal,1013.45,Crypto Exchange,0.3265,3,desktop,FP-42751,ip-436765,Midwest,Mastercard,Bank of America,1955,False,1,823,False,144.6,LOW,False
+EVT-10232,2026-05-19T02:43:19Z,fraudulent,12516.48,E-Commerce,0.8302,39,unknown,FP-49498,ip-171328,Southwest,Mastercard,Wells Fargo,21,True,4,19,True,2883.3,VERY_HIGH,False
+EVT-10296,2026-05-19T02:43:19Z,normal,1235.4,Subscription,0.2227,7,mobile,FP-60007,ip-550666,Northwest,Discover,Bank of America,1045,False,1,521,False,87.9,LOW,False
+EVT-10250,2026-05-19T02:44:19Z,normal,189.75,Subscription,0.0597,4,tablet,FP-50540,ip-388375,Southeast,Visa,Wells Fargo,3131,False,0,443,False,48.8,LOW,False
+EVT-10366,2026-05-19T02:45:19Z,normal,1358.24,Wire Transfer,0.3194,4,unknown,FP-78849,ip-555696,Northeast,Mastercard,Bank of America,1903,False,1,586,False,102.1,LOW,False
+EVT-10675,2026-05-19T02:46:19Z,normal,1329.11,POS Retail,0.2168,6,unknown,FP-68910,ip-787805,Southwest,Amex,Bank of America,2975,False,1,688,False,117.8,LOW,False
+EVT-10109,2026-05-19T02:46:19Z,fraudulent,17028.73,ATM,0.9821,28,unknown,FP-48970,ip-335025,Southeast,Mastercard,US Bank,20,True,2,13,False,182.5,VERY_HIGH,False
+EVT-10005,2026-05-19T02:48:19Z,normal,491.58,Wire Transfer,0.343,3,unknown,FP-85751,ip-211378,Southwest,Visa,Bank of America,1633,False,0,636,False,53.3,LOW,False
+EVT-10525,2026-05-19T02:49:19Z,fraudulent,46522.37,POS Retail,0.7409,40,tablet,FP-37355,ip-368917,Southeast,Mastercard,Citibank,15,False,4,18,True,2078.3,HIGH,True
+EVT-10023,2026-05-19T02:50:19Z,normal,4999.0,Crypto Exchange,0.2947,7,tablet,FP-24514,ip-377800,Southwest,Mastercard,TD Bank,965,False,1,774,False,104.1,LOW,False
+EVT-10732,2026-05-19T02:50:19Z,normal,678.66,Crypto Exchange,0.0964,3,unknown,FP-15743,ip-351367,Southwest,Amex,US Bank,1028,False,0,338,False,39.1,LOW,False
+EVT-10455,2026-05-19T02:50:19Z,normal,268.19,Wire Transfer,0.2494,2,mobile,FP-27052,ip-757265,Southwest,Mastercard,Wells Fargo,904,False,0,262,False,58.9,LOW,False
+EVT-10389,2026-05-19T02:51:19Z,normal,2669.28,E-Commerce,0.0663,3,unknown,FP-32093,ip-932607,West,Amex,PNC Bank,895,False,0,417,False,39.0,LOW,False
+EVT-10919,2026-05-19T02:56:19Z,normal,2096.79,Crypto Exchange,0.0301,4,unknown,FP-64254,ip-196966,Southeast,Visa,Wells Fargo,559,False,0,122,False,175.5,LOW,False
+EVT-10629,2026-05-19T02:56:19Z,suspicious,8026.14,Crypto Exchange,0.5302,13,mobile,FP-59912,ip-108924,Northwest,Visa,PNC Bank,2584,False,0,493,False,61.8,MEDIUM,True
+EVT-10034,2026-05-19T02:58:19Z,suspicious,15708.98,E-Commerce,0.4577,17,tablet,FP-69787,ip-378959,Northwest,Amex,Chase,3595,False,1,524,False,194.0,MEDIUM,True
+EVT-10334,2026-05-19T02:59:19Z,normal,260.3,Crypto Exchange,0.125,1,mobile,FP-54800,ip-787805,Midwest,Amex,US Bank,3421,False,0,192,False,125.9,LOW,False
+EVT-10786,2026-05-19T03:00:19Z,normal,336.11,E-Commerce,0.321,5,desktop,FP-79105,ip-309376,West,Visa,Wells Fargo,2303,False,0,500,False,52.0,LOW,False
+EVT-10006,2026-05-19T03:01:19Z,normal,4999.0,POS Retail,0.147,3,desktop,FP-31054,ip-356102,Southeast,Amex,TD Bank,3467,False,0,378,False,59.4,LOW,False
+EVT-10179,2026-05-19T03:05:19Z,normal,721.41,Subscription,0.0607,3,unknown,FP-81610,ip-952957,Midwest,Discover,Wells Fargo,2473,False,1,523,False,164.8,LOW,False
+EVT-10506,2026-05-19T03:06:19Z,suspicious,7916.01,Wire Transfer,0.6096,18,desktop,FP-40832,ip-773746,Southeast,Discover,US Bank,2041,False,0,116,False,182.1,HIGH,False
+EVT-10227,2026-05-19T03:07:19Z,normal,294.48,E-Commerce,0.1889,2,unknown,FP-46574,ip-940934,Midwest,Amex,TD Bank,1062,False,1,115,False,160.1,LOW,False
+EVT-10316,2026-05-19T03:08:19Z,fraudulent,56455.3,Wire Transfer,0.7211,23,mobile,FP-87272,ip-787805,Southwest,Amex,US Bank,21,False,3,23,False,120.5,HIGH,False
+EVT-10754,2026-05-19T03:10:19Z,normal,1042.3,E-Commerce,0.0292,2,desktop,FP-72762,ip-345017,Northeast,Visa,US Bank,3056,False,1,391,False,146.1,LOW,False
+EVT-10215,2026-05-19T03:10:19Z,normal,2462.15,Wire Transfer,0.2575,2,unknown,FP-71532,ip-495019,West,Visa,Wells Fargo,999,False,0,520,False,5.0,LOW,False
+EVT-10953,2026-05-19T03:10:19Z,fraudulent,54044.44,ATM,0.7552,25,mobile,FP-77027,ip-186751,Northeast,Discover,Citibank,8,True,5,49,False,147.9,VERY_HIGH,True
+EVT-10298,2026-05-19T03:12:19Z,fraudulent,50893.25,ATM,0.8666,19,unknown,FP-18475,ip-477202,Northwest,Amex,PNC Bank,4,True,3,18,True,3464.8,VERY_HIGH,False
+EVT-10210,2026-05-19T03:12:19Z,normal,383.87,POS Retail,0.3802,1,unknown,FP-46767,ip-541635,Southwest,Discover,Chase,1985,False,1,104,False,187.4,MEDIUM,False
+EVT-10526,2026-05-19T03:14:19Z,normal,4184.55,Subscription,0.1465,6,mobile,FP-90826,ip-490328,Midwest,Amex,Citibank,2478,False,1,268,False,158.4,LOW,False
+EVT-10293,2026-05-19T03:15:19Z,normal,2107.61,Wire Transfer,0.1425,2,tablet,FP-60007,ip-359138,West,Discover,Wells Fargo,724,False,0,533,False,133.4,LOW,False
+EVT-10401,2026-05-19T03:17:19Z,normal,183.0,E-Commerce,0.3425,1,mobile,FP-49088,ip-846809,Midwest,Discover,Citibank,118,False,0,625,False,123.6,LOW,False
+EVT-10147,2026-05-19T03:18:19Z,normal,204.36,E-Commerce,0.1873,3,unknown,FP-64647,ip-491586,Southeast,Visa,Chase,2179,False,0,554,False,43.4,LOW,False
+EVT-10409,2026-05-19T03:24:19Z,normal,4999.0,POS Retail,0.0301,6,tablet,FP-37355,ip-352457,Northwest,Amex,Capital One,2019,False,1,854,False,196.3,LOW,False
+EVT-10505,2026-05-19T03:24:19Z,normal,1318.22,ATM,0.2455,5,desktop,FP-73023,ip-316873,Southwest,Discover,US Bank,951,False,1,292,False,1.9,LOW,False
+EVT-10518,2026-05-19T03:24:19Z,normal,940.68,E-Commerce,0.0624,5,unknown,FP-23707,ip-316873,Northeast,Discover,Bank of America,2651,False,1,621,False,76.2,LOW,False
+EVT-10010,2026-05-19T03:26:19Z,fraudulent,11440.7,ATM,0.7446,21,tablet,FP-86805,ip-307192,West,Discover,TD Bank,11,False,4,23,False,54.1,HIGH,False
+EVT-10983,2026-05-19T03:28:19Z,suspicious,14175.3,E-Commerce,0.5654,18,tablet,FP-23707,ip-773746,Midwest,Amex,Bank of America,2684,False,1,888,False,136.6,HIGH,True
+EVT-10278,2026-05-19T03:28:19Z,normal,553.42,ATM,0.2214,2,tablet,FP-41906,ip-747933,Southeast,Amex,US Bank,639,False,1,385,False,18.8,LOW,False
+EVT-10659,2026-05-19T03:34:19Z,normal,686.87,Subscription,0.3386,6,unknown,FP-51301,ip-870951,West,Visa,Citibank,2585,False,0,448,False,164.0,LOW,False
+EVT-10824,2026-05-19T03:34:19Z,normal,663.28,POS Retail,0.2825,2,tablet,FP-67124,ip-699389,Northwest,Amex,Capital One,3340,False,0,200,False,63.9,LOW,False
+EVT-10156,2026-05-19T03:34:19Z,suspicious,1590.57,ATM,0.5362,10,tablet,FP-27052,ip-339282,Southwest,Amex,Capital One,2854,False,0,428,False,122.1,MEDIUM,True
+EVT-10028,2026-05-19T03:38:19Z,normal,778.82,Crypto Exchange,0.1735,1,desktop,FP-72668,ip-175999,Southeast,Discover,Capital One,918,False,0,211,False,8.9,LOW,False
+EVT-10671,2026-05-19T03:39:19Z,normal,997.97,POS Retail,0.308,5,tablet,FP-55093,ip-598631,Southeast,Discover,Bank of America,3063,False,1,413,False,18.3,LOW,False
+EVT-10461,2026-05-19T03:41:19Z,normal,144.73,ATM,0.3498,3,unknown,FP-84945,ip-902508,Northeast,Mastercard,TD Bank,2629,False,0,256,False,45.5,LOW,False
+EVT-10240,2026-05-19T03:43:19Z,normal,1064.0,POS Retail,0.0113,5,tablet,FP-81715,ip-497050,Southeast,Mastercard,TD Bank,1114,False,1,561,False,184.7,LOW,False
+EVT-10139,2026-05-19T03:43:19Z,suspicious,9943.74,ATM,0.5683,9,mobile,FP-61713,ip-398411,Northwest,Visa,Wells Fargo,3548,False,0,74,False,162.4,HIGH,False
+EVT-10157,2026-05-19T03:44:19Z,fraudulent,10653.87,Subscription,0.889,41,tablet,FP-18032,ip-186751,Southeast,Mastercard,Bank of America,18,True,3,9,False,185.1,VERY_HIGH,False
+EVT-10090,2026-05-19T03:45:19Z,normal,2228.34,Subscription,0.3742,4,mobile,FP-16870,ip-990714,Midwest,Visa,Chase,852,False,0,552,False,135.9,MEDIUM,False
+EVT-10444,2026-05-19T03:46:19Z,fraudulent,49036.95,Wire Transfer,0.8867,32,unknown,FP-99648,ip-140306,Southwest,Visa,PNC Bank,7,True,3,45,False,45.6,VERY_HIGH,False
+EVT-10463,2026-05-19T03:46:19Z,suspicious,2312.98,Crypto Exchange,0.4917,19,mobile,FP-76216,ip-371961,Southeast,Mastercard,Citibank,368,False,0,412,False,117.9,MEDIUM,True
+EVT-10589,2026-05-19T03:49:19Z,fraudulent,29308.74,ATM,0.8247,24,mobile,FP-85576,ip-972257,West,Mastercard,Chase,20,False,4,55,True,4742.6,VERY_HIGH,True
+EVT-10530,2026-05-19T03:54:19Z,fraudulent,23266.46,Wire Transfer,0.9514,36,tablet,FP-76216,ip-912341,Midwest,Visa,US Bank,18,True,4,11,True,2650.1,VERY_HIGH,True
+EVT-10504,2026-05-19T03:54:19Z,normal,97.25,Crypto Exchange,0.3009,5,tablet,FP-52440,ip-693479,Northwest,Amex,Citibank,3474,False,1,332,False,143.3,LOW,False
+EVT-10542,2026-05-19T03:57:19Z,suspicious,12630.62,Wire Transfer,0.7379,9,unknown,FP-17888,ip-695494,West,Amex,Chase,3156,False,0,376,False,163.2,HIGH,True
+EVT-10441,2026-05-19T03:58:19Z,suspicious,2873.93,Subscription,0.5478,10,unknown,FP-31488,ip-226305,West,Visa,Capital One,2177,False,0,114,False,149.8,MEDIUM,True
+EVT-10085,2026-05-19T03:59:19Z,normal,668.18,Crypto Exchange,0.1472,6,desktop,FP-41906,ip-848000,West,Discover,Chase,1290,False,0,604,False,23.8,LOW,False
+EVT-10223,2026-05-19T04:00:19Z,normal,249.89,Subscription,0.0837,2,mobile,FP-47615,ip-353110,West,Discover,US Bank,1111,False,0,659,False,152.0,LOW,False
+EVT-10556,2026-05-19T04:00:19Z,suspicious,3495.39,POS Retail,0.4516,10,tablet,FP-52004,ip-316873,Midwest,Discover,Capital One,3359,False,1,606,False,65.3,MEDIUM,True
+EVT-10703,2026-05-19T04:02:19Z,normal,1120.21,Crypto Exchange,0.1492,5,desktop,FP-60328,ip-545558,West,Mastercard,Bank of America,842,False,0,371,False,85.2,LOW,False
+EVT-10588,2026-05-19T04:08:19Z,suspicious,5178.21,Crypto Exchange,0.6375,18,mobile,FP-54800,ip-436765,Southwest,Amex,US Bank,661,False,0,279,False,169.8,HIGH,False
+EVT-10187,2026-05-19T04:08:19Z,normal,2154.91,Subscription,0.0371,6,desktop,FP-60007,ip-800875,West,Visa,Capital One,3059,False,0,651,False,101.5,LOW,False
+EVT-10019,2026-05-19T04:08:19Z,normal,184.25,ATM,0.3136,5,desktop,FP-78849,ip-226305,Northeast,Amex,Wells Fargo,1579,False,1,435,False,189.2,LOW,False
+EVT-10891,2026-05-19T04:09:19Z,normal,165.34,Wire Transfer,0.3399,1,unknown,FP-99648,ip-826836,West,Mastercard,TD Bank,367,False,0,483,False,171.4,LOW,False
+EVT-10606,2026-05-19T04:09:19Z,normal,865.0,E-Commerce,0.2232,7,desktop,FP-22581,ip-827425,Southeast,Discover,Wells Fargo,1714,False,1,109,False,163.6,LOW,False
+EVT-10992,2026-05-19T04:11:19Z,normal,2317.84,E-Commerce,0.174,5,desktop,FP-46574,ip-269402,West,Mastercard,Capital One,2818,False,0,576,False,101.5,LOW,False
+EVT-10713,2026-05-19T04:12:19Z,normal,2284.0,POS Retail,0.2593,5,tablet,FP-61186,ip-198229,Southeast,Amex,Bank of America,3370,False,0,423,False,197.6,LOW,False
+EVT-10114,2026-05-19T04:12:19Z,suspicious,14246.22,Subscription,0.5613,15,tablet,FP-34908,ip-233387,Southeast,Mastercard,TD Bank,2481,False,1,590,False,132.5,HIGH,True
+EVT-10501,2026-05-19T04:14:19Z,suspicious,12339.85,Crypto Exchange,0.515,9,unknown,FP-76216,ip-119450,Southeast,Mastercard,PNC Bank,3187,False,0,578,False,132.4,MEDIUM,True
+EVT-10084,2026-05-19T04:14:19Z,normal,227.45,Crypto Exchange,0.2156,7,unknown,FP-28132,ip-621297,Southwest,Amex,Wells Fargo,2768,False,0,391,False,51.5,LOW,False
+EVT-10013,2026-05-19T04:14:19Z,suspicious,1011.61,POS Retail,0.6924,9,desktop,FP-71473,ip-939900,Midwest,Amex,PNC Bank,2718,False,0,324,False,60.4,HIGH,False
+EVT-10884,2026-05-19T04:14:19Z,normal,434.17,Subscription,0.273,4,mobile,FP-70155,ip-733628,Southeast,Visa,US Bank,3026,False,0,659,False,44.9,LOW,False
+EVT-10710,2026-05-19T04:14:19Z,fraudulent,25841.13,E-Commerce,0.9902,24,tablet,FP-72668,ip-122373,Northeast,Amex,TD Bank,19,True,3,44,True,2355.9,VERY_HIGH,False
+EVT-10760,2026-05-19T04:15:19Z,normal,627.12,Crypto Exchange,0.0478,4,tablet,FP-84940,ip-998224,Northeast,Discover,Wells Fargo,1215,False,1,371,False,178.9,LOW,False
+EVT-10699,2026-05-19T04:19:19Z,fraudulent,12994.27,ATM,0.9361,34,desktop,FP-21692,ip-312809,Southeast,Mastercard,Citibank,2,False,4,18,False,80.3,VERY_HIGH,True
+EVT-10260,2026-05-19T04:22:19Z,normal,567.63,Wire Transfer,0.3048,3,tablet,FP-80822,ip-541635,West,Discover,US Bank,1251,False,1,655,False,18.3,LOW,False
+EVT-10418,2026-05-19T04:22:19Z,normal,460.33,Wire Transfer,0.063,7,desktop,FP-40504,ip-335025,Northeast,Amex,Chase,486,False,1,296,False,28.5,LOW,False
+EVT-10169,2026-05-19T04:23:19Z,normal,134.27,Crypto Exchange,0.1118,2,desktop,FP-18104,ip-856713,Southwest,Visa,Bank of America,2606,False,0,336,False,195.3,LOW,False
+EVT-10970,2026-05-19T04:24:19Z,normal,1765.09,Subscription,0.1936,3,desktop,FP-15247,ip-628879,Southeast,Discover,Citibank,2922,False,1,812,False,10.3,LOW,False
+EVT-10863,2026-05-19T04:25:19Z,suspicious,5604.28,POS Retail,0.6281,9,tablet,FP-82440,ip-800875,Southeast,Mastercard,TD Bank,3416,False,1,89,False,140.4,HIGH,True
+EVT-10847,2026-05-19T04:25:19Z,normal,178.31,POS Retail,0.1409,6,mobile,FP-87272,ip-843357,Southwest,Mastercard,Bank of America,932,False,1,873,False,83.3,LOW,False
+EVT-10772,2026-05-19T04:25:19Z,normal,1144.45,Crypto Exchange,0.3529,1,tablet,FP-18104,ip-122591,Southeast,Mastercard,Citibank,3427,False,1,718,False,159.7,MEDIUM,False
+EVT-10544,2026-05-19T04:27:19Z,normal,2521.67,ATM,0.0626,1,unknown,FP-82440,ip-623004,Midwest,Discover,Capital One,563,False,1,856,False,178.7,LOW,False
+EVT-10167,2026-05-19T04:28:19Z,fraudulent,7329.04,Subscription,0.8732,27,tablet,FP-49906,ip-172782,Midwest,Visa,Citibank,5,True,3,9,False,64.8,VERY_HIGH,True
+EVT-10876,2026-05-19T04:28:19Z,suspicious,17603.58,Wire Transfer,0.49,9,tablet,FP-86805,ip-772064,Southeast,Visa,TD Bank,2316,False,1,590,False,115.9,MEDIUM,False
+EVT-10265,2026-05-19T04:32:19Z,normal,3499.81,POS Retail,0.0978,6,mobile,FP-74534,ip-568604,Midwest,Amex,Bank of America,598,False,0,119,False,81.9,LOW,False
+EVT-10358,2026-05-19T04:33:19Z,normal,2177.38,Crypto Exchange,0.287,2,unknown,FP-87245,ip-998224,Midwest,Mastercard,Wells Fargo,3114,False,0,519,False,165.6,LOW,False
+EVT-10743,2026-05-19T04:35:19Z,normal,2460.7,ATM,0.2599,7,unknown,FP-94423,ip-339282,West,Visa,Citibank,1168,False,1,218,False,51.7,LOW,False
+EVT-10834,2026-05-19T04:35:19Z,normal,36.13,Wire Transfer,0.0133,5,unknown,FP-54605,ip-670576,Midwest,Mastercard,Wells Fargo,784,False,1,830,False,157.6,LOW,False
+EVT-10391,2026-05-19T04:36:19Z,normal,100.62,E-Commerce,0.0721,4,desktop,FP-35324,ip-427310,West,Discover,Capital One,1903,False,0,772,False,159.6,LOW,False
+EVT-10431,2026-05-19T04:40:19Z,normal,326.52,E-Commerce,0.2316,4,mobile,FP-10662,ip-253533,Southwest,Amex,Citibank,192,False,1,786,False,188.1,LOW,False
+EVT-10065,2026-05-19T04:43:19Z,normal,1092.86,ATM,0.0527,6,desktop,FP-67947,ip-694538,Midwest,Visa,Bank of America,1416,False,1,135,False,190.6,LOW,False
+EVT-10246,2026-05-19T04:45:19Z,suspicious,8673.05,ATM,0.4267,15,mobile,FP-54605,ip-747515,Northeast,Mastercard,Wells Fargo,1973,False,1,242,False,80.3,MEDIUM,False
+EVT-10668,2026-05-19T04:46:19Z,suspicious,4438.54,E-Commerce,0.7123,13,desktop,FP-23885,ip-276791,Northwest,Discover,PNC Bank,1828,False,1,386,False,128.5,HIGH,True
+EVT-10547,2026-05-19T04:47:19Z,normal,708.49,ATM,0.218,6,mobile,FP-12044,ip-765084,Northeast,Discover,Bank of America,2437,False,0,281,False,7.6,LOW,False
+EVT-10819,2026-05-19T04:47:19Z,normal,322.93,POS Retail,0.1056,6,tablet,FP-69835,ip-817134,Northwest,Mastercard,Citibank,2462,False,0,225,False,149.5,LOW,False
+EVT-10848,2026-05-19T04:47:19Z,normal,751.04,POS Retail,0.054,7,mobile,FP-26429,ip-917721,Northwest,Discover,Chase,2881,False,1,684,False,198.6,LOW,False
+EVT-10403,2026-05-19T04:48:19Z,normal,565.56,Subscription,0.1194,5,tablet,FP-92587,ip-360869,Northeast,Discover,TD Bank,3391,False,0,676,False,82.8,LOW,False
+EVT-10125,2026-05-19T04:49:19Z,normal,807.93,Crypto Exchange,0.173,1,tablet,FP-78390,ip-843357,West,Amex,TD Bank,3084,False,1,570,False,75.7,LOW,False
+EVT-10507,2026-05-19T04:51:19Z,normal,186.15,Crypto Exchange,0.2836,4,tablet,FP-18475,ip-827425,Southeast,Mastercard,Capital One,3192,False,1,718,False,130.3,LOW,False
+EVT-10470,2026-05-19T04:51:19Z,normal,195.1,Subscription,0.0412,4,desktop,FP-80550,ip-378959,Northeast,Visa,Chase,929,False,1,175,False,38.6,LOW,False
+EVT-10312,2026-05-19T04:52:19Z,fraudulent,55921.32,ATM,0.8944,31,tablet,FP-81715,ip-218639,Southeast,Discover,Chase,15,False,5,15,False,172.1,VERY_HIGH,True
+EVT-10989,2026-05-19T04:52:19Z,suspicious,2469.95,POS Retail,0.5846,13,desktop,FP-38909,ip-993137,Northwest,Amex,US Bank,818,False,1,803,False,139.6,HIGH,True
+EVT-10021,2026-05-19T04:52:19Z,normal,2419.92,Crypto Exchange,0.2444,5,desktop,FP-17127,ip-880964,Midwest,Discover,US Bank,2231,False,0,188,False,43.5,LOW,False
+EVT-10483,2026-05-19T04:52:19Z,fraudulent,57350.78,POS Retail,0.9395,24,mobile,FP-17735,ip-763226,Southwest,Mastercard,Wells Fargo,22,True,5,37,False,136.4,VERY_HIGH,False
+EVT-10709,2026-05-19T04:53:19Z,normal,1570.07,ATM,0.0802,7,desktop,FP-72708,ip-379290,West,Visa,Wells Fargo,1572,False,0,502,False,152.7,LOW,False
+EVT-10643,2026-05-19T04:54:19Z,fraudulent,57106.1,Subscription,0.9182,27,mobile,FP-48970,ip-745200,Midwest,Mastercard,Chase,9,False,4,26,True,4970.6,VERY_HIGH,True
+EVT-10782,2026-05-19T04:56:19Z,normal,1277.57,Crypto Exchange,0.2568,5,mobile,FP-54759,ip-628879,Northeast,Amex,TD Bank,486,False,1,843,False,46.1,LOW,False
+EVT-10587,2026-05-19T04:58:19Z,normal,949.21,Subscription,0.0987,2,desktop,FP-52259,ip-940934,Midwest,Discover,Capital One,105,False,1,142,False,173.7,LOW,False
+EVT-10091,2026-05-19T05:00:19Z,normal,136.04,Wire Transfer,0.0705,1,mobile,FP-46216,ip-887104,Southeast,Visa,Chase,1959,False,1,211,False,72.2,LOW,False
+EVT-10757,2026-05-19T05:00:19Z,normal,3627.25,ATM,0.299,6,unknown,FP-50153,ip-934805,Midwest,Mastercard,Citibank,480,False,0,498,False,118.6,LOW,False
+EVT-10936,2026-05-19T05:01:19Z,normal,3079.42,Wire Transfer,0.3084,2,unknown,FP-54605,ip-370853,Northeast,Mastercard,Bank of America,3462,False,1,607,False,65.4,LOW,False
+EVT-10142,2026-05-19T05:01:19Z,normal,248.71,Subscription,0.1043,2,mobile,FP-35324,ip-962702,West,Mastercard,Capital One,3138,False,1,767,False,137.2,LOW,False
+EVT-10211,2026-05-19T05:04:19Z,suspicious,8756.72,ATM,0.4594,16,desktop,FP-50534,ip-256850,Northwest,Visa,Bank of America,3346,False,0,326,False,29.2,MEDIUM,False
+EVT-10789,2026-05-19T05:05:19Z,normal,1676.73,ATM,0.0889,5,mobile,FP-15247,ip-140306,Northeast,Visa,Capital One,2594,False,0,789,False,30.9,LOW,False
+EVT-10865,2026-05-19T05:05:19Z,normal,232.12,Crypto Exchange,0.1965,3,desktop,FP-50153,ip-745200,Southwest,Mastercard,TD Bank,958,False,0,688,False,177.3,LOW,False
+EVT-10174,2026-05-19T05:06:19Z,normal,142.12,Crypto Exchange,0.1514,2,desktop,FP-40832,ip-843661,Southeast,Visa,Bank of America,809,False,0,335,False,5.0,LOW,False
+EVT-10286,2026-05-19T05:09:19Z,normal,334.15,E-Commerce,0.1934,5,tablet,FP-59088,ip-495019,Southwest,Amex,Chase,1071,False,1,148,False,6.7,LOW,False
+EVT-10162,2026-05-19T05:11:19Z,suspicious,6643.46,Crypto Exchange,0.4435,16,desktop,FP-87009,ip-877882,Southwest,Mastercard,Capital One,1941,False,0,299,False,169.1,MEDIUM,True
+EVT-10759,2026-05-19T05:11:19Z,normal,140.13,Crypto Exchange,0.2695,6,mobile,FP-13942,ip-846484,Midwest,Visa,Citibank,3434,False,0,150,False,141.0,LOW,False
+EVT-10046,2026-05-19T05:11:19Z,normal,654.34,ATM,0.0448,3,unknown,FP-18292,ip-429636,Southeast,Mastercard,Citibank,1625,False,0,486,False,66.6,LOW,False
+EVT-10433,2026-05-19T05:12:19Z,normal,252.62,Crypto Exchange,0.3147,7,unknown,FP-23707,ip-230071,Southeast,Amex,Capital One,717,False,1,143,False,136.5,LOW,False
+EVT-10803,2026-05-19T05:12:19Z,normal,3962.38,Wire Transfer,0.3156,4,mobile,FP-83261,ip-495019,Southeast,Mastercard,Bank of America,658,False,0,797,False,54.0,LOW,False
+EVT-10337,2026-05-19T05:13:19Z,suspicious,11479.85,Crypto Exchange,0.5752,17,desktop,FP-76903,ip-282126,West,Discover,TD Bank,1643,False,0,658,False,8.0,HIGH,True
+EVT-10737,2026-05-19T05:14:19Z,normal,646.11,Subscription,0.0502,4,desktop,FP-40832,ip-337172,Southwest,Mastercard,Citibank,2932,False,0,226,False,45.4,LOW,False
+EVT-10341,2026-05-19T05:15:19Z,normal,154.66,POS Retail,0.0008,5,mobile,FP-71532,ip-684861,Midwest,Amex,PNC Bank,1754,False,0,745,False,143.5,LOW,False
+EVT-10446,2026-05-19T05:18:19Z,normal,4999.0,POS Retail,0.2329,3,desktop,FP-97805,ip-957608,West,Discover,Chase,3331,False,1,234,False,182.8,LOW,False
+EVT-10376,2026-05-19T05:18:19Z,suspicious,3835.07,ATM,0.6037,15,desktop,FP-83949,ip-778017,Midwest,Amex,Capital One,329,False,1,87,False,154.6,HIGH,True
+EVT-10138,2026-05-19T05:19:19Z,suspicious,4513.91,E-Commerce,0.5953,18,unknown,FP-80550,ip-962702,Midwest,Visa,Citibank,2617,False,1,253,False,191.7,HIGH,True
+EVT-10617,2026-05-19T05:22:19Z,normal,999.0,Subscription,0.2656,4,desktop,FP-67307,ip-122373,Northwest,Discover,US Bank,402,False,0,77,False,154.6,LOW,False
+EVT-10471,2026-05-19T05:24:19Z,fraudulent,55349.11,Crypto Exchange,0.8334,23,unknown,FP-76216,ip-745200,Southwest,Visa,Wells Fargo,27,True,2,40,True,1819.7,VERY_HIGH,True
+EVT-10693,2026-05-19T05:26:19Z,fraudulent,43703.84,Crypto Exchange,0.888,31,mobile,FP-96569,ip-516884,Northwest,Visa,Chase,12,True,5,28,False,155.7,VERY_HIGH,True
+EVT-10193,2026-05-19T05:28:19Z,fraudulent,8683.79,E-Commerce,0.7425,18,desktop,FP-50534,ip-729735,Midwest,Mastercard,TD Bank,9,True,2,28,False,75.3,HIGH,True
+EVT-10209,2026-05-19T05:29:19Z,suspicious,17296.45,POS Retail,0.4368,10,unknown,FP-54605,ip-198229,Southwest,Amex,Bank of America,2748,False,1,604,False,110.5,MEDIUM,True
+EVT-10942,2026-05-19T05:29:19Z,normal,881.95,Wire Transfer,0.0587,6,tablet,FP-66724,ip-568604,Northwest,Visa,Capital One,2534,False,1,805,False,44.0,LOW,False
+EVT-10806,2026-05-19T05:31:19Z,normal,197.57,E-Commerce,0.2384,7,mobile,FP-55504,ip-577692,Midwest,Amex,Bank of America,2283,False,0,271,False,46.2,LOW,False
+EVT-10814,2026-05-19T05:31:19Z,normal,786.09,Wire Transfer,0.3413,2,tablet,FP-48970,ip-214819,Midwest,Visa,Citibank,1526,False,1,457,False,81.2,LOW,False
+EVT-10456,2026-05-19T05:35:19Z,fraudulent,59137.27,ATM,0.7825,31,desktop,FP-85576,ip-510198,Midwest,Mastercard,Chase,12,True,3,36,True,4698.8,VERY_HIGH,True
+EVT-10039,2026-05-19T05:37:19Z,normal,65.09,POS Retail,0.1099,4,tablet,FP-24514,ip-195307,Northeast,Mastercard,Capital One,1602,False,0,630,False,68.4,LOW,False
+EVT-10200,2026-05-19T05:38:19Z,normal,207.73,Wire Transfer,0.103,5,mobile,FP-84945,ip-488883,Southwest,Amex,Capital One,2770,False,0,526,False,158.5,LOW,False
+EVT-10116,2026-05-19T05:39:19Z,normal,416.21,POS Retail,0.0791,7,desktop,FP-39323,ip-181835,West,Discover,TD Bank,713,False,0,801,False,141.6,LOW,False
+EVT-10494,2026-05-19T05:39:19Z,normal,246.57,ATM,0.0001,5,desktop,FP-24959,ip-197718,Southeast,Discover,TD Bank,599,False,0,802,False,176.1,LOW,False
+EVT-10580,2026-05-19T05:39:19Z,normal,4999.0,Crypto Exchange,0.0072,5,unknown,FP-80822,ip-592122,Southwest,Amex,Chase,1691,False,0,855,False,31.5,LOW,False
+EVT-10359,2026-05-19T05:40:19Z,normal,385.24,POS Retail,0.32,1,desktop,FP-42562,ip-789568,Northeast,Visa,Chase,573,False,1,692,False,117.2,LOW,False
+EVT-10728,2026-05-19T05:40:19Z,suspicious,15393.45,POS Retail,0.4488,14,mobile,FP-39717,ip-261341,Midwest,Amex,Bank of America,2866,False,0,186,False,2.8,MEDIUM,True
+EVT-10663,2026-05-19T05:43:19Z,suspicious,13817.7,E-Commerce,0.6367,8,tablet,FP-68897,ip-659673,West,Amex,Bank of America,2831,False,1,194,False,17.2,HIGH,True
+EVT-10069,2026-05-19T05:43:19Z,normal,585.57,Wire Transfer,0.3687,4,tablet,FP-97074,ip-977638,Midwest,Amex,US Bank,349,False,1,664,False,132.0,MEDIUM,False
+EVT-10559,2026-05-19T05:44:19Z,fraudulent,28361.67,POS Retail,0.8399,33,unknown,FP-73023,ip-412182,Midwest,Discover,US Bank,12,True,5,58,False,7.3,VERY_HIGH,True
+EVT-10687,2026-05-19T05:45:19Z,normal,3115.42,Crypto Exchange,0.0182,2,desktop,FP-91497,ip-555696,Southwest,Visa,Bank of America,806,False,1,575,False,164.5,LOW,False
+EVT-10825,2026-05-19T05:47:19Z,normal,3647.09,POS Retail,0.331,6,unknown,FP-97805,ip-664577,Northeast,Visa,PNC Bank,2657,False,0,699,False,6.3,LOW,False
+EVT-10356,2026-05-19T05:47:19Z,suspicious,9056.53,ATM,0.7187,15,tablet,FP-87245,ip-371961,Southeast,Amex,Chase,1488,False,1,597,False,24.8,HIGH,True
+EVT-10758,2026-05-19T05:48:19Z,normal,1390.09,POS Retail,0.1604,1,unknown,FP-78501,ip-588543,Northwest,Amex,Chase,1724,False,1,269,False,189.8,LOW,False
+EVT-10788,2026-05-19T05:54:19Z,fraudulent,33850.93,Crypto Exchange,0.7322,35,unknown,FP-17735,ip-282126,Southwest,Mastercard,TD Bank,2,False,5,40,False,107.3,HIGH,True
+EVT-10402,2026-05-19T05:54:19Z,normal,292.15,ATM,0.0751,3,unknown,FP-80340,ip-864799,West,Amex,PNC Bank,524,False,1,554,False,175.5,LOW,False
+EVT-10969,2026-05-19T05:56:19Z,normal,214.6,Subscription,0.0798,1,desktop,FP-44872,ip-490328,Southeast,Visa,TD Bank,2470,False,0,725,False,114.7,LOW,False
+EVT-10647,2026-05-19T05:57:19Z,normal,527.93,Subscription,0.276,5,unknown,FP-97361,ip-588019,Midwest,Mastercard,PNC Bank,2142,False,1,701,False,1.4,LOW,False
+EVT-10700,2026-05-19T05:58:19Z,normal,520.39,POS Retail,0.3892,7,unknown,FP-59821,ip-998224,Southwest,Discover,Capital One,3060,False,1,439,False,4.8,MEDIUM,False
+EVT-10694,2026-05-19T05:58:19Z,normal,117.26,Subscription,0.2672,6,desktop,FP-13942,ip-388611,Midwest,Mastercard,Bank of America,2675,False,1,739,False,137.0,LOW,False
+EVT-10796,2026-05-19T05:59:19Z,fraudulent,43154.69,POS Retail,0.758,38,tablet,FP-52398,ip-217951,Midwest,Discover,Chase,24,True,4,12,True,643.7,VERY_HIGH,True
+EVT-10326,2026-05-19T05:59:19Z,normal,218.92,POS Retail,0.3329,6,tablet,FP-24461,ip-975807,Southwest,Mastercard,US Bank,1923,False,1,845,False,127.7,LOW,False
+EVT-10615,2026-05-19T06:00:19Z,normal,181.63,POS Retail,0.1537,2,tablet,FP-52398,ip-614554,Southwest,Visa,Citibank,2371,False,0,544,False,101.0,LOW,False
+EVT-10309,2026-05-19T06:00:19Z,fraudulent,11031.07,POS Retail,0.8617,34,unknown,FP-68910,ip-745200,Northeast,Visa,Bank of America,19,True,5,31,True,2630.6,VERY_HIGH,True
+EVT-10066,2026-05-19T06:01:19Z,fraudulent,18925.15,POS Retail,0.7284,23,mobile,FP-85576,ip-502320,Southwest,Amex,Bank of America,24,True,5,27,True,4948.7,HIGH,True
+EVT-10794,2026-05-19T06:02:19Z,normal,1218.99,Wire Transfer,0.109,4,desktop,FP-54605,ip-436765,Northwest,Visa,Citibank,1716,False,0,835,False,131.3,LOW,False
+EVT-10711,2026-05-19T06:02:19Z,suspicious,15867.15,POS Retail,0.5095,8,unknown,FP-66849,ip-430487,Midwest,Visa,Bank of America,2753,False,1,800,False,96.7,MEDIUM,True
+EVT-10609,2026-05-19T06:03:19Z,suspicious,7569.34,POS Retail,0.5581,8,mobile,FP-67947,ip-495019,Midwest,Mastercard,Wells Fargo,600,False,0,84,False,6.9,HIGH,True
+EVT-10165,2026-05-19T06:04:19Z,normal,339.5,E-Commerce,0.2122,1,mobile,FP-32093,ip-684861,Southwest,Discover,Citibank,2717,False,0,591,False,69.0,LOW,False
+EVT-10801,2026-05-19T06:04:19Z,normal,450.76,ATM,0.1922,5,unknown,FP-92587,ip-733628,Southwest,Visa,TD Bank,2884,False,0,693,False,67.0,LOW,False
+EVT-10624,2026-05-19T06:04:19Z,normal,2078.95,Subscription,0.2724,5,tablet,FP-97074,ip-433829,Northeast,Visa,PNC Bank,182,False,0,354,False,100.0,LOW,False
+EVT-10995,2026-05-19T06:04:19Z,normal,1105.67,Wire Transfer,0.3764,5,unknown,FP-60132,ip-185019,West,Discover,US Bank,480,False,0,490,False,154.6,MEDIUM,False
+EVT-10160,2026-05-19T06:06:19Z,normal,1880.83,ATM,0.0699,6,mobile,FP-86805,ip-957608,Southwest,Amex,PNC Bank,3150,False,1,851,False,43.0,LOW,False
+EVT-10270,2026-05-19T06:07:19Z,normal,785.98,POS Retail,0.1021,7,tablet,FP-20307,ip-140306,Midwest,Amex,TD Bank,2487,False,0,439,False,31.9,LOW,False
+EVT-10958,2026-05-19T06:09:19Z,suspicious,15049.73,Crypto Exchange,0.5071,12,desktop,FP-27517,ip-119902,Southeast,Mastercard,TD Bank,1817,False,1,683,False,136.1,MEDIUM,True
+EVT-10701,2026-05-19T06:10:19Z,normal,2045.37,ATM,0.1474,5,mobile,FP-17735,ip-749454,Midwest,Mastercard,Bank of America,1157,False,0,488,False,45.0,LOW,False
+EVT-10937,2026-05-19T06:11:19Z,fraudulent,24771.97,Crypto Exchange,0.8034,27,unknown,FP-21530,ip-429636,Southwest,Visa,Chase,16,False,3,12,False,62.5,VERY_HIGH,False
+EVT-10262,2026-05-19T06:12:19Z,suspicious,14386.38,Crypto Exchange,0.4413,12,desktop,FP-39717,ip-631823,Northeast,Amex,PNC Bank,107,False,0,887,False,123.6,MEDIUM,True
+EVT-10468,2026-05-19T06:15:19Z,suspicious,3727.96,Subscription,0.5715,10,mobile,FP-61713,ip-339282,Midwest,Discover,Capital One,350,False,1,103,False,14.6,HIGH,False
+EVT-10288,2026-05-19T06:16:19Z,normal,2213.21,Wire Transfer,0.3865,4,unknown,FP-66724,ip-248146,Northeast,Visa,Citibank,1226,False,1,462,False,188.5,MEDIUM,False
+EVT-10553,2026-05-19T06:19:19Z,fraudulent,12108.81,E-Commerce,0.8881,19,tablet,FP-72762,ip-787805,West,Amex,TD Bank,14,True,5,9,False,26.4,VERY_HIGH,False
+EVT-10839,2026-05-19T06:23:19Z,fraudulent,59134.03,Subscription,0.8593,18,unknown,FP-90826,ip-912341,Southwest,Amex,US Bank,8,True,3,12,False,170.2,VERY_HIGH,True
+EVT-10662,2026-05-19T06:24:19Z,normal,1817.88,Subscription,0.2516,1,unknown,FP-64254,ip-598631,Southwest,Discover,PNC Bank,942,False,0,782,False,4.2,LOW,False
+EVT-10584,2026-05-19T06:24:19Z,normal,2920.07,Subscription,0.2735,5,unknown,FP-26429,ip-588019,Northwest,Mastercard,Wells Fargo,2465,False,0,299,False,54.7,LOW,False
+EVT-10443,2026-05-19T06:25:19Z,normal,820.39,Subscription,0.2897,6,unknown,FP-17127,ip-181835,Northwest,Visa,US Bank,2329,False,0,394,False,10.7,LOW,False
+EVT-10522,2026-05-19T06:26:19Z,normal,1341.83,ATM,0.2196,1,tablet,FP-72708,ip-827793,Northwest,Discover,Bank of America,3173,False,0,896,False,93.0,LOW,False
+EVT-10787,2026-05-19T06:28:19Z,normal,2005.73,Wire Transfer,0.2138,1,desktop,FP-18032,ip-773746,Midwest,Visa,Citibank,2198,False,1,551,False,28.0,LOW,False
+EVT-10171,2026-05-19T06:28:19Z,suspicious,8823.96,Wire Transfer,0.7014,15,mobile,FP-55504,ip-174456,Northwest,Amex,Chase,2099,False,0,95,False,68.5,HIGH,False
+EVT-10228,2026-05-19T06:30:19Z,normal,552.16,E-Commerce,0.2957,5,mobile,FP-83949,ip-799663,Midwest,Amex,Citibank,1447,False,0,274,False,189.7,LOW,False
+EVT-10557,2026-05-19T06:32:19Z,suspicious,13200.55,Subscription,0.5134,10,unknown,FP-66678,ip-369993,Midwest,Mastercard,Chase,1166,False,0,520,False,8.6,MEDIUM,True
+EVT-10924,2026-05-19T06:35:19Z,suspicious,5634.02,ATM,0.4239,9,unknown,FP-21692,ip-336214,West,Discover,US Bank,2988,False,1,570,False,166.4,MEDIUM,True
+EVT-10242,2026-05-19T06:40:19Z,normal,2124.45,Wire Transfer,0.2735,4,tablet,FP-71532,ip-747933,Southwest,Mastercard,Bank of America,2891,False,0,287,False,9.1,LOW,False
+EVT-10595,2026-05-19T06:41:19Z,normal,490.84,ATM,0.0473,4,tablet,FP-31488,ip-336214,West,Discover,US Bank,2304,False,0,842,False,115.1,LOW,False
+EVT-10565,2026-05-19T06:42:19Z,fraudulent,17410.88,Crypto Exchange,0.741,29,tablet,FP-66678,ip-960059,Southwest,Visa,TD Bank,5,True,4,58,True,667.4,HIGH,False
+EVT-10941,2026-05-19T06:43:19Z,fraudulent,23707.75,Subscription,0.8152,29,desktop,FP-80745,ip-621297,Southwest,Visa,Chase,23,True,4,5,False,107.8,VERY_HIGH,True
+EVT-10673,2026-05-19T06:44:19Z,fraudulent,28419.14,Crypto Exchange,0.8198,28,tablet,FP-85576,ip-345017,Southwest,Mastercard,Bank of America,27,False,2,27,True,655.1,VERY_HIGH,False
+EVT-10654,2026-05-19T06:44:19Z,suspicious,3602.86,ATM,0.6374,11,tablet,FP-35949,ip-537992,Northeast,Mastercard,Wells Fargo,3493,False,1,525,False,159.2,HIGH,True
+EVT-10575,2026-05-19T06:47:19Z,normal,3977.98,Crypto Exchange,0.2558,4,unknown,FP-81715,ip-599366,Northwest,Amex,Citibank,925,False,0,853,False,71.8,LOW,False
+EVT-10925,2026-05-19T06:49:19Z,normal,1230.51,Wire Transfer,0.1478,4,desktop,FP-59088,ip-693479,Midwest,Amex,Bank of America,670,False,0,867,False,61.9,LOW,False
+EVT-10916,2026-05-19T06:50:19Z,normal,1456.62,Subscription,0.0902,5,mobile,FP-20307,ip-218639,Southwest,Amex,Chase,2038,False,1,481,False,141.7,LOW,False
+EVT-10283,2026-05-19T06:51:19Z,normal,2385.23,Wire Transfer,0.3208,3,tablet,FP-51568,ip-826836,Northwest,Mastercard,Wells Fargo,3466,False,0,162,False,110.6,LOW,False
+EVT-10499,2026-05-19T06:54:19Z,normal,2726.63,ATM,0.3366,6,unknown,FP-10662,ip-932326,Northwest,Mastercard,Wells Fargo,869,False,0,407,False,150.4,LOW,False
+EVT-10798,2026-05-19T06:57:19Z,normal,2168.02,ATM,0.1375,4,desktop,FP-84047,ip-312809,Southwest,Visa,Bank of America,1336,False,1,168,False,7.1,LOW,False
+EVT-10466,2026-05-19T06:57:19Z,normal,693.18,POS Retail,0.2696,3,mobile,FP-80340,ip-195307,West,Amex,Wells Fargo,2128,False,0,79,False,179.0,LOW,False
+EVT-10600,2026-05-19T07:00:19Z,fraudulent,19683.45,ATM,0.9464,24,desktop,FP-76216,ip-429636,Southwest,Amex,Capital One,20,False,5,40,True,3649.8,VERY_HIGH,True
+EVT-10058,2026-05-19T07:02:19Z,normal,369.56,E-Commerce,0.0787,7,desktop,FP-51664,ip-944884,Southeast,Visa,Chase,1298,False,1,170,False,136.9,LOW,False
+EVT-10204,2026-05-19T07:02:19Z,normal,90.75,Wire Transfer,0.2158,2,desktop,FP-25027,ip-695494,Midwest,Mastercard,TD Bank,2173,False,0,101,False,116.6,LOW,False
+EVT-10331,2026-05-19T07:03:19Z,suspicious,9615.91,POS Retail,0.6385,10,desktop,FP-17127,ip-140306,Northwest,Amex,TD Bank,1760,False,1,371,False,136.1,HIGH,True
+EVT-10859,2026-05-19T07:03:19Z,fraudulent,53780.46,E-Commerce,0.9375,39,mobile,FP-74572,ip-504424,Midwest,Discover,Chase,15,False,2,58,False,104.1,VERY_HIGH,True
+EVT-10477,2026-05-19T07:05:19Z,normal,299.12,Wire Transfer,0.0049,4,desktop,FP-17127,ip-745200,Southeast,Discover,Wells Fargo,1441,False,1,552,False,36.8,LOW,False
+EVT-10771,2026-05-19T07:08:19Z,fraudulent,52125.23,Subscription,0.7462,22,mobile,FP-59190,ip-511675,Midwest,Amex,Bank of America,17,False,5,13,False,158.0,HIGH,True
+EVT-10730,2026-05-19T07:08:19Z,normal,226.3,ATM,0.0376,4,unknown,FP-81715,ip-171328,Midwest,Visa,Bank of America,916,False,0,344,False,95.8,LOW,False
+EVT-10182,2026-05-19T07:08:19Z,normal,991.32,Crypto Exchange,0.2351,2,tablet,FP-67307,ip-378959,West,Visa,TD Bank,1711,False,0,191,False,200.0,LOW,False
+EVT-10664,2026-05-19T07:13:19Z,normal,1337.86,ATM,0.0467,7,tablet,FP-75011,ip-709931,Southeast,Mastercard,TD Bank,604,False,0,369,False,165.8,LOW,False
+EVT-10812,2026-05-19T07:14:19Z,normal,862.66,Crypto Exchange,0.2396,1,unknown,FP-49498,ip-336214,Southeast,Amex,Bank of America,3566,False,1,739,False,159.5,LOW,False
+EVT-10823,2026-05-19T07:14:19Z,normal,671.64,ATM,0.3879,4,tablet,FP-90826,ip-972377,West,Amex,Chase,2360,False,0,241,False,130.1,MEDIUM,False
+EVT-10007,2026-05-19T07:16:19Z,fraudulent,31450.07,POS Retail,0.8699,38,unknown,FP-12044,ip-992243,Southwest,Visa,Bank of America,18,True,4,47,True,3807.0,VERY_HIGH,True
+EVT-10849,2026-05-19T07:16:19Z,normal,31.8,POS Retail,0.1334,7,mobile,FP-12773,ip-319485,West,Visa,TD Bank,2893,False,0,882,False,199.5,LOW,False
+EVT-10482,2026-05-19T07:17:19Z,suspicious,16766.88,POS Retail,0.6166,18,desktop,FP-60883,ip-197718,Midwest,Amex,TD Bank,596,False,0,748,False,15.5,HIGH,True
+EVT-10885,2026-05-19T07:19:19Z,fraudulent,51976.92,Crypto Exchange,0.8679,18,unknown,FP-49088,ip-483293,Northwest,Visa,Citibank,7,True,2,10,False,98.7,VERY_HIGH,True
+EVT-10653,2026-05-19T07:20:19Z,normal,228.44,Crypto Exchange,0.1035,5,unknown,FP-38112,ip-693479,Midwest,Visa,Citibank,3633,False,1,373,False,13.5,LOW,False
+EVT-10072,2026-05-19T07:21:19Z,normal,667.54,E-Commerce,0.0367,4,tablet,FP-46216,ip-140306,Southeast,Visa,TD Bank,794,False,1,616,False,65.3,LOW,False
+EVT-10826,2026-05-19T07:21:19Z,normal,391.07,E-Commerce,0.2278,5,tablet,FP-31488,ip-960059,Northwest,Amex,PNC Bank,3567,False,0,561,False,56.2,LOW,False
+EVT-10520,2026-05-19T07:21:19Z,normal,690.83,Crypto Exchange,0.0344,6,tablet,FP-16112,ip-185225,Midwest,Visa,Capital One,374,False,1,474,False,10.6,LOW,False
+EVT-10576,2026-05-19T07:25:19Z,normal,314.0,POS Retail,0.3893,4,tablet,FP-40085,ip-944042,Midwest,Mastercard,Wells Fargo,1127,False,1,231,False,175.1,MEDIUM,False
+EVT-10095,2026-05-19T07:26:19Z,normal,686.7,Wire Transfer,0.0773,5,unknown,FP-55031,ip-457819,Southwest,Amex,Citibank,1655,False,1,86,False,71.7,LOW,False
+EVT-10438,2026-05-19T07:26:19Z,normal,203.49,POS Retail,0.2722,4,desktop,FP-24514,ip-197718,Northwest,Amex,Wells Fargo,1301,False,1,185,False,120.5,LOW,False
+EVT-10185,2026-05-19T07:27:19Z,fraudulent,12505.88,Wire Transfer,0.8231,40,unknown,FP-87272,ip-763226,Midwest,Mastercard,Capital One,10,True,3,41,True,1678.5,VERY_HIGH,True
+EVT-10245,2026-05-19T07:31:19Z,normal,488.32,E-Commerce,0.0417,2,desktop,FP-24461,ip-964255,Midwest,Mastercard,PNC Bank,889,False,0,767,False,111.4,LOW,False
+EVT-10642,2026-05-19T07:33:19Z,fraudulent,11878.52,E-Commerce,0.8272,29,unknown,FP-91055,ip-185225,Northwest,Visa,Citibank,11,True,3,14,True,778.2,VERY_HIGH,True
+EVT-10570,2026-05-19T07:33:19Z,fraudulent,12242.22,E-Commerce,0.9429,44,unknown,FP-28132,ip-592215,Northwest,Amex,TD Bank,3,True,5,32,True,3751.4,VERY_HIGH,True
+EVT-10495,2026-05-19T07:38:19Z,normal,4999.0,Crypto Exchange,0.2653,4,unknown,FP-90380,ip-932326,Northwest,Discover,PNC Bank,1197,False,0,446,False,50.1,LOW,False
+EVT-10275,2026-05-19T07:39:19Z,normal,378.05,E-Commerce,0.3929,4,mobile,FP-64647,ip-817134,West,Visa,Capital One,914,False,0,105,False,120.2,MEDIUM,False
+EVT-10933,2026-05-19T07:40:19Z,normal,726.76,POS Retail,0.3201,4,tablet,FP-59912,ip-490328,Southwest,Visa,Capital One,2280,False,1,269,False,35.0,LOW,False
+EVT-10531,2026-05-19T07:40:19Z,normal,1339.74,E-Commerce,0.0894,2,desktop,FP-60132,ip-218639,Midwest,Mastercard,Wells Fargo,1794,False,1,360,False,8.4,LOW,False
+EVT-10539,2026-05-19T07:42:19Z,normal,68.82,Wire Transfer,0.2778,2,mobile,FP-71012,ip-733628,Southeast,Amex,TD Bank,1148,False,1,175,False,124.2,LOW,False
+EVT-10143,2026-05-19T07:45:19Z,normal,969.31,ATM,0.0866,2,desktop,FP-12773,ip-887104,Southeast,Visa,Wells Fargo,1297,False,1,153,False,113.8,LOW,False
+EVT-10773,2026-05-19T07:45:19Z,normal,843.9,E-Commerce,0.1286,5,desktop,FP-24461,ip-862280,Northeast,Amex,Capital One,1144,False,1,711,False,86.8,LOW,False
+EVT-10766,2026-05-19T07:47:19Z,normal,4999.0,Subscription,0.0479,4,unknown,FP-73464,ip-427310,Southeast,Mastercard,Wells Fargo,823,False,0,158,False,109.8,LOW,False
+EVT-10164,2026-05-19T07:48:19Z,normal,754.18,Crypto Exchange,0.2458,2,desktop,FP-39323,ip-887104,Midwest,Visa,Wells Fargo,1715,False,1,151,False,49.7,LOW,False
+EVT-10061,2026-05-19T07:50:19Z,fraudulent,12578.64,ATM,0.8748,43,desktop,FP-50534,ip-557534,Northeast,Visa,TD Bank,11,True,5,33,True,1221.4,VERY_HIGH,True
+EVT-10273,2026-05-19T07:52:19Z,normal,668.45,POS Retail,0.0692,1,desktop,FP-96569,ip-510198,West,Visa,Capital One,330,False,0,287,False,127.9,LOW,False
+EVT-10535,2026-05-19T07:53:19Z,normal,4999.0,Subscription,0.2246,6,desktop,FP-59912,ip-579840,West,Visa,Chase,495,False,1,672,False,175.5,LOW,False
+EVT-10071,2026-05-19T07:53:19Z,fraudulent,41299.76,Wire Transfer,0.9853,22,tablet,FP-74572,ip-827793,Southwest,Visa,Capital One,12,False,4,37,False,83.9,VERY_HIGH,True
+EVT-10899,2026-05-19T07:59:19Z,suspicious,16965.93,Crypto Exchange,0.5443,16,unknown,FP-40504,ip-754294,Northeast,Amex,Chase,1645,False,0,64,False,118.0,MEDIUM,True
+EVT-10276,2026-05-19T08:00:19Z,normal,4999.0,E-Commerce,0.2417,2,unknown,FP-59821,ip-799663,Southwest,Discover,Wells Fargo,233,False,0,657,False,135.6,LOW,False
+EVT-10172,2026-05-19T08:01:19Z,fraudulent,46091.1,POS Retail,0.7566,24,unknown,FP-23707,ip-846484,West,Discover,Chase,16,False,3,44,True,1232.9,VERY_HIGH,False
+EVT-10064,2026-05-19T08:02:19Z,normal,3415.62,Wire Transfer,0.0979,4,mobile,FP-72762,ip-325461,Northeast,Discover,Wells Fargo,1836,False,0,805,False,103.5,LOW,False
+EVT-10851,2026-05-19T08:03:19Z,suspicious,17329.55,Wire Transfer,0.5829,8,tablet,FP-87272,ip-122591,Midwest,Mastercard,Citibank,3471,False,0,869,False,118.8,HIGH,True
+EVT-10437,2026-05-19T08:06:19Z,suspicious,2782.66,ATM,0.4985,15,mobile,FP-79105,ip-806286,Midwest,Amex,Capital One,955,False,1,353,False,48.9,MEDIUM,True
+EVT-10912,2026-05-19T08:06:19Z,normal,1255.51,Crypto Exchange,0.2002,4,mobile,FP-66678,ip-116053,Northwest,Mastercard,Wells Fargo,2888,False,1,108,False,0.1,LOW,False
+EVT-10686,2026-05-19T08:08:19Z,normal,194.89,POS Retail,0.0667,3,mobile,FP-80340,ip-631823,West,Discover,PNC Bank,703,False,1,715,False,76.6,LOW,False
+EVT-10938,2026-05-19T08:09:19Z,normal,934.27,Wire Transfer,0.1208,1,mobile,FP-93407,ip-309376,Southeast,Mastercard,TD Bank,469,False,1,164,False,175.9,LOW,False
+EVT-10457,2026-05-19T08:10:19Z,suspicious,16922.6,POS Retail,0.556,17,mobile,FP-35324,ip-964255,Midwest,Visa,US Bank,143,False,0,438,False,199.0,HIGH,True
+EVT-10186,2026-05-19T08:11:19Z,suspicious,14076.0,POS Retail,0.545,14,tablet,FP-52004,ip-645413,Northeast,Discover,Wells Fargo,299,False,0,498,False,158.7,MEDIUM,True
+EVT-10974,2026-05-19T08:15:19Z,normal,3452.77,POS Retail,0.3808,5,unknown,FP-60870,ip-475331,West,Mastercard,Wells Fargo,1633,False,0,76,False,179.2,MEDIUM,False
+EVT-10354,2026-05-19T08:16:19Z,suspicious,3579.15,ATM,0.622,9,desktop,FP-96569,ip-544591,Southwest,Visa,Wells Fargo,2041,False,0,841,False,113.0,HIGH,True
+EVT-10669,2026-05-19T08:18:19Z,normal,403.71,Crypto Exchange,0.3512,4,mobile,FP-57382,ip-598631,Southwest,Amex,Citibank,2093,False,0,670,False,68.0,MEDIUM,False
+EVT-10135,2026-05-19T08:19:19Z,normal,666.74,Wire Transfer,0.3151,1,tablet,FP-39717,ip-316873,Northwest,Visa,TD Bank,828,False,1,463,False,60.3,LOW,False
+EVT-10324,2026-05-19T08:20:19Z,suspicious,13733.55,Wire Transfer,0.5598,14,desktop,FP-32093,ip-763226,Northeast,Mastercard,Chase,958,False,0,80,False,176.7,HIGH,True
+EVT-10677,2026-05-19T08:21:19Z,normal,214.73,Subscription,0.1986,1,mobile,FP-15247,ip-992243,Northwest,Mastercard,US Bank,3647,False,0,640,False,32.3,LOW,False
+EVT-10932,2026-05-19T08:22:19Z,normal,417.66,ATM,0.0281,4,tablet,FP-61713,ip-116053,Southeast,Discover,Wells Fargo,466,False,0,392,False,44.1,LOW,False
+EVT-10871,2026-05-19T08:22:19Z,suspicious,13027.02,POS Retail,0.5991,12,tablet,FP-80822,ip-520396,Midwest,Mastercard,Wells Fargo,2249,False,0,376,False,188.4,HIGH,True
+EVT-10780,2026-05-19T08:22:19Z,normal,121.97,Crypto Exchange,0.1152,7,tablet,FP-69571,ip-579840,Southwest,Mastercard,US Bank,3396,False,0,866,False,112.4,LOW,False
+EVT-10748,2026-05-19T08:23:19Z,suspicious,10632.68,E-Commerce,0.598,15,desktop,FP-40085,ip-520396,Northwest,Amex,US Bank,1510,False,1,694,False,6.8,HIGH,True
+EVT-10373,2026-05-19T08:26:19Z,normal,1774.46,POS Retail,0.2077,7,unknown,FP-93407,ip-259095,Southeast,Amex,Bank of America,341,False,1,624,False,20.5,LOW,False
+EVT-10558,2026-05-19T08:27:19Z,normal,108.48,ATM,0.2282,4,unknown,FP-12044,ip-887104,West,Mastercard,Chase,2576,False,1,566,False,69.1,LOW,False
+EVT-10626,2026-05-19T08:29:19Z,suspicious,11268.16,POS Retail,0.6273,11,tablet,FP-90826,ip-864799,West,Visa,Chase,531,False,1,113,False,30.9,HIGH,False
+EVT-10657,2026-05-19T08:32:19Z,suspicious,13108.16,E-Commerce,0.4846,19,desktop,FP-73046,ip-378959,Southwest,Amex,Capital One,2601,False,0,192,False,27.1,MEDIUM,False
+EVT-10378,2026-05-19T08:33:19Z,normal,3810.14,Subscription,0.3201,1,desktop,FP-59190,ip-665870,Midwest,Amex,Capital One,341,False,0,216,False,169.2,LOW,False
+EVT-10427,2026-05-19T08:36:19Z,fraudulent,29112.39,E-Commerce,0.9045,36,mobile,FP-51301,ip-724835,Midwest,Discover,Chase,23,False,2,19,True,2509.6,VERY_HIGH,True
+EVT-10480,2026-05-19T08:41:19Z,normal,1616.9,Subscription,0.2663,6,unknown,FP-90380,ip-541635,West,Visa,Capital One,2163,False,1,345,False,173.7,LOW,False
+EVT-10943,2026-05-19T08:42:19Z,normal,195.06,E-Commerce,0.2644,4,tablet,FP-72708,ip-590503,Southeast,Mastercard,Chase,2747,False,1,778,False,9.8,LOW,False
+EVT-10423,2026-05-19T08:44:19Z,normal,578.94,Wire Transfer,0.245,6,unknown,FP-74572,ip-175949,West,Visa,US Bank,2845,False,0,656,False,51.9,LOW,False
+EVT-10707,2026-05-19T08:44:19Z,fraudulent,52126.65,Subscription,0.9728,39,tablet,FP-12044,ip-862280,Northeast,Discover,Wells Fargo,22,True,3,34,True,3044.5,VERY_HIGH,True
+EVT-10720,2026-05-19T08:45:19Z,suspicious,5926.19,Subscription,0.4924,12,tablet,FP-90826,ip-276791,Midwest,Discover,Capital One,622,False,0,509,False,20.6,MEDIUM,True
+EVT-10036,2026-05-19T08:45:19Z,suspicious,10353.94,Subscription,0.6847,9,unknown,FP-79105,ip-382363,Northeast,Mastercard,Wells Fargo,479,False,0,91,False,9.7,HIGH,True
+EVT-10705,2026-05-19T08:46:19Z,fraudulent,11483.15,E-Commerce,0.888,28,desktop,FP-78501,ip-511675,West,Visa,Citibank,8,True,3,8,False,147.7,VERY_HIGH,True
+EVT-10965,2026-05-19T08:48:19Z,normal,365.13,E-Commerce,0.2466,5,desktop,FP-71423,ip-957608,West,Discover,US Bank,1150,False,0,569,False,85.2,LOW,False
+EVT-10197,2026-05-19T08:49:19Z,suspicious,12585.69,Crypto Exchange,0.5581,17,mobile,FP-21692,ip-588543,Midwest,Amex,Wells Fargo,2816,False,1,282,False,65.4,HIGH,True
+EVT-10746,2026-05-19T08:51:19Z,normal,179.28,Wire Transfer,0.0965,7,desktop,FP-64254,ip-754294,Southeast,Visa,PNC Bank,1447,False,1,524,False,44.5,LOW,False
+EVT-10047,2026-05-19T08:54:19Z,suspicious,15268.7,Subscription,0.5264,14,tablet,FP-71012,ip-670870,West,Amex,Wells Fargo,968,False,0,785,False,45.7,MEDIUM,False
+EVT-10032,2026-05-19T08:55:19Z,normal,1959.06,Wire Transfer,0.0766,2,mobile,FP-70155,ip-697204,Midwest,Mastercard,US Bank,116,False,1,436,False,119.7,LOW,False
+EVT-10906,2026-05-19T08:55:19Z,normal,427.65,POS Retail,0.2925,5,mobile,FP-66849,ip-750989,Southeast,Visa,Wells Fargo,2823,False,1,639,False,88.2,LOW,False
+EVT-10999,2026-05-19T08:55:19Z,normal,51.99,Crypto Exchange,0.0999,5,unknown,FP-20620,ip-491586,West,Visa,Chase,3066,False,1,660,False,27.4,LOW,False
+EVT-10462,2026-05-19T08:55:19Z,normal,261.88,E-Commerce,0.3718,4,desktop,FP-46976,ip-964255,West,Mastercard,TD Bank,1075,False,0,812,False,178.9,MEDIUM,False
+EVT-10502,2026-05-19T08:55:19Z,normal,748.97,Subscription,0.3718,5,desktop,FP-60870,ip-516884,Northwest,Discover,US Bank,2447,False,0,206,False,49.4,MEDIUM,False
+EVT-10386,2026-05-19T08:56:19Z,fraudulent,51213.81,Wire Transfer,0.7397,30,mobile,FP-71532,ip-972257,Northeast,Visa,US Bank,22,False,5,12,False,46.9,HIGH,True
+EVT-10088,2026-05-19T08:56:19Z,normal,578.1,E-Commerce,0.1675,4,unknown,FP-55031,ip-960059,Northeast,Mastercard,Bank of America,1948,False,0,531,False,54.1,LOW,False
+EVT-10486,2026-05-19T08:56:19Z,normal,1350.69,E-Commerce,0.2727,5,mobile,FP-86956,ip-693479,Northeast,Amex,US Bank,1352,False,1,183,False,145.9,LOW,False
+EVT-10783,2026-05-19T08:58:19Z,fraudulent,11170.32,ATM,0.7711,21,tablet,FP-79655,ip-244916,Southwest,Discover,Capital One,22,True,3,34,False,110.2,VERY_HIGH,True
+EVT-10393,2026-05-19T08:58:19Z,suspicious,3391.23,Crypto Exchange,0.6758,15,unknown,FP-80232,ip-846484,Northeast,Mastercard,Wells Fargo,2381,False,0,303,False,102.1,HIGH,True
+EVT-10130,2026-05-19T09:00:19Z,fraudulent,51566.91,ATM,0.8318,24,mobile,FP-21530,ip-808197,Midwest,Discover,Chase,7,False,2,16,False,169.7,VERY_HIGH,True
+EVT-10697,2026-05-19T09:03:19Z,suspicious,12740.88,ATM,0.441,9,desktop,FP-30421,ip-642795,West,Discover,Bank of America,1588,False,0,875,False,164.0,MEDIUM,False
+EVT-10688,2026-05-19T09:04:19Z,normal,793.92,POS Retail,0.2594,7,unknown,FP-35949,ip-566972,Midwest,Amex,Wells Fargo,490,False,1,316,False,10.9,LOW,False
+EVT-10875,2026-05-19T09:05:19Z,fraudulent,46172.53,E-Commerce,0.9001,44,mobile,FP-82440,ip-226201,Northwest,Amex,Chase,5,True,5,28,False,118.1,VERY_HIGH,False
+EVT-10866,2026-05-19T09:06:19Z,fraudulent,39622.48,ATM,0.9566,18,tablet,FP-67947,ip-932607,Northwest,Discover,Bank of America,20,False,3,36,False,133.6,VERY_HIGH,True
+EVT-10050,2026-05-19T09:11:19Z,fraudulent,52052.03,Crypto Exchange,0.7912,38,unknown,FP-80264,ip-966889,West,Discover,Chase,18,False,2,24,True,4096.5,VERY_HIGH,True
+EVT-10255,2026-05-19T09:11:19Z,normal,594.18,ATM,0.3656,3,mobile,FP-80550,ip-140306,Northeast,Visa,Wells Fargo,3389,False,1,825,False,118.4,MEDIUM,False
+EVT-10201,2026-05-19T09:12:19Z,fraudulent,49317.5,E-Commerce,0.8756,23,tablet,FP-71473,ip-226305,Northwest,Discover,Citibank,11,False,3,54,False,107.5,VERY_HIGH,False
+EVT-10593,2026-05-19T09:13:19Z,suspicious,16147.67,POS Retail,0.7246,10,tablet,FP-10662,ip-998224,Northwest,Visa,US Bank,243,False,0,119,False,7.1,HIGH,True
+EVT-10073,2026-05-19T09:13:19Z,suspicious,15602.84,Subscription,0.6404,17,mobile,FP-67947,ip-226305,Northeast,Mastercard,Capital One,3345,False,0,703,False,56.7,HIGH,False
+EVT-10045,2026-05-19T09:14:19Z,fraudulent,7259.35,Crypto Exchange,0.7383,19,unknown,FP-57382,ip-917721,Midwest,Mastercard,Bank of America,29,True,2,39,True,3641.9,HIGH,True
+EVT-10243,2026-05-19T09:15:19Z,normal,197.74,Wire Transfer,0.0838,6,desktop,FP-22581,ip-969607,Northeast,Amex,Citibank,2307,False,0,553,False,153.5,LOW,False
+EVT-10883,2026-05-19T09:15:19Z,suspicious,10375.3,POS Retail,0.6876,13,desktop,FP-80745,ip-729735,Northeast,Mastercard,Citibank,1024,False,1,616,False,130.9,HIGH,False
+EVT-10733,2026-05-19T09:16:19Z,fraudulent,27724.93,E-Commerce,0.8564,29,tablet,FP-30421,ip-939719,Southwest,Discover,Wells Fargo,14,True,4,5,False,112.9,VERY_HIGH,True
+EVT-10259,2026-05-19T09:16:19Z,normal,268.74,POS Retail,0.2983,4,mobile,FP-56189,ip-944884,Southwest,Mastercard,Chase,2789,False,1,611,False,22.2,LOW,False
+EVT-10282,2026-05-19T09:19:19Z,normal,1281.77,E-Commerce,0.1139,1,desktop,FP-46767,ip-864799,Northwest,Amex,TD Bank,1157,False,1,814,False,183.8,LOW,False
+EVT-10717,2026-05-19T09:20:19Z,suspicious,4186.18,POS Retail,0.6977,11,mobile,FP-83949,ip-279797,Northeast,Discover,Citibank,413,False,1,791,False,25.5,HIGH,True
+EVT-10161,2026-05-19T09:20:19Z,normal,164.96,E-Commerce,0.2475,6,desktop,FP-50153,ip-488883,West,Amex,Bank of America,1695,False,0,139,False,197.5,LOW,False
+EVT-10049,2026-05-19T09:21:19Z,normal,44.85,E-Commerce,0.2277,4,mobile,FP-32093,ip-490328,Northeast,Amex,US Bank,1719,False,1,474,False,170.7,LOW,False
+EVT-10453,2026-05-19T09:22:19Z,fraudulent,46964.46,Wire Transfer,0.7622,21,mobile,FP-72762,ip-511675,West,Discover,Bank of America,26,True,5,49,True,4911.1,VERY_HIGH,True
+EVT-10015,2026-05-19T09:22:19Z,fraudulent,6594.97,POS Retail,0.76,24,unknown,FP-69571,ip-218994,Northeast,Discover,US Bank,29,False,2,55,True,732.5,VERY_HIGH,False
+EVT-10572,2026-05-19T09:24:19Z,fraudulent,38017.95,E-Commerce,0.7847,31,desktop,FP-76216,ip-186751,West,Amex,Citibank,13,True,5,51,False,50.0,VERY_HIGH,True
+EVT-10702,2026-05-19T09:24:19Z,normal,263.04,POS Retail,0.0446,3,tablet,FP-66724,ip-808197,Northwest,Amex,Chase,1611,False,0,503,False,128.5,LOW,False
+EVT-10566,2026-05-19T09:25:19Z,normal,241.92,ATM,0.2465,7,desktop,FP-89909,ip-357801,Midwest,Mastercard,Wells Fargo,3339,False,0,231,False,71.4,LOW,False
+EVT-10399,2026-05-19T09:26:19Z,suspicious,10024.7,Subscription,0.6934,18,desktop,FP-96371,ip-514030,Southwest,Amex,Bank of America,1509,False,0,802,False,158.1,HIGH,True
+EVT-10330,2026-05-19T09:28:19Z,normal,1194.47,Wire Transfer,0.3711,2,mobile,FP-50540,ip-207004,Midwest,Visa,TD Bank,297,False,0,334,False,49.7,MEDIUM,False
+EVT-10052,2026-05-19T09:28:19Z,fraudulent,53951.07,ATM,0.8863,26,mobile,FP-69571,ip-684861,Northeast,Discover,US Bank,29,True,5,32,True,574.6,VERY_HIGH,False
+EVT-10873,2026-05-19T09:29:19Z,normal,3155.07,E-Commerce,0.0805,2,unknown,FP-86956,ip-697204,Southeast,Discover,Chase,648,False,1,558,False,134.1,LOW,False
+EVT-10272,2026-05-19T09:32:19Z,suspicious,17035.89,ATM,0.5608,16,unknown,FP-69835,ip-259095,Southeast,Amex,US Bank,3091,False,1,96,False,152.2,HIGH,True
+EVT-10972,2026-05-19T09:33:19Z,fraudulent,52784.51,Wire Transfer,0.8164,42,tablet,FP-99648,ip-352457,Northwest,Visa,US Bank,22,True,4,7,False,155.0,VERY_HIGH,False
+EVT-10384,2026-05-19T09:33:19Z,normal,954.07,E-Commerce,0.3192,5,desktop,FP-21365,ip-696577,Midwest,Amex,TD Bank,2894,False,0,62,False,187.0,LOW,False
+EVT-10299,2026-05-19T09:34:19Z,normal,1194.63,ATM,0.248,5,mobile,FP-60132,ip-116165,Northwest,Mastercard,Wells Fargo,1063,False,0,114,False,172.2,LOW,False
+EVT-10310,2026-05-19T09:36:19Z,suspicious,10985.44,ATM,0.471,10,desktop,FP-16870,ip-249373,Southwest,Discover,Bank of America,1264,False,1,517,False,45.0,MEDIUM,True
+EVT-10306,2026-05-19T09:36:19Z,normal,776.88,Wire Transfer,0.3265,5,tablet,FP-15247,ip-823711,Midwest,Discover,PNC Bank,2121,False,0,389,False,82.8,LOW,False
+EVT-10843,2026-05-19T09:37:19Z,normal,45.9,Wire Transfer,0.163,3,mobile,FP-39323,ip-226305,West,Mastercard,Citibank,849,False,1,67,False,115.7,LOW,False
+EVT-10208,2026-05-19T09:43:19Z,normal,4999.0,Subscription,0.0423,4,desktop,FP-72762,ip-557534,Northwest,Discover,US Bank,484,False,1,382,False,160.5,LOW,False
+EVT-10425,2026-05-19T09:44:19Z,suspicious,4402.24,Subscription,0.6771,8,desktop,FP-23885,ip-566972,Northeast,Amex,US Bank,1496,False,0,249,False,88.6,HIGH,False
+EVT-10951,2026-05-19T09:47:19Z,normal,1288.43,POS Retail,0.2786,5,mobile,FP-19552,ip-549247,Midwest,Mastercard,Bank of America,640,False,1,308,False,37.6,LOW,False
+EVT-10145,2026-05-19T09:48:19Z,normal,154.46,Wire Transfer,0.1764,7,unknown,FP-83949,ip-765084,West,Visa,TD Bank,3510,False,0,770,False,109.2,LOW,False
+EVT-10986,2026-05-19T09:49:19Z,normal,408.2,POS Retail,0.1778,2,unknown,FP-81715,ip-684861,Northwest,Mastercard,Bank of America,2793,False,1,341,False,139.6,LOW,False
+EVT-10784,2026-05-19T09:49:19Z,normal,241.67,Subscription,0.2841,5,unknown,FP-99648,ip-684861,Northwest,Amex,PNC Bank,3203,False,0,629,False,60.0,LOW,False
+EVT-10267,2026-05-19T09:49:19Z,suspicious,5397.55,Wire Transfer,0.4576,10,mobile,FP-59821,ip-826836,West,Discover,Bank of America,1743,False,1,748,False,63.3,MEDIUM,True
+EVT-10082,2026-05-19T09:49:19Z,normal,480.1,Crypto Exchange,0.1965,6,unknown,FP-52004,ip-684861,Northwest,Visa,Wells Fargo,1990,False,1,798,False,30.7,LOW,False
+EVT-10415,2026-05-19T09:50:19Z,suspicious,3824.62,Subscription,0.4862,19,mobile,FP-18032,ip-511675,Northeast,Amex,PNC Bank,2552,False,0,424,False,54.6,MEDIUM,False
+EVT-10077,2026-05-19T09:53:19Z,normal,553.12,Subscription,0.3264,3,desktop,FP-79438,ip-695494,Northeast,Mastercard,TD Bank,568,False,0,367,False,67.2,LOW,False
+EVT-10623,2026-05-19T09:55:19Z,normal,4999.0,E-Commerce,0.3623,3,desktop,FP-21530,ip-827793,Southwest,Mastercard,US Bank,2570,False,0,449,False,70.9,MEDIUM,False
+EVT-10390,2026-05-19T09:56:19Z,fraudulent,22605.76,Crypto Exchange,0.783,32,desktop,FP-43371,ip-549247,West,Amex,Chase,23,True,4,13,False,40.2,VERY_HIGH,True
+EVT-10896,2026-05-19T09:56:19Z,normal,417.37,POS Retail,0.0461,2,unknown,FP-79655,ip-541635,Southeast,Visa,US Bank,3379,False,1,317,False,151.0,LOW,False
+EVT-10237,2026-05-19T09:57:19Z,suspicious,6844.27,E-Commerce,0.6483,11,mobile,FP-12773,ip-116165,Northwest,Amex,TD Bank,2616,False,1,545,False,77.1,HIGH,True
+EVT-10413,2026-05-19T09:58:19Z,normal,742.15,Crypto Exchange,0.3754,2,unknown,FP-78849,ip-862280,Northeast,Mastercard,TD Bank,3187,False,1,485,False,124.6,MEDIUM,False
+EVT-10190,2026-05-19T09:59:19Z,normal,252.85,Subscription,0.2442,7,desktop,FP-70155,ip-526139,Northeast,Amex,PNC Bank,107,False,1,93,False,8.6,LOW,False
+EVT-10734,2026-05-19T10:00:19Z,suspicious,9263.92,POS Retail,0.4476,13,unknown,FP-51301,ip-544591,Southwest,Discover,Citibank,3404,False,0,404,False,91.6,MEDIUM,True
+EVT-10681,2026-05-19T10:02:19Z,fraudulent,5191.51,Crypto Exchange,0.7705,36,unknown,FP-97805,ip-259095,Midwest,Visa,Citibank,13,True,5,49,False,104.3,VERY_HIGH,True
+EVT-10610,2026-05-19T10:05:19Z,suspicious,10134.23,Wire Transfer,0.7018,17,unknown,FP-85751,ip-259095,Northeast,Visa,Bank of America,2911,False,1,880,False,119.4,HIGH,True
+EVT-10880,2026-05-19T10:05:19Z,normal,70.19,E-Commerce,0.283,7,mobile,FP-59912,ip-471313,Southeast,Mastercard,Chase,2218,False,1,861,False,104.8,LOW,False
+EVT-10538,2026-05-19T10:05:19Z,normal,405.15,E-Commerce,0.1721,4,tablet,FP-99648,ip-904101,Midwest,Amex,TD Bank,141,False,0,123,False,61.8,LOW,False
+EVT-10940,2026-05-19T10:10:19Z,suspicious,3169.64,POS Retail,0.5911,11,unknown,FP-36423,ip-545558,Midwest,Mastercard,Chase,1784,False,0,107,False,135.2,HIGH,False
+EVT-10590,2026-05-19T10:12:19Z,suspicious,3353.22,Wire Transfer,0.4792,17,unknown,FP-24870,ip-665870,Southwest,Amex,TD Bank,839,False,0,454,False,130.2,MEDIUM,True
+EVT-10118,2026-05-19T10:12:19Z,normal,167.32,Wire Transfer,0.326,6,desktop,FP-38112,ip-382363,Midwest,Mastercard,Bank of America,1754,False,0,262,False,35.3,LOW,False
+EVT-10057,2026-05-19T10:14:19Z,fraudulent,10492.44,Wire Transfer,0.9282,18,desktop,FP-50534,ip-749454,Midwest,Amex,US Bank,12,False,4,39,True,3239.3,VERY_HIGH,True
+EVT-10761,2026-05-19T10:14:19Z,normal,245.04,ATM,0.2189,7,desktop,FP-72668,ip-621297,Southeast,Discover,Chase,195,False,1,684,False,85.7,LOW,False
+EVT-10318,2026-05-19T10:16:19Z,normal,483.15,ATM,0.0759,5,mobile,FP-87009,ip-645413,West,Mastercard,Wells Fargo,310,False,1,563,False,117.8,LOW,False
+EVT-10838,2026-05-19T10:21:19Z,fraudulent,30389.34,Crypto Exchange,0.8285,34,tablet,FP-50534,ip-345017,Southwest,Amex,US Bank,14,True,3,44,False,40.3,VERY_HIGH,True
+EVT-10269,2026-05-19T10:27:19Z,normal,1608.21,Crypto Exchange,0.3838,2,tablet,FP-92587,ip-614554,West,Amex,Capital One,1652,False,1,110,False,66.3,MEDIUM,False
+EVT-10127,2026-05-19T10:27:19Z,suspicious,4047.99,Wire Transfer,0.5553,10,desktop,FP-35949,ip-789568,Southwest,Visa,PNC Bank,676,False,1,502,False,138.1,HIGH,True
+EVT-10426,2026-05-19T10:28:19Z,fraudulent,34139.03,Wire Transfer,0.822,23,desktop,FP-46826,ip-116053,Midwest,Visa,TD Bank,15,True,4,59,False,100.3,VERY_HIGH,True
+EVT-10087,2026-05-19T10:32:19Z,fraudulent,53007.24,E-Commerce,0.7818,30,desktop,FP-59821,ip-817134,Southwest,Mastercard,Chase,16,True,3,46,False,142.1,VERY_HIGH,True
+EVT-10285,2026-05-19T10:37:19Z,normal,120.73,POS Retail,0.3054,4,desktop,FP-71532,ip-495019,Northwest,Visa,Capital One,2546,False,0,848,False,119.0,LOW,False
+EVT-10189,2026-05-19T10:38:19Z,suspicious,8027.83,Crypto Exchange,0.5319,8,tablet,FP-98445,ip-958394,Northeast,Amex,TD Bank,386,False,0,641,False,177.6,MEDIUM,True
+EVT-10980,2026-05-19T10:38:19Z,suspicious,10664.53,Crypto Exchange,0.4409,9,unknown,FP-44872,ip-128719,Midwest,Discover,TD Bank,900,False,1,419,False,91.0,MEDIUM,False
+EVT-10764,2026-05-19T10:39:19Z,normal,634.74,ATM,0.0563,4,mobile,FP-68910,ip-345017,Midwest,Discover,Capital One,800,False,1,819,False,161.5,LOW,False
+EVT-10895,2026-05-19T10:41:19Z,normal,123.05,E-Commerce,0.2943,1,tablet,FP-97805,ip-764492,Midwest,Visa,Citibank,333,False,1,353,False,93.0,LOW,False
+EVT-10410,2026-05-19T10:43:19Z,normal,1115.73,E-Commerce,0.2575,4,unknown,FP-19552,ip-365277,Northwest,Amex,Citibank,842,False,1,477,False,40.5,LOW,False
+EVT-10206,2026-05-19T10:46:19Z,normal,225.6,POS Retail,0.2369,5,mobile,FP-68910,ip-934751,Midwest,Amex,Wells Fargo,1295,False,1,755,False,118.3,LOW,False
+EVT-10411,2026-05-19T10:47:19Z,fraudulent,28903.57,Crypto Exchange,0.8128,23,mobile,FP-70282,ip-966889,Southwest,Discover,TD Bank,26,False,4,25,False,64.4,VERY_HIGH,False
+EVT-10510,2026-05-19T10:48:19Z,normal,213.91,POS Retail,0.0192,2,tablet,FP-59912,ip-754294,Southwest,Discover,Wells Fargo,2306,False,0,729,False,75.1,LOW,False
+EVT-10353,2026-05-19T10:49:19Z,normal,98.12,Wire Transfer,0.2864,1,desktop,FP-27052,ip-817134,Southeast,Amex,Bank of America,324,False,1,406,False,107.7,LOW,False
+EVT-10946,2026-05-19T10:50:19Z,normal,648.79,Wire Transfer,0.226,3,tablet,FP-13942,ip-119902,Southwest,Visa,Chase,2576,False,0,642,False,11.9,LOW,False
+EVT-10063,2026-05-19T10:50:19Z,normal,182.82,Wire Transfer,0.1654,5,mobile,FP-84902,ip-230071,West,Amex,TD Bank,2749,False,0,798,False,170.3,LOW,False
+EVT-10540,2026-05-19T10:51:19Z,normal,539.2,Subscription,0.3982,1,unknown,FP-64254,ip-502333,Midwest,Mastercard,Chase,2460,False,1,694,False,32.1,MEDIUM,False
+EVT-10652,2026-05-19T10:52:19Z,suspicious,9994.29,Wire Transfer,0.4272,10,tablet,FP-42751,ip-904101,Southeast,Amex,Bank of America,110,False,0,677,False,71.7,MEDIUM,True
+EVT-10268,2026-05-19T10:52:19Z,suspicious,15846.96,ATM,0.7223,19,unknown,FP-60804,ip-645413,Northwest,Visa,Wells Fargo,1479,False,0,451,False,16.7,HIGH,False
+EVT-10818,2026-05-19T10:55:19Z,fraudulent,15379.15,Crypto Exchange,0.9724,22,unknown,FP-49304,ip-906543,Northeast,Discover,TD Bank,11,True,5,27,False,46.9,VERY_HIGH,True
+EVT-10233,2026-05-19T10:57:19Z,normal,1146.87,E-Commerce,0.3059,4,unknown,FP-51664,ip-659673,Southeast,Discover,Citibank,3614,False,1,208,False,37.3,LOW,False
+EVT-10777,2026-05-19T10:58:19Z,normal,456.15,POS Retail,0.3308,6,unknown,FP-34940,ip-206986,Northwest,Discover,Chase,1136,False,1,643,False,188.4,LOW,False
+EVT-10993,2026-05-19T10:59:19Z,normal,1243.16,ATM,0.1118,1,tablet,FP-17735,ip-249373,Northwest,Visa,Capital One,359,False,0,430,False,199.7,LOW,False
+EVT-10459,2026-05-19T11:01:19Z,normal,367.42,POS Retail,0.2449,3,unknown,FP-87009,ip-843661,Northeast,Visa,US Bank,2984,False,1,129,False,185.3,LOW,False
+EVT-10882,2026-05-19T11:03:19Z,normal,174.03,POS Retail,0.2558,1,tablet,FP-31559,ip-388375,Southeast,Visa,Citibank,2316,False,1,627,False,11.5,LOW,False
+EVT-10180,2026-05-19T11:09:19Z,normal,981.33,E-Commerce,0.3353,6,mobile,FP-50153,ip-902508,Southeast,Discover,Wells Fargo,1027,False,1,202,False,116.8,LOW,False
+EVT-10274,2026-05-19T11:11:19Z,normal,237.79,Subscription,0.0003,7,tablet,FP-93026,ip-371961,Midwest,Visa,Chase,340,False,1,163,False,66.3,LOW,False
+EVT-10744,2026-05-19T11:12:19Z,normal,560.49,Subscription,0.1294,1,desktop,FP-71473,ip-804460,West,Mastercard,Capital One,2167,False,0,298,False,121.0,LOW,False
+EVT-10295,2026-05-19T11:14:19Z,normal,1400.31,Crypto Exchange,0.2029,1,tablet,FP-66678,ip-316873,Northwest,Mastercard,PNC Bank,208,False,0,613,False,91.0,LOW,False
+EVT-10271,2026-05-19T11:15:19Z,normal,424.87,E-Commerce,0.133,5,unknown,FP-91497,ip-934805,Southeast,Mastercard,US Bank,990,False,0,112,False,38.6,LOW,False
+EVT-10132,2026-05-19T11:16:19Z,normal,113.82,ATM,0.3282,4,tablet,FP-86956,ip-244916,Northwest,Visa,Capital One,1888,False,0,158,False,100.6,LOW,False
+EVT-10447,2026-05-19T11:17:19Z,normal,1358.78,E-Commerce,0.1229,6,mobile,FP-91497,ip-104776,Southeast,Mastercard,Chase,1706,False,1,525,False,183.9,LOW,False
+EVT-10579,2026-05-19T11:17:19Z,normal,191.7,Crypto Exchange,0.0831,7,mobile,FP-18032,ip-749454,Southeast,Amex,PNC Bank,486,False,1,187,False,144.8,LOW,False
+EVT-10714,2026-05-19T11:20:19Z,normal,434.9,Crypto Exchange,0.0743,2,unknown,FP-84902,ip-550666,Midwest,Amex,Citibank,1291,False,0,135,False,120.7,LOW,False
+EVT-10512,2026-05-19T11:20:19Z,fraudulent,55152.94,Wire Transfer,0.9439,23,mobile,FP-57382,ip-429636,Northeast,Visa,US Bank,26,True,2,12,False,51.4,VERY_HIGH,True
+EVT-10020,2026-05-19T11:21:19Z,normal,446.85,Subscription,0.3762,5,mobile,FP-85751,ip-368917,Northwest,Mastercard,PNC Bank,567,False,1,399,False,23.8,MEDIUM,False
+EVT-10344,2026-05-19T11:22:19Z,normal,828.83,Wire Transfer,0.328,7,tablet,FP-87272,ip-659673,Southeast,Mastercard,Bank of America,1175,False,1,786,False,79.2,LOW,False
+EVT-10134,2026-05-19T11:23:19Z,normal,1639.52,ATM,0.3671,7,unknown,FP-60804,ip-226224,Southwest,Mastercard,Bank of America,423,False,0,596,False,197.3,MEDIUM,False
+EVT-10054,2026-05-19T11:23:19Z,fraudulent,5998.83,POS Retail,0.8868,40,mobile,FP-76216,ip-502320,West,Amex,Wells Fargo,22,True,4,26,False,113.4,VERY_HIGH,True
+EVT-10361,2026-05-19T11:24:19Z,normal,128.86,Subscription,0.1803,1,mobile,FP-21692,ip-427310,West,Mastercard,US Bank,3224,False,0,306,False,61.9,LOW,False
+EVT-10563,2026-05-19T11:25:19Z,normal,4776.28,ATM,0.2134,2,desktop,FP-49304,ip-353110,Midwest,Discover,Bank of America,1071,False,0,513,False,88.9,LOW,False
+EVT-10043,2026-05-19T11:25:19Z,normal,1813.42,Wire Transfer,0.3497,2,mobile,FP-59190,ip-502320,West,Amex,Citibank,3155,False,1,270,False,156.8,LOW,False
+EVT-10325,2026-05-19T11:28:19Z,normal,286.69,Subscription,0.1325,1,mobile,FP-81541,ip-557534,West,Visa,TD Bank,3499,False,0,800,False,173.5,LOW,False
+EVT-10414,2026-05-19T11:30:19Z,normal,563.71,E-Commerce,0.1092,2,desktop,FP-86956,ip-495019,West,Amex,TD Bank,1301,False,1,287,False,10.6,LOW,False
+EVT-10528,2026-05-19T11:32:19Z,fraudulent,19890.46,Subscription,0.8789,26,desktop,FP-43371,ip-249373,Northwest,Discover,Chase,1,True,4,10,False,172.7,VERY_HIGH,False
+EVT-10022,2026-05-19T11:35:19Z,fraudulent,28012.0,Crypto Exchange,0.8528,18,mobile,FP-50534,ip-695494,Southwest,Amex,Wells Fargo,16,False,4,40,True,4043.4,VERY_HIGH,True
+EVT-10117,2026-05-19T11:36:19Z,normal,128.05,Wire Transfer,0.1094,6,mobile,FP-77027,ip-319485,Southwest,Visa,Chase,1595,False,0,653,False,141.0,LOW,False
+EVT-10650,2026-05-19T11:36:19Z,normal,149.89,E-Commerce,0.2896,1,desktop,FP-52259,ip-743865,Southeast,Amex,Chase,2705,False,0,671,False,111.7,LOW,False
+EVT-10841,2026-05-19T11:39:19Z,normal,372.68,Crypto Exchange,0.1742,7,mobile,FP-31488,ip-256850,West,Discover,Capital One,1737,False,0,103,False,10.0,LOW,False
+EVT-10026,2026-05-19T11:41:19Z,normal,339.85,Wire Transfer,0.2751,6,tablet,FP-87009,ip-757265,Midwest,Visa,TD Bank,1959,False,1,598,False,41.8,LOW,False
+EVT-10828,2026-05-19T11:42:19Z,normal,437.17,Subscription,0.3495,7,mobile,FP-72762,ip-992243,Southwest,Visa,TD Bank,511,False,0,84,False,141.1,LOW,False
+EVT-10864,2026-05-19T11:42:19Z,normal,4989.54,E-Commerce,0.2789,7,unknown,FP-52440,ip-469197,Southwest,Discover,Bank of America,1284,False,1,242,False,34.9,LOW,False
+EVT-10313,2026-05-19T11:46:19Z,fraudulent,46907.15,Wire Transfer,0.806,44,unknown,FP-17735,ip-511675,West,Amex,TD Bank,19,True,5,45,True,3945.8,VERY_HIGH,True
+EVT-10632,2026-05-19T11:46:19Z,normal,428.75,POS Retail,0.22,4,desktop,FP-71012,ip-488871,Midwest,Visa,Citibank,1499,False,0,359,False,115.3,LOW,False
+EVT-10335,2026-05-19T11:50:19Z,suspicious,10565.41,POS Retail,0.6061,18,mobile,FP-76216,ip-709892,Midwest,Visa,Wells Fargo,607,False,0,320,False,85.6,HIGH,True
+EVT-10549,2026-05-19T11:52:19Z,normal,210.91,ATM,0.3674,5,mobile,FP-57382,ip-133671,Southeast,Visa,US Bank,2600,False,0,83,False,162.2,MEDIUM,False
+EVT-10060,2026-05-19T11:54:19Z,suspicious,2703.9,Wire Transfer,0.5033,13,desktop,FP-42997,ip-743865,West,Discover,US Bank,3587,False,0,796,False,196.9,MEDIUM,False
+EVT-10813,2026-05-19T11:54:19Z,normal,447.01,Crypto Exchange,0.239,2,desktop,FP-73464,ip-943130,Northwest,Discover,Wells Fargo,1231,False,0,309,False,191.3,LOW,False
+EVT-10041,2026-05-19T11:55:19Z,fraudulent,32330.41,ATM,0.8223,27,mobile,FP-48970,ip-800875,Midwest,Discover,TD Bank,15,False,3,53,False,191.8,VERY_HIGH,True
+EVT-10343,2026-05-19T11:56:19Z,suspicious,7681.14,POS Retail,0.4835,18,desktop,FP-59088,ip-934751,West,Visa,Wells Fargo,1890,False,1,697,False,106.1,MEDIUM,True
+EVT-10768,2026-05-19T11:56:19Z,fraudulent,14454.05,ATM,0.828,26,unknown,FP-97805,ip-171328,Midwest,Mastercard,Chase,16,False,2,28,False,12.2,VERY_HIGH,True
+EVT-10141,2026-05-19T11:58:19Z,fraudulent,9073.17,Wire Transfer,0.9516,18,tablet,FP-13353,ip-375360,Southwest,Mastercard,Citibank,21,False,5,21,False,142.5,VERY_HIGH,True
+EVT-10987,2026-05-19T11:58:19Z,normal,2785.22,E-Commerce,0.2807,5,tablet,FP-40504,ip-622954,Southeast,Amex,Wells Fargo,3227,False,1,417,False,124.6,LOW,False
+EVT-10396,2026-05-19T12:00:19Z,normal,339.55,POS Retail,0.0081,4,unknown,FP-51301,ip-778017,Northwest,Amex,Bank of America,1280,False,1,608,False,105.6,LOW,False
+EVT-10560,2026-05-19T12:01:19Z,suspicious,13322.19,ATM,0.6574,10,desktop,FP-29312,ip-160878,Northeast,Discover,PNC Bank,783,False,1,573,False,27.2,HIGH,False
+EVT-10792,2026-05-19T12:01:19Z,suspicious,10037.73,ATM,0.4248,12,desktop,FP-82440,ip-207004,Southeast,Mastercard,PNC Bank,1440,False,0,108,False,64.3,MEDIUM,False
+EVT-10333,2026-05-19T12:04:19Z,fraudulent,57812.43,Wire Transfer,0.8177,32,tablet,FP-48970,ip-429636,Southwest,Mastercard,TD Bank,19,True,2,10,False,129.8,VERY_HIGH,True
+EVT-10107,2026-05-19T12:06:19Z,fraudulent,56886.03,Wire Transfer,0.9428,34,desktop,FP-73464,ip-757265,West,Discover,Citibank,9,False,4,29,False,91.3,VERY_HIGH,True
+EVT-10842,2026-05-19T12:07:19Z,normal,3366.46,POS Retail,0.0451,4,desktop,FP-39717,ip-226224,Southeast,Discover,Chase,3345,False,1,498,False,94.0,LOW,False
+EVT-10900,2026-05-19T12:07:19Z,normal,750.86,Wire Transfer,0.1535,5,tablet,FP-40504,ip-639443,Northeast,Discover,PNC Bank,3273,False,1,734,False,133.0,LOW,False
+EVT-10219,2026-05-19T12:09:19Z,fraudulent,40891.2,E-Commerce,0.8027,41,tablet,FP-79655,ip-592215,Midwest,Amex,TD Bank,15,False,5,28,False,91.3,VERY_HIGH,False
+EVT-10690,2026-05-19T12:10:19Z,normal,278.37,E-Commerce,0.1173,7,mobile,FP-57382,ip-433829,Northwest,Discover,Capital One,2346,False,0,308,False,7.3,LOW,False
+EVT-10515,2026-05-19T12:10:19Z,fraudulent,21010.4,Subscription,0.9722,22,tablet,FP-19552,ip-772109,Northeast,Visa,Citibank,24,True,2,50,False,107.3,VERY_HIGH,True
+EVT-10607,2026-05-19T12:11:19Z,normal,3057.3,Wire Transfer,0.2887,4,tablet,FP-80264,ip-670870,Southwest,Visa,Chase,1307,False,0,311,False,195.8,LOW,False
+EVT-10467,2026-05-19T12:12:19Z,suspicious,12523.71,ATM,0.6427,16,mobile,FP-74534,ip-117571,Midwest,Amex,TD Bank,832,False,1,624,False,68.9,HIGH,True
+EVT-10816,2026-05-19T12:16:19Z,normal,2571.86,ATM,0.2537,6,mobile,FP-49906,ip-248146,West,Visa,TD Bank,2855,False,1,188,False,119.7,LOW,False
+EVT-10239,2026-05-19T12:17:19Z,normal,1446.77,Subscription,0.0979,5,tablet,FP-39323,ip-695494,Southeast,Visa,Chase,805,False,1,729,False,33.2,LOW,False
+EVT-10184,2026-05-19T12:21:19Z,normal,1223.26,Wire Transfer,0.0155,5,tablet,FP-55031,ip-843661,Midwest,Visa,PNC Bank,2754,False,1,610,False,190.0,LOW,False
+EVT-10078,2026-05-19T12:22:19Z,normal,525.18,Subscription,0.0463,1,desktop,FP-49169,ip-483293,Northwest,Visa,Citibank,2296,False,0,221,False,84.6,LOW,False
+EVT-10216,2026-05-19T12:22:19Z,fraudulent,38971.82,ATM,0.9099,18,tablet,FP-80053,ip-972435,West,Visa,Citibank,1,True,3,7,False,199.1,VERY_HIGH,True
+EVT-10314,2026-05-19T12:24:19Z,normal,159.4,Wire Transfer,0.1562,7,desktop,FP-15247,ip-217951,Midwest,Discover,Bank of America,2959,False,0,305,False,65.6,LOW,False
+EVT-10311,2026-05-19T12:24:19Z,normal,4999.0,POS Retail,0.3408,2,desktop,FP-79438,ip-747933,Midwest,Mastercard,Wells Fargo,230,False,1,296,False,103.8,LOW,False
+EVT-10922,2026-05-19T12:26:19Z,normal,243.36,Crypto Exchange,0.0572,4,unknown,FP-52398,ip-511675,Northeast,Mastercard,TD Bank,729,False,1,68,False,124.1,LOW,False
+EVT-10062,2026-05-19T12:29:19Z,suspicious,7185.55,POS Retail,0.5536,11,unknown,FP-17735,ip-765084,Southwest,Discover,Bank of America,3280,False,0,233,False,24.1,HIGH,True
+EVT-10950,2026-05-19T12:29:19Z,normal,345.48,Crypto Exchange,0.3347,3,unknown,FP-93407,ip-912341,Northwest,Mastercard,Chase,1774,False,0,264,False,84.9,LOW,False
+EVT-10567,2026-05-19T12:29:19Z,fraudulent,40798.73,E-Commerce,0.855,40,tablet,FP-21530,ip-912341,Midwest,Visa,TD Bank,14,False,2,44,False,14.9,VERY_HIGH,False
+EVT-10439,2026-05-19T12:31:19Z,fraudulent,51500.18,ATM,0.9146,40,unknown,FP-50534,ip-259095,Southeast,Visa,Bank of America,29,True,3,33,False,96.2,VERY_HIGH,True
+EVT-10975,2026-05-19T12:31:19Z,fraudulent,40886.84,Subscription,0.8626,20,mobile,FP-79655,ip-745200,Midwest,Visa,US Bank,12,True,4,58,False,155.1,VERY_HIGH,True
+EVT-10763,2026-05-19T12:31:19Z,normal,188.77,POS Retail,0.1601,3,desktop,FP-13122,ip-563550,Southwest,Discover,Wells Fargo,2054,False,0,239,False,134.4,LOW,False
+EVT-10234,2026-05-19T12:32:19Z,fraudulent,44820.67,ATM,0.9545,24,mobile,FP-51301,ip-105859,Southwest,Amex,TD Bank,27,False,4,43,False,130.6,VERY_HIGH,True
+EVT-10625,2026-05-19T12:32:19Z,normal,1739.98,Wire Transfer,0.0252,7,unknown,FP-60883,ip-914978,West,Amex,PNC Bank,3247,False,0,138,False,187.5,LOW,False
+EVT-10752,2026-05-19T12:34:19Z,fraudulent,48098.95,Crypto Exchange,0.8118,26,unknown,FP-56189,ip-214819,Midwest,Amex,US Bank,27,True,2,57,True,1439.7,VERY_HIGH,True
+EVT-10781,2026-05-19T12:36:19Z,normal,1147.73,POS Retail,0.247,1,mobile,FP-21692,ip-934751,Midwest,Visa,TD Bank,222,False,1,472,False,27.2,LOW,False
+EVT-10076,2026-05-19T12:37:19Z,normal,520.67,Wire Transfer,0.305,6,desktop,FP-60870,ip-966889,Southwest,Amex,Wells Fargo,1007,False,1,261,False,57.9,LOW,False
+EVT-10727,2026-05-19T12:38:19Z,normal,635.45,POS Retail,0.3764,3,tablet,FP-59088,ip-944042,West,Mastercard,Bank of America,598,False,0,296,False,142.0,MEDIUM,False
+EVT-10332,2026-05-19T12:38:19Z,normal,1575.01,POS Retail,0.3032,5,unknown,FP-18150,ip-375360,Southeast,Discover,Wells Fargo,1958,False,0,762,False,45.2,LOW,False
+EVT-10935,2026-05-19T12:40:19Z,normal,1150.16,E-Commerce,0.06,6,tablet,FP-17127,ip-543485,Southwest,Discover,PNC Bank,3502,False,1,314,False,7.2,LOW,False
+EVT-10805,2026-05-19T12:40:19Z,normal,858.2,POS Retail,0.3874,7,tablet,FP-37355,ip-262631,West,Amex,Citibank,633,False,1,128,False,35.9,MEDIUM,False
+EVT-10574,2026-05-19T12:41:19Z,normal,510.27,E-Commerce,0.3677,6,unknown,FP-60804,ip-599366,Northwest,Mastercard,Citibank,3446,False,1,289,False,65.6,MEDIUM,False
+EVT-10154,2026-05-19T12:41:19Z,fraudulent,6194.79,Wire Transfer,0.9577,33,mobile,FP-78501,ip-504424,Southwest,Discover,US Bank,27,True,3,49,True,1303.7,VERY_HIGH,False
+EVT-10845,2026-05-19T12:45:19Z,suspicious,8144.77,POS Retail,0.5523,15,tablet,FP-40832,ip-651206,Northwest,Discover,US Bank,1458,False,1,167,False,149.2,HIGH,True
+EVT-10059,2026-05-19T12:46:19Z,fraudulent,18397.82,Subscription,0.931,23,tablet,FP-87272,ip-259095,Midwest,Visa,Citibank,3,True,2,8,True,703.3,VERY_HIGH,True
+EVT-10346,2026-05-19T12:51:19Z,normal,1331.13,E-Commerce,0.0555,4,unknown,FP-60883,ip-773746,Southeast,Amex,US Bank,1859,False,1,552,False,7.2,LOW,False
+EVT-10323,2026-05-19T12:52:19Z,normal,3552.16,E-Commerce,0.1392,6,desktop,FP-71532,ip-943130,Midwest,Visa,US Bank,2309,False,1,354,False,7.8,LOW,False
+EVT-10009,2026-05-19T12:52:19Z,fraudulent,37454.17,ATM,0.8925,19,mobile,FP-89909,ip-377800,Southwest,Amex,Citibank,7,True,4,42,False,159.8,VERY_HIGH,True
+EVT-10536,2026-05-19T12:52:19Z,suspicious,6122.26,Crypto Exchange,0.5023,10,desktop,FP-97361,ip-566972,Southwest,Mastercard,PNC Bank,3066,False,0,261,False,131.1,MEDIUM,True
+EVT-10923,2026-05-19T12:53:19Z,normal,2127.8,E-Commerce,0.3938,5,tablet,FP-43341,ip-352457,Northeast,Mastercard,TD Bank,320,False,1,840,False,141.9,MEDIUM,False
+EVT-10602,2026-05-19T12:54:19Z,normal,233.44,ATM,0.2513,2,mobile,FP-49498,ip-510198,Northwest,Discover,Capital One,2441,False,0,81,False,62.3,LOW,False
+EVT-10070,2026-05-19T12:58:19Z,suspicious,6694.67,Crypto Exchange,0.4785,19,tablet,FP-20620,ip-122373,Northwest,Mastercard,Capital One,2758,False,1,93,False,178.5,MEDIUM,True
+EVT-10405,2026-05-19T12:59:19Z,normal,624.04,Subscription,0.2665,1,desktop,FP-75011,ip-256850,Midwest,Visa,Chase,1562,False,0,144,False,9.7,LOW,False
+EVT-10810,2026-05-19T13:01:19Z,normal,426.28,ATM,0.1537,6,desktop,FP-35324,ip-430487,Northwest,Discover,Chase,2657,False,1,679,False,175.2,LOW,False
+EVT-10351,2026-05-19T13:03:19Z,normal,404.91,Wire Transfer,0.1764,3,mobile,FP-13353,ip-369993,Midwest,Mastercard,Bank of America,567,False,0,67,False,14.4,LOW,False
+EVT-10128,2026-05-19T13:03:19Z,normal,4417.47,Crypto Exchange,0.2919,7,unknown,FP-42562,ip-259095,Northeast,Visa,Citibank,1741,False,0,453,False,37.1,LOW,False
+EVT-10967,2026-05-19T13:08:19Z,normal,36.73,Wire Transfer,0.0188,7,unknown,FP-54800,ip-773746,Northwest,Mastercard,Bank of America,468,False,0,638,False,158.0,LOW,False
+EVT-10511,2026-05-19T13:11:19Z,normal,104.66,Crypto Exchange,0.1738,6,desktop,FP-87245,ip-471313,Midwest,Visa,Wells Fargo,1400,False,1,170,False,118.2,LOW,False
+EVT-10121,2026-05-19T13:12:19Z,suspicious,8728.02,Subscription,0.4252,17,tablet,FP-35949,ip-671347,Midwest,Discover,US Bank,2377,False,0,473,False,113.6,MEDIUM,False
+EVT-10562,2026-05-19T13:15:19Z,normal,188.23,ATM,0.1583,2,desktop,FP-54605,ip-800875,Southwest,Visa,Wells Fargo,1449,False,0,770,False,150.0,LOW,False
+EVT-10051,2026-05-19T13:16:19Z,normal,1616.5,POS Retail,0.0119,6,tablet,FP-52259,ip-693479,Northeast,Discover,Capital One,1163,False,0,649,False,145.0,LOW,False
+EVT-10604,2026-05-19T13:19:19Z,suspicious,14666.99,ATM,0.5774,16,mobile,FP-24514,ip-122373,Southeast,Mastercard,Citibank,1638,False,0,368,False,102.0,HIGH,False
+EVT-10301,2026-05-19T13:19:19Z,fraudulent,18634.59,Wire Transfer,0.8773,38,unknown,FP-17735,ip-186751,Southeast,Visa,PNC Bank,5,True,4,46,True,2139.6,VERY_HIGH,True
+EVT-10422,2026-05-19T13:22:19Z,fraudulent,28534.18,Wire Transfer,0.7669,20,desktop,FP-87272,ip-502320,Northeast,Visa,Chase,15,False,3,36,True,3156.7,VERY_HIGH,True
+EVT-10721,2026-05-19T13:22:19Z,normal,4999.0,Subscription,0.3834,2,unknown,FP-77027,ip-598631,Southwest,Mastercard,Capital One,1871,False,0,650,False,189.0,MEDIUM,False
+EVT-10724,2026-05-19T13:23:19Z,normal,1305.33,POS Retail,0.1184,1,tablet,FP-21365,ip-510198,Southeast,Amex,Bank of America,854,False,1,203,False,61.1,LOW,False
+EVT-10412,2026-05-19T13:23:19Z,normal,4545.47,ATM,0.1215,7,tablet,FP-99338,ip-671347,Southwest,Mastercard,Citibank,2045,False,1,331,False,27.2,LOW,False
+EVT-10877,2026-05-19T13:23:19Z,normal,88.29,Subscription,0.2365,1,mobile,FP-38112,ip-226201,West,Amex,PNC Bank,3026,False,0,74,False,35.2,LOW,False
+EVT-10948,2026-05-19T13:25:19Z,fraudulent,18713.53,Subscription,0.9498,39,mobile,FP-50534,ip-337172,West,Mastercard,PNC Bank,2,True,2,17,True,4035.0,VERY_HIGH,False
+EVT-10018,2026-05-19T13:27:19Z,normal,126.64,POS Retail,0.0218,7,tablet,FP-18032,ip-810105,Midwest,Amex,Wells Fargo,416,False,0,802,False,34.6,LOW,False
+EVT-10079,2026-05-19T13:28:19Z,fraudulent,58945.16,ATM,0.7586,35,tablet,FP-55450,ip-476339,Northeast,Visa,Citibank,15,False,3,29,False,35.3,VERY_HIGH,True
+EVT-10266,2026-05-19T13:29:19Z,normal,445.44,E-Commerce,0.3856,4,unknown,FP-69835,ip-209649,Northeast,Discover,Chase,2265,False,0,790,False,67.5,MEDIUM,False
+EVT-10176,2026-05-19T13:30:19Z,normal,1705.52,E-Commerce,0.1234,6,unknown,FP-67307,ip-592215,Midwest,Discover,Wells Fargo,2426,False,1,895,False,18.7,LOW,False
+EVT-10550,2026-05-19T13:30:19Z,suspicious,1981.26,ATM,0.7025,12,mobile,FP-89909,ip-800875,Southwest,Visa,Capital One,2939,False,0,541,False,19.2,HIGH,False
+EVT-10452,2026-05-19T13:31:19Z,normal,593.59,ATM,0.3407,1,mobile,FP-21365,ip-902508,Southeast,Visa,TD Bank,766,False,0,576,False,179.1,LOW,False
+EVT-10934,2026-05-19T13:34:19Z,normal,194.81,Crypto Exchange,0.0529,4,unknown,FP-67947,ip-140306,Southwest,Amex,Capital One,668,False,1,739,False,165.9,LOW,False
+EVT-10289,2026-05-19T13:39:19Z,normal,1392.29,ATM,0.0102,7,desktop,FP-20307,ip-864799,Northwest,Amex,US Bank,2888,False,0,157,False,187.4,LOW,False
+EVT-10611,2026-05-19T13:41:19Z,normal,167.71,POS Retail,0.0034,3,unknown,FP-85576,ip-598631,Southwest,Discover,Citibank,490,False,0,368,False,105.2,LOW,False
+EVT-10222,2026-05-19T13:42:19Z,normal,1127.12,POS Retail,0.137,3,desktop,FP-60328,ip-236348,Southwest,Mastercard,US Bank,2333,False,1,129,False,177.6,LOW,False
+EVT-10902,2026-05-19T13:44:19Z,normal,1080.16,ATM,0.1811,6,tablet,FP-96371,ip-534072,Midwest,Amex,TD Bank,1421,False,1,607,False,17.0,LOW,False
+EVT-10454,2026-05-19T13:47:19Z,suspicious,14849.31,Subscription,0.5106,9,tablet,FP-98445,ip-204382,Southwest,Visa,Capital One,663,False,1,566,False,33.7,MEDIUM,False
+EVT-10081,2026-05-19T13:54:19Z,normal,1389.81,Crypto Exchange,0.2689,2,unknown,FP-81610,ip-495019,West,Discover,Citibank,1495,False,1,632,False,164.2,LOW,False
+EVT-10220,2026-05-19T13:54:19Z,normal,82.93,E-Commerce,0.2664,5,desktop,FP-93026,ip-969607,Southwest,Mastercard,Chase,1055,False,1,748,False,154.6,LOW,False
+EVT-10904,2026-05-19T13:54:19Z,normal,28.62,Subscription,0.2068,5,tablet,FP-38112,ip-990714,Midwest,Visa,US Bank,933,False,1,375,False,180.6,LOW,False
+EVT-10178,2026-05-19T13:59:19Z,normal,1196.63,E-Commerce,0.17,2,unknown,FP-84485,ip-537992,Northwest,Mastercard,Capital One,1878,False,1,810,False,65.6,LOW,False
+EVT-10630,2026-05-19T14:02:19Z,fraudulent,43327.85,Subscription,0.9003,33,tablet,FP-49498,ip-823924,Southeast,Amex,Wells Fargo,18,True,5,19,False,109.7,VERY_HIGH,True
+EVT-10168,2026-05-19T14:02:19Z,normal,805.25,Subscription,0.2016,1,mobile,FP-73464,ip-133671,West,Amex,PNC Bank,1011,False,0,841,False,194.2,LOW,False
+EVT-10905,2026-05-19T14:04:19Z,normal,1425.97,E-Commerce,0.0766,6,mobile,FP-70155,ip-370853,Southeast,Visa,Citibank,1249,False,0,193,False,11.6,LOW,False
+EVT-10397,2026-05-19T14:04:19Z,normal,114.73,E-Commerce,0.3298,3,tablet,FP-66678,ip-140306,Southeast,Amex,Bank of America,3169,False,0,360,False,193.9,LOW,False
+EVT-10591,2026-05-19T14:04:19Z,normal,1605.3,E-Commerce,0.0878,3,mobile,FP-16870,ip-684861,Southeast,Visa,US Bank,918,False,1,218,False,5.3,LOW,False
+EVT-10672,2026-05-19T14:05:19Z,normal,183.74,Subscription,0.1193,7,unknown,FP-72708,ip-861077,Southeast,Amex,Chase,372,False,0,751,False,29.2,LOW,False
+EVT-10716,2026-05-19T14:05:19Z,normal,877.37,POS Retail,0.086,4,tablet,FP-27517,ip-204382,Southeast,Amex,Chase,1020,False,1,765,False,96.7,LOW,False
+EVT-10913,2026-05-19T14:05:19Z,normal,339.88,Subscription,0.3283,6,desktop,FP-59821,ip-804460,Southeast,Visa,TD Bank,2488,False,0,660,False,71.5,LOW,False
+EVT-10003,2026-05-19T14:06:19Z,fraudulent,51812.24,Subscription,0.7708,32,unknown,FP-90380,ip-651206,Northeast,Discover,Chase,3,True,2,20,False,104.8,VERY_HIGH,False
+EVT-10996,2026-05-19T14:06:19Z,normal,1214.36,ATM,0.0638,6,desktop,FP-71012,ip-174456,Southwest,Visa,US Bank,1748,False,1,632,False,129.0,LOW,False
+EVT-10338,2026-05-19T14:08:19Z,fraudulent,40894.54,Subscription,0.8903,35,unknown,FP-24514,ip-368917,Northeast,Mastercard,PNC Bank,11,False,4,17,False,55.5,VERY_HIGH,True
+EVT-10492,2026-05-19T14:09:19Z,normal,2497.29,Subscription,0.0443,1,mobile,FP-87009,ip-724835,Southeast,Discover,Citibank,593,False,0,106,False,159.2,LOW,False
+EVT-10035,2026-05-19T14:10:19Z,normal,91.64,POS Retail,0.3109,3,unknown,FP-71423,ip-773942,Midwest,Visa,Citibank,353,False,1,782,False,195.6,LOW,False
+EVT-10105,2026-05-19T14:10:19Z,fraudulent,57728.91,ATM,0.9176,35,tablet,FP-85576,ip-800875,Northeast,Discover,Bank of America,21,False,5,55,True,4256.2,VERY_HIGH,True
+EVT-10302,2026-05-19T14:15:19Z,suspicious,6443.33,Crypto Exchange,0.6911,17,tablet,FP-46826,ip-384335,Northeast,Visa,Capital One,2874,False,1,60,False,198.2,HIGH,True
+EVT-10667,2026-05-19T14:15:19Z,normal,223.17,Crypto Exchange,0.1572,6,unknown,FP-24959,ip-696577,Midwest,Mastercard,Citibank,592,False,1,516,False,193.6,LOW,False
+EVT-10322,2026-05-19T14:15:19Z,fraudulent,38595.35,Subscription,0.803,27,desktop,FP-54605,ip-934805,Southeast,Mastercard,Chase,5,True,5,36,True,3820.4,VERY_HIGH,True
+EVT-10872,2026-05-19T14:16:19Z,normal,818.26,Crypto Exchange,0.0818,4,mobile,FP-49088,ip-762954,Midwest,Discover,Chase,1064,False,0,877,False,5.1,LOW,False
+EVT-10797,2026-05-19T14:18:19Z,normal,577.56,Crypto Exchange,0.317,5,tablet,FP-71423,ip-622954,Midwest,Visa,Chase,1601,False,0,451,False,33.1,LOW,False
+EVT-10829,2026-05-19T14:22:19Z,normal,1150.57,ATM,0.1795,5,unknown,FP-64254,ip-733628,Southeast,Visa,TD Bank,880,False,1,112,False,194.8,LOW,False
+EVT-10137,2026-05-19T14:24:19Z,normal,348.63,POS Retail,0.1586,6,desktop,FP-37135,ip-750989,West,Amex,TD Bank,884,False,0,362,False,51.5,LOW,False
+EVT-10898,2026-05-19T14:27:19Z,normal,4999.0,Wire Transfer,0.3953,1,desktop,FP-18475,ip-705015,Northwest,Discover,Wells Fargo,982,False,0,568,False,48.1,MEDIUM,False
+EVT-10380,2026-05-19T14:29:19Z,normal,2377.54,Subscription,0.3172,3,unknown,FP-27991,ip-483293,Northeast,Discover,Chase,843,False,0,461,False,172.5,LOW,False
+EVT-10099,2026-05-19T14:30:19Z,suspicious,10477.89,Crypto Exchange,0.6653,8,mobile,FP-19552,ip-120523,Midwest,Amex,TD Bank,3423,False,0,230,False,1.1,HIGH,True
+EVT-10741,2026-05-19T14:31:19Z,suspicious,12825.93,Subscription,0.5058,13,unknown,FP-25027,ip-193062,Southwest,Amex,Wells Fargo,3320,False,1,364,False,59.2,MEDIUM,True
+EVT-10692,2026-05-19T14:31:19Z,fraudulent,35495.28,Subscription,0.8257,39,mobile,FP-49564,ip-483293,Southwest,Discover,Bank of America,18,True,2,25,False,162.2,VERY_HIGH,True
+EVT-10080,2026-05-19T14:34:19Z,normal,825.87,Crypto Exchange,0.3968,5,unknown,FP-17735,ip-972435,West,Amex,Wells Fargo,1223,False,0,139,False,195.3,MEDIUM,False
+EVT-10860,2026-05-19T14:34:19Z,normal,1092.69,ATM,0.1514,5,tablet,FP-52812,ip-276791,Midwest,Mastercard,Chase,2149,False,0,755,False,109.7,LOW,False
+EVT-10682,2026-05-19T14:35:19Z,normal,705.37,Wire Transfer,0.3666,7,tablet,FP-59912,ip-175949,Northeast,Discover,TD Bank,159,False,0,306,False,52.9,MEDIUM,False
+EVT-10831,2026-05-19T14:35:19Z,suspicious,15024.09,Crypto Exchange,0.4461,19,desktop,FP-43341,ip-993137,Midwest,Mastercard,Citibank,418,False,1,447,False,177.5,MEDIUM,True
+EVT-10722,2026-05-19T14:42:19Z,normal,3189.25,Subscription,0.3316,2,tablet,FP-30451,ip-384122,Northeast,Visa,Citibank,3199,False,1,887,False,82.2,LOW,False
+EVT-10779,2026-05-19T14:42:19Z,normal,609.46,Crypto Exchange,0.3111,7,unknown,FP-18292,ip-105859,West,Mastercard,US Bank,2229,False,1,397,False,55.9,LOW,False
+EVT-10173,2026-05-19T14:48:19Z,normal,2116.38,E-Commerce,0.3711,3,tablet,FP-42751,ip-804460,Northeast,Mastercard,Wells Fargo,3025,False,0,853,False,48.0,MEDIUM,False
+EVT-10055,2026-05-19T14:51:19Z,fraudulent,33302.07,Crypto Exchange,0.9429,43,desktop,FP-28132,ip-282126,West,Mastercard,Bank of America,20,True,5,13,True,4827.0,VERY_HIGH,True
+EVT-10231,2026-05-19T14:51:19Z,normal,329.28,POS Retail,0.2226,3,tablet,FP-82440,ip-862280,Midwest,Mastercard,Bank of America,995,False,1,271,False,82.1,LOW,False
+EVT-10253,2026-05-19T14:52:19Z,normal,68.44,Crypto Exchange,0.3947,5,unknown,FP-16112,ip-664577,Southeast,Amex,Citibank,536,False,1,891,False,56.7,MEDIUM,False
+EVT-10340,2026-05-19T15:01:19Z,normal,224.14,POS Retail,0.2255,7,desktop,FP-59912,ip-160878,Northeast,Mastercard,Bank of America,487,False,1,452,False,40.7,LOW,False
+EVT-10420,2026-05-19T15:01:19Z,normal,2329.46,Wire Transfer,0.2914,4,desktop,FP-86805,ip-962702,West,Discover,Citibank,2470,False,0,670,False,80.0,LOW,False
+EVT-10861,2026-05-19T15:02:19Z,normal,340.89,POS Retail,0.3345,6,desktop,FP-24870,ip-116165,Southwest,Mastercard,TD Bank,3569,False,1,72,False,79.9,LOW,False
+EVT-10277,2026-05-19T15:02:19Z,fraudulent,25057.31,E-Commerce,0.862,36,tablet,FP-44291,ip-823711,Northeast,Visa,TD Bank,5,True,3,6,True,3771.5,VERY_HIGH,True
+EVT-10192,2026-05-19T15:04:19Z,suspicious,2154.38,ATM,0.5469,19,mobile,FP-92587,ip-226224,Southeast,Visa,TD Bank,1856,False,0,301,False,152.8,MEDIUM,False
+EVT-10490,2026-05-19T15:06:19Z,normal,2409.18,ATM,0.3275,1,tablet,FP-59190,ip-788631,Southeast,Discover,Capital One,2003,False,0,287,False,70.4,LOW,False
+EVT-10083,2026-05-19T15:08:19Z,normal,1141.82,E-Commerce,0.1745,2,unknown,FP-49088,ip-259095,Southwest,Mastercard,Bank of America,183,False,0,343,False,164.6,LOW,False
