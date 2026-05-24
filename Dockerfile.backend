@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────
+# Backend Dockerfile — FastAPI (Python slim)
+# Cinematic Rail PoC — Fraud Velocity Monitor
+# ─────────────────────────────────────────────
+
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy backend source
+COPY backend/ .
+
+# Copy data files
+COPY data/ ./data/
+
+# Expose FastAPI port
+EXPOSE 8000
+
+# Start FastAPI with uvicorn
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
