@@ -1,0 +1,54 @@
+========================================================
+  UAT TEST REPORT — Fraud Velocity Monitor PoC
+  Architect : Sneha Sunilkumar
+  URL       : https://poc-fraud-velocity-monitor.victoriouspebble-4f5f6ab7.centralindia.azurecontainerapps.io
+  Run Time  : 2026-05-25 00:03:28
+========================================================
+
+──────────────────────────────────────────
+TEST CASE 1 : Visual Load
+──────────────────────────────────────────
+  ➜ Navigated to: https://poc-fraud-velocity-monitor.victoriouspebble-4f5f6ab7.centralindia.azurecontainerapps.io
+  ✔ INFOCREON header brand found: 'INFOCREON'
+  ✔ Background color detected: rgb(3, 7, 18)
+  ✔ Metric strip items found: ['TOTAL TXNS', 'FRAUD DETECTED', 'FRAUD RATE', 'ANOMALY BURSTS', 'PEAK VELOCITY']
+  ✔ RESULT : PASS
+
+──────────────────────────────────────────
+TEST CASE 2 : The Handshake (Slide Panel)
+──────────────────────────────────────────
+  ✔ Recharts chart container found
+  ➜ Found 13 polygon elements (anomaly triangles)
+  ✔ Polygon #1 clicked — slide panel opened!
+  ✔ RESULT : PASS
+
+──────────────────────────────────────────
+TEST CASE 3 : The Signature (Info Modal)
+──────────────────────────────────────────
+  ✔ Slide panel closed before clicking info button
+  ✔ Info button (ⓘ) found
+  ✔ Info button clicked
+  ✔ Info modal overlay appeared
+  ✔ Modal content:
+◈ DEVELOPER SIGNATURE
+ARCHITECT
+Sneha Sunilkumar
+BATCH
+Batch 2 Interns
+STACK
+Next.js, FastAPI, Tailwind CSS, Recharts
+CLOSE
+  ✔ Architect name 'Sneha Sunilkumar' found in modal!
+  ✔ RESULT : PASS
+
+  Browser closed.
+
+========================================================
+  FINAL SUMMARY
+========================================================
+  ✔ PASS  —  Test Case 1 - Visual Load
+  ✔ PASS  —  Test Case 2 - Handshake (Panel)
+  ✔ PASS  —  Test Case 3 - Signature (Modal)
+
+  OVERALL: ✅ ALL TESTS PASSED — Ready for Level 2 Submission!
+========================================================
